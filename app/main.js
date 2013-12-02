@@ -67,19 +67,34 @@ module.exports = function() {
     cityCodesPromise.then(function() {
       var cityCoords = Array.prototype.slice.apply(arguments);
 
-      svg.selectAll("circle")
+      svg.selectAll(".city")
           .data(cityCoords)
           .enter()
           .append("circle")
+          .attr("class", "city")
           .attr("cx", function(d) {
             return projection([d.lon, d.lat])[0];
           })
           .attr("cy", function(d) {
             return projection([d.lon, d.lat])[1];
           })
-          .attr("r", 2)
-          .style("fill", "#00ff00")
-          .style("opacity", 0.75);
+          .attr("r", 5);
+
+      var pairs = _(cityCoords)
+        .zip([null].concat(cityCoords))
+        .filter(function(x) { return x[0] && x[1]; })
+        .value();
+
+      svg.selectAll(".travelpath")
+        .data(pairs)
+        .enter()
+        .append("path")
+        .attr("class", "travelpath")
+        .attr("d", function(pair) {
+          var c1 = projection([pair[0].lon, pair[0].lat]);
+          var c2 = projection([pair[1].lon, pair[1].lat]);
+          return "M" + c1[0] + "," + c1[1] + " L" + c2[0] + "," + c2[1];
+        });
     });
   });
 
