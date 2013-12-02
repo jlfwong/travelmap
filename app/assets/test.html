@@ -6,17 +6,20 @@
         window.brunch = window.brunch || {};
         window.brunch['auto-reload'] = { enabled: true };
     </script>
-    <script src="vendor.js"></script>
-    <script src="test/test-vendor.js"></script>
-    <link rel="stylesheet" href="test/mocha.css">
+    <link rel="stylesheet" href="vendor/test/mocha.css">
   </head>
   <body>
     <div id="mocha">
     </div>
 
-    <script src="d3.v3.min.js"></script>
+    <script src="vendor/lodash.min.js"></script>
+    <script src="vendor/d3.v3.min.js"></script>
+    <script src="vendor/jquery-1.10.2.min.js"></script>
     <script src="app.js"></script>
 
+    <script src="vendor/test/mocha.js"></script>
+    <script src="vendor/test/expect.js"></script>
+    <script src="vendor/test/sinon.js"></script>
     <script>mocha.setup('bdd');</script>
 
     <script src="test/test.js"></script>
