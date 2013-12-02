@@ -19,4 +19,28 @@ describe('localStorageMemoize', function() {
     expect(mult(2, 4)).to.be(memoMult(2, 4));
     expect(mult(2, 4)).to.be(memoMult(2, 4));
   });
+
+  describe('promise', function() {
+    it('returns identical results', function(done) {
+      var slowMult = function(a, b) {
+        var deferred = $.Deferred();
+        setTimeout(function() {
+          deferred.resolveWith(null, [a * b]);
+        }, 50);
+        return deferred.promise();
+      };
+      var memoSlowMult = localStorageMemoize.promise('slowMult', slowMult);
+
+      var sm = slowMult(3, 7);
+      var msm = memoSlowMult(3, 7);
+
+      $.when(sm, msm).then(function(m1, m2) {
+        expect(m1).to.be(m2);
+        memoSlowMult(3, 7).then(function(m3) {
+          expect(m3).to.be(m1);
+          done();
+        });
+      });
+    });
+  });
 });
