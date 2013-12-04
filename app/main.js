@@ -2,7 +2,8 @@ var geocode = require("lib/geocode");
 var localStorageMemoize = require("lib/localstorage_memoize");
 
 module.exports = function() {
-  var width = 960,
+  // TODO(jlfwong): This crops part of the map
+  var width = $(window).width(),
       height = 960;
 
   var projection = d3.geo.mercator()
@@ -54,8 +55,11 @@ module.exports = function() {
       "Berlin, Germany",
       "Toronto, Canada",
       "Waterloo, Canada",
+      "Toronto, Canada",
+      "San Francisco, California",
       "San Jose, California",
-      "San Francisco, California"
+      "San Francisco, California",
+      "Ottawa, Canada"
     ];
 
     var cachedGeocode = localStorageMemoize.promise("geocoder", geocode);
@@ -66,6 +70,12 @@ module.exports = function() {
 
     cityCodesPromise.then(function() {
       var cityCoords = Array.prototype.slice.apply(arguments);
+
+      var counts = _.countBy(cityCoords, function(x) {
+        return JSON.stringify(x);
+      });
+
+      console.log(counts);
 
       svg.selectAll(".city")
           .data(cityCoords)
@@ -78,7 +88,9 @@ module.exports = function() {
           .attr("cy", function(d) {
             return projection([d.lon, d.lat])[1];
           })
-          .attr("r", 5);
+          .attr("r", function(d) {
+            return 2 * (1 + counts[JSON.stringify(d)]);
+          });
 
       var pairs = _(cityCoords)
         .zip([null].concat(cityCoords))
@@ -93,7 +105,13 @@ module.exports = function() {
         .attr("d", function(pair) {
           var c1 = projection([pair[0].lon, pair[0].lat]);
           var c2 = projection([pair[1].lon, pair[1].lat]);
-          return "M" + c1[0] + "," + c1[1] + " L" + c2[0] + "," + c2[1];
+          // TODO(jlfwong): The rx and ry arguments should be scaled relative to
+          // width/height
+          return (
+            "M" + c1[0] + "," + c1[1] +
+            " A400,400 0 0,1 " + c2[0] + "," + c2[1]
+          );
+          // return "M" + c1[0] + "," + c1[1] + " L" + c2[0] + "," + c2[1];
         });
     });
   });
