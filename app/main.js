@@ -1,8 +1,6 @@
-var geocode = require("lib/geocode");
-var localStorageMemoize = require("lib/localstorage_memoize");
 var data = require("data");
-
-var cachedGeocode = localStorageMemoize.promise("geocoder", geocode);
+var aggregate = require("aggregate");
+var uniqueCounter = require("lib/unique_counter");
 
 var COLORS = [
   d3.rgb(0, 150, 0),
@@ -27,13 +25,13 @@ var renderPath = function(svg, projection, cities, name, color) {
       return JSON.stringify(x);
     });
 
-    svg.selectAll(".city")
+    svg.selectAll(".city." + name)
       .data(_.uniq(cityCoords))
       .enter()
       .append("circle")
       .attr("fill", color)
       .attr("fill-opacity", 0.75)
-      .attr("class", "city")
+      .attr("class", "city " + name)
       .attr("cx", function(d) {
         return projection([d.lon, d.lat])[0];
       })
@@ -54,6 +52,7 @@ var renderPath = function(svg, projection, cities, name, color) {
       .enter()
       .append("path")
       .attr("class", "travelpath " + name)
+      .attr("stroke-opacity", 0.25)
       .attr("stroke", color)
       .attr("fill-opacity", 0)
       .attr("d", function(pair) {
@@ -97,9 +96,64 @@ module.exports = function() {
         .attr("class", "boundary")
         .attr("d", path);
 
-    var i = 0;
-    _(data).forIn(function(cities, name) {
-      renderPath(svg, projection, cities, name, COLORS[i++]);
+    aggregate(data).then(function(places) {
+      var placePerPerson = _.reduce(places, function(result, place) {
+        return result.concat(_.map(place.names, function(name, index) {
+          return _.extend({
+            name: name,
+            nameCount: place.names.length,
+            nameIndex: index,
+          }, place);
+        }));
+      }, []);
+
+      var nameCounter = uniqueCounter();
+
+      var arc = d3.svg.arc()
+        .innerRadius(0);
+
+      var tooltip = d3.select("body")
+        .append("div")
+        .style("position", "absolute")
+        .style("z-index", "10")
+        .style("display", "none")
+        .text("a simple tooltip");
+
+      svg.selectAll(".place")
+        .data(placePerPerson)
+        .enter()
+        .append("path")
+        .attr({
+          "fill": function(d) {
+            return COLORS[nameCounter(d.name)];
+          },
+          "fill-opacity": 0.75,
+          "transform": function(d) {
+            var proj = projection([d.lon, d.lat]);
+            return "translate(" + proj[0] + "," + proj[1] + ")";
+          },
+          "d": function(d) {
+            var sliceAngle = 2 * Math.PI / d.nameCount;
+            return arc({
+              outerRadius: 2 + 2 * Math.log(1 + d.count),
+              startAngle: d.nameIndex * sliceAngle,
+              endAngle: (d.nameIndex + 1) * sliceAngle
+            });
+          }
+        })
+        .on("mouseover", function(d) {
+          tooltip.text(d.humanized + " (" + d.names.join(", ") + ")");
+          tooltip.style("display", "block");
+        })
+        .on("mousemove", function() {
+          tooltip.style({
+            "top":  (event.pageY - 10) + "px",
+            "left": (event.pageX + 10) + "px"
+          });
+        })
+        .on("mouseout", function() {
+          tooltip.style("display", "none");
+        });
     });
   });
 

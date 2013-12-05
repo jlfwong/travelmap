@@ -28,9 +28,8 @@ describe('geocode', function() {
     it('retrieves address information for a given lat/lon', function(done) {
       var deferred = $.Deferred();
       var ajaxStub = sandbox.stub($, 'ajax').returns(deferred.promise());
-      geocode.reverse({lat: 48.8565056, lon: 2.3521334}).then(function(addr) {
-        expect(addr.city).to.be("Paris");
-        expect(addr.country).to.be("France");
+      geocode.reverse({lat: 48.8565056, lon: 2.3521334}).then(function(result) {
+        expect(result).to.be("Paris, Ile-de-France, France");
         done();
       });
       deferred.resolveWith(deferred, [PARIS_REVERSE_RESPONSE]);
@@ -233,23 +232,16 @@ var PARIS_RESPONSE = [
 
 var PARIS_REVERSE_RESPONSE = {
     "address": {
-        "attraction": "H\u00f4tel de Ville",
-        "city": "Paris",
-        "city_district": "4th Arrondissement",
-        "country": "France",
-        "country_code": "fr",
-        "county": "Paris",
-        "neighbourhood": "Beaubourg",
-        "pedestrian": "Place de l'H\u00f4tel de Ville - Esplanade de la Lib\u00e9ration",
-        "postcode": "75004",
-        "state": "Ile-de-France",
-        "suburb": "Quartier Saint-Merri"
-    },
-    "display_name": "H\u00f4tel de Ville, Place de l'H\u00f4tel de Ville - Esplanade de la Lib\u00e9ration, Beaubourg, Quartier Saint-Merri, 4th Arrondissement, Paris, Ile-de-France, 75004, France",
-    "lat": "48.85642655",
-    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
-    "lon": "2.35252772813861",
-    "osm_id": "55448726",
-    "osm_type": "way",
-    "place_id": "52369359"
+        "country": "France", 
+        "country_code": "fr", 
+        "county": "Paris", 
+        "state": "Ile-de-France"
+    }, 
+    "display_name": "Paris, Ile-de-France, France", 
+    "lat": "48.85886575", 
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright", 
+    "lon": "2.32003761177144", 
+    "osm_id": "71525", 
+    "osm_type": "relation", 
+    "place_id": "97357969"
 };

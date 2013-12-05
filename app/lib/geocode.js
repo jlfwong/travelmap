@@ -20,7 +20,7 @@ geocode.reverse = function(args) {
     data: {
       lat: args.lat,
       lon: args.lon,
-      zoom: 18,
+      zoom: 8,
       format: "json",
       addressdetails: 1
     }
@@ -28,6 +28,6 @@ geocode.reverse = function(args) {
     if (!data) {
       throw new Error("Reverse Geocoding '" + args + "' failed.");
     }
-    return data.address;
+    return data.display_name;
   });
 };

@@ -689,6 +689,8 @@ module.exports = {
     "Beijing",
     "Guilin",
     "Shanghai",
-    "Mexico City"
+    "Mexico City",
+    // TODO(jlfwong): There need to be a *lot* more Ottawas in here
+    "Ottawa, Canada"
   ]
 };
