@@ -6,17 +6,22 @@ var cachedGeocode = localStorageMemoize.promise("geocoder", geocode);
 
 var COLORS = [
   d3.rgb(0, 150, 0),
-  d3.rgb(150, 0, 0)
+  d3.rgb(150, 0, 0),
+  d3.rgb(0, 0, 150),
+  d3.rgb(150, 150, 0)
 ];
 
 var renderPath = function(svg, projection, cities, name, color) {
+  console.log('Loading data for', name);
+
   var cityCodesPromise = $.when.apply($.when, _.map(cities, function(city) {
     return cachedGeocode(city);
   }));
 
-
   cityCodesPromise.then(function() {
     var cityCoords = Array.prototype.slice.apply(arguments);
+
+    console.log('Rendering', name, cityCoords.length);
 
     var counts = _.countBy(cityCoords, function(x) {
       return JSON.stringify(x);
@@ -44,11 +49,11 @@ var renderPath = function(svg, projection, cities, name, color) {
       .filter(function(x) { return x[0] && x[1]; })
       .value();
 
-    svg.selectAll(".travelpath")
+    svg.selectAll(".travelpath." + name)
       .data(pairs)
       .enter()
       .append("path")
-      .attr("class", "travelpath")
+      .attr("class", "travelpath " + name)
       .attr("stroke", color)
       .attr("fill-opacity", 0)
       .attr("d", function(pair) {
