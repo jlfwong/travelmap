@@ -96,6 +96,18 @@ module.exports = function() {
         .attr("class", "boundary")
         .attr("d", path);
 
+    var tooltip = d3.select("body")
+      .append("div")
+      .style({
+        "position": "absolute",
+        "z-index": "10",
+        "background": "rgba(20, 20, 20, 0.5)",
+        "color": "rgba(150, 150, 150, 0.5)",
+        "border-radius": "5px",
+        "padding": "2px",
+        "display": "none"
+      });
+
     aggregate(data).then(function(places) {
       var placePerPerson = _.reduce(places, function(result, place) {
         return result.concat(_.map(place.names, function(name, index) {
@@ -108,16 +120,7 @@ module.exports = function() {
       }, []);
 
       var nameCounter = uniqueCounter();
-
-      var arc = d3.svg.arc()
-        .innerRadius(0);
-
-      var tooltip = d3.select("body")
-        .append("div")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("display", "none")
-        .text("a simple tooltip");
+      var arc = d3.svg.arc().innerRadius(0);
 
       svg.selectAll(".place")
         .data(placePerPerson)
