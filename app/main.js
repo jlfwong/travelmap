@@ -1,5 +1,68 @@
 var geocode = require("lib/geocode");
 var localStorageMemoize = require("lib/localstorage_memoize");
+var data = require("data");
+
+var cachedGeocode = localStorageMemoize.promise("geocoder", geocode);
+
+var COLORS = [
+  d3.rgb(0, 150, 0),
+  d3.rgb(150, 0, 0)
+];
+
+var renderPath = function(svg, projection, cities, name, color) {
+  var cityCodesPromise = $.when.apply($.when, _.map(cities, function(city) {
+    return cachedGeocode(city);
+  }));
+
+
+  cityCodesPromise.then(function() {
+    var cityCoords = Array.prototype.slice.apply(arguments);
+
+    var counts = _.countBy(cityCoords, function(x) {
+      return JSON.stringify(x);
+    });
+
+    svg.selectAll(".city")
+      .data(_.uniq(cityCoords))
+      .enter()
+      .append("circle")
+      .attr("fill", color)
+      .attr("fill-opacity", 0.75)
+      .attr("class", "city")
+      .attr("cx", function(d) {
+        return projection([d.lon, d.lat])[0];
+      })
+      .attr("cy", function(d) {
+        return projection([d.lon, d.lat])[1];
+      })
+      .attr("r", function(d) {
+        return 2 + 2 * Math.log(1 + counts[JSON.stringify(d)]);
+      });
+
+    var pairs = _(cityCoords)
+      .zip([null].concat(cityCoords))
+      .filter(function(x) { return x[0] && x[1]; })
+      .value();
+
+    svg.selectAll(".travelpath")
+      .data(pairs)
+      .enter()
+      .append("path")
+      .attr("class", "travelpath")
+      .attr("stroke", color)
+      .attr("fill-opacity", 0)
+      .attr("d", function(pair) {
+        var c1 = projection([pair[0].lon, pair[0].lat]);
+        var c2 = projection([pair[1].lon, pair[1].lat]);
+        // TODO(jlfwong): The rx and ry arguments should be scaled relative to
+        // width/height
+        return (
+          "M" + c1[0] + "," + c1[1] +
+          " A800,800 0 0,1 " + c2[0] + "," + c2[1]
+        );
+      });
+  });
+};
 
 module.exports = function() {
   // TODO(jlfwong): This crops part of the map
@@ -13,8 +76,6 @@ module.exports = function() {
 
   var path = d3.geo.path()
       .projection(projection);
-
-  var graticule = d3.geo.graticule();
 
   var svg = d3.select("body").append("svg")
       .attr("width", width)
@@ -31,88 +92,9 @@ module.exports = function() {
         .attr("class", "boundary")
         .attr("d", path);
 
-    var cities = [
-      "Ottawa, Canada",
-      "Toronto, Canada",
-      "Rome, Italy",
-      "Florence, Italy",
-      "La Spezia, Italy",
-      "Venice, Italy",
-      "Copenhagen, Denmark",
-      "Amsterdam, Holland",
-      "London, England",
-      "Lyon, France",
-      "Paris, France",
-      "Toulouse, France",
-      "Barcelona, Spain",
-      "Granada, Spain",
-      "Madrid, Spain",
-      "Dublin, Ireland",
-      "Edinburgh, Scotland",
-      "London, England",
-      "Oslo, Norway",
-      "Brussels, Belgium",
-      "Berlin, Germany",
-      "Toronto, Canada",
-      "Waterloo, Canada",
-      "Toronto, Canada",
-      "San Francisco, California",
-      "San Jose, California",
-      "San Francisco, California",
-      "Ottawa, Canada"
-    ];
-
-    var cachedGeocode = localStorageMemoize.promise("geocoder", geocode);
-
-    var cityCodesPromise = $.when.apply($.when, _.map(cities, function(city) {
-      return cachedGeocode(city);
-    }));
-
-    cityCodesPromise.then(function() {
-      var cityCoords = Array.prototype.slice.apply(arguments);
-
-      var counts = _.countBy(cityCoords, function(x) {
-        return JSON.stringify(x);
-      });
-
-      console.log(counts);
-
-      svg.selectAll(".city")
-          .data(cityCoords)
-          .enter()
-          .append("circle")
-          .attr("class", "city")
-          .attr("cx", function(d) {
-            return projection([d.lon, d.lat])[0];
-          })
-          .attr("cy", function(d) {
-            return projection([d.lon, d.lat])[1];
-          })
-          .attr("r", function(d) {
-            return 2 * (1 + counts[JSON.stringify(d)]);
-          });
-
-      var pairs = _(cityCoords)
-        .zip([null].concat(cityCoords))
-        .filter(function(x) { return x[0] && x[1]; })
-        .value();
-
-      svg.selectAll(".travelpath")
-        .data(pairs)
-        .enter()
-        .append("path")
-        .attr("class", "travelpath")
-        .attr("d", function(pair) {
-          var c1 = projection([pair[0].lon, pair[0].lat]);
-          var c2 = projection([pair[1].lon, pair[1].lat]);
-          // TODO(jlfwong): The rx and ry arguments should be scaled relative to
-          // width/height
-          return (
-            "M" + c1[0] + "," + c1[1] +
-            " A400,400 0 0,1 " + c2[0] + "," + c2[1]
-          );
-          // return "M" + c1[0] + "," + c1[1] + " L" + c2[0] + "," + c2[1];
-        });
+    var i = 0;
+    _(data).forIn(function(cities, name) {
+      renderPath(svg, projection, cities, name, COLORS[i++]);
     });
   });
 

@@ -1,34 +1,62 @@
-var localStorageMemoize = function(cachekeyPrefix, fn) {
-  return function() {
+var localStorageMemoize = function(cacheKeyPrefix, fn) {
+  var localStorageKey = "lsMemoV1_" + cacheKeyPrefix;
+  var cache;
+
+  if (!(cache = JSON.parse(localStorage.getItem(localStorageKey)))) {
+    cache = {};
+  }
+
+  var memoed = function() {
     var args = Array.prototype.slice.apply(arguments);
-    var key = "lsMemoV1_" + cachekeyPrefix + "_" + JSON.stringify(args);
-    var ret;
-    if (!(ret = JSON.parse(localStorage.getItem(key)))) {
-      ret = fn.apply(this, args);
-      localStorage.setItem(key, ret);
+    var argKey = JSON.stringify(args);
+    if (!(cache[argKey])) {
+      cache[argKey] = fn.apply(this, args);
+      localStorage.setItem(localStorageKey, JSON.stringify(cache));
     }
-    return ret;
+    return cache[argKey];
   };
+
+  memoed.clear = function() {
+    cache = {};
+    localStorage.setItem(localStorageKey, JSON.stringify(cache));
+  };
+
+  return memoed;
 };
 
 // TODO(jlfwong): Generalize for any number of resolve args?
 localStorageMemoize.promise = function(cacheKeyPrefix, fn) {
-  return function() {
+  var localStorageKey = "pMemoV1_" + cacheKeyPrefix;
+  var cache;
+
+  if (!(cache = JSON.parse(localStorage.getItem(localStorageKey)))) {
+    cache = {};
+  }
+
+  var memoed = function() {
     var args = Array.prototype.slice.apply(arguments);
-    var key = "pMemoV1_" + cacheKeyPrefix + "_" + JSON.stringify(args);
+    var argKey = JSON.stringify(args);
     var deferred = $.Deferred();
-    var cached = JSON.parse(localStorage.getItem(key));
-    if (cached) {
-      deferred.resolveWith(null, cached);
+    var cachedVal = cache[argKey];
+    if (cachedVal) {
+      deferred.resolveWith(null, cachedVal);
     } else {
       fn.apply(this, args).then(function() {
         var args = Array.prototype.slice.apply(arguments);
-        localStorage.setItem(key, JSON.stringify(args));
+        cache[argKey] = args;
+        localStorage.setItem(localStorageKey, JSON.stringify(cache));
         deferred.resolveWith(null, args);
       });
     }
     return deferred.promise();
   };
+
+  memoed.clear = function() {
+    cache = {};
+    localStorage.setItem(localStorageKey, JSON.stringify(cache));
+  };
+
+  return memoed;
 };
 
 module.exports = localStorageMemoize;

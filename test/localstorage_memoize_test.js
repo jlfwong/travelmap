@@ -14,6 +14,8 @@ describe('localStorageMemoize', function() {
       return a * b;
     };
     var memoMult = localStorageMemoize('mult', mult);
+    memoMult.clear();
+    expect(mult(2, 3)).to.be(memoMult(2, 3));
     expect(mult(2, 3)).to.be(memoMult(2, 3));
     expect(mult(2, 3)).to.be(memoMult(2, 3));
     expect(mult(2, 4)).to.be(memoMult(2, 4));
@@ -30,6 +32,7 @@ describe('localStorageMemoize', function() {
         return deferred.promise();
       };
       var memoSlowMult = localStorageMemoize.promise('slowMult', slowMult);
+      memoSlowMult.clear();
 
       var sm = slowMult(3, 7);
       var msm = memoSlowMult(3, 7);
