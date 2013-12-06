@@ -1,5 +1,112 @@
 module.exports = {
   "Jamie": [
+    // 1991
+    "Ottawa, Canada",
+    // 1992
+    "Hibaldstow, England",
+    "Bradford, England",
+    "Ilfracombe, England",
+    "Chepstow, England",
+    "Hibaldstow, England",
+    "Manchester, England",
+    "Ottawa, Canada",
+    // 1993
+    "Westmeath, Canada",
+    "Ottawa, Canada",
+    // 1994
+    // "Samuel de Champlain Provincial Park, Ontario, Canada",
+    // "Pancake Bay, Sault Ste Marie, Ontario, Canada",
+    "Kakabeka Falls, Ontario, Canada",
+    "Rushing River, Kenora, Ontario",
+    "Crooked Lake, Saskatchewan, Canada",
+    "Calgary, Alberta, Canada",
+    "Lake Windermere, British Columbia",
+    "Waterton, Alberta, Canada",
+    "Missoula, Montana, USA",
+    "West Yellowstone, Montana, USA",
+    "Greybull, Wyoming",
+    "Rapid City, South Dakota",
+    "Sioux Falls, South Dakota",
+    "Cloquet, Minnesota",
+    "Newberry, Michigan",
+    "Massey, Ontario, Canada",
+    "Paris, France",
+    "Ottawa, Ontario, Canada",
+    // 1995 (TODO): X-Canada
+    "Riviere du Loup, Quebec, Canada",
+    "Truro, Nova Scotia, Canada",
+    "Port aux Basques, Newfoundland, Canada",
+    "Clarenville, Newfoundland, Canada",
+    "St. John’s, Newfoundland, Canada",
+    // "Terra Nova, National Park, Newfoundland, Canada",
+    "Sydney, Nova Scotia, Canada",
+    "Trenton, Nova Scotia, Canada",
+    "Panmure Island, Prince Edward Island, Canada",
+    "Charlottetown, Prince Edward Island, Canada",
+    "Penobsquis, New Brunswick, Canada",
+    "Skowhegan, Maine, USA",
+    "Ottawa, Ontario, Canada",
+    // End of road trip
+    "Burlington, Vermont",
+    "Ottawa, Canada",
+    // 1997
+    // TODO: Where's Lucile's cottage
+    "Reading, Pennsylvania",
+    "Ottawa, Canada",
+    "Montreal, Canada",
+    "Ottawa, Canada",
+    "Scunthorpe, England",
+    "Edenthorpe, England",
+    "Ottawa, Canada",
+    // 1998
+    "Huntsville, Ontario",
+    "Ottawa, Canada",
+    // 1999
+    "Melbourne, Australia",
+    "Canberra, Australia",
+    "Cairns, Australia",
+    "Sydney, Australia",
+    "Ottawa, Canada",
+    // 2001
+    "Jamaica", // TODO: Where?
+    "Ottawa, Canada",
+    // 2002
+    "Hong Kong",
+    "Melbourne, Australia",
+    "Canberra, Australia",
+    "Sydney, Australia",
+    "Ottawa, Canada",
+    // 2003
+    "Jamaica", // TODO: Where?
+    "Limon, Costa Rica",
+    "Colon, Panama",
+    "Cartagena, Colombia",
+    "Jamaica", // TODO: Where?
+    "Ottawa, Canada",
+    // 2004
+    "Quepos, Costa Rica",
+    "Ottawa, Canada",
+    "London, England",
+    "Paris, France",
+    "London, England",
+    "Oxford, England",
+    "York, England",
+    "London, England",
+    // 2005
+    "Ottawa, Ontario",
+    "Stratford, Ontario",
+    // 2007
+    "Ottawa, Ontario",
+    "Toronto, Canada",
+    // 2009
+    "Ottawa, Ontario",
+    "Toronto, Canada",
+    "Ottawa, Ontario",
+    "Kingston, Ontario",
+    "Ottawa, Ontario",
+    "Waterloo, Ontario",
+    "Ottawa, Ontario",
+    // September -> December 2009 (1A) - Village 1
     "Waterloo, Canada",
     "Toronto, Canada",
     "Waterloo, Canada",
@@ -32,6 +139,12 @@ module.exports = {
     "Toronto, Canada",
     "Waterloo, Canada",
     "Toronto, Canada",
+    "Ottawa, Canada", // mom's birthday
+    "Waterloo, Canada",
+    "Ottawa, Canada", // mom's retirement
+    "Waterloo, Canada",
+    "Ottawa, Canada", // G test
+    "Waterloo, Canada",
     // September -> December 2011 (Facebook)
     "Ottawa, Canada",
     "Toronto, Canada",
@@ -162,7 +275,6 @@ module.exports = {
     "Rushing River, Kenora, Ontario",
     "Crooked Lake, Saskatchewan, Canada",
     "Calgary, Alberta, Canada",
-    "Paris, France",
     "Ottawa, Ontario, Canada",
     "Mt. Tremblant, Quebec, Canada",
     "Ottawa, Ontario, Canada",
@@ -514,9 +626,11 @@ module.exports = {
     "Sechelt, British Columbia"
   ],
   "Dad": [
+    // 1947-1952
     "Hong Kong",
     "Toy Shan, China",
     "Macau",
+    // 1952-1955
     "Hong Kong",
     "Yokohama",
     "Honolulu",
@@ -524,13 +638,13 @@ module.exports = {
     "White Rock, British Columbia",
     "Vancouver, Canada",
     "Calgary, Canada",
+    // 1957-1966
     "Regina",
     "Wilcox",
     "Swift Current",
     "Moose Jaw",
     "Medicine Hat",
     "Lethbridge",
-    "Calgary",
     "Calgary",
     "Edmonton",
     "North Battleford",
