@@ -3,10 +3,9 @@ var aggregate = require("aggregate");
 var render = require("render");
 var projections = require("projections");
 
-var makeMap = function(projection, name, processed, world) {
-  var svg = d3.select("body")
+var makeMap = function(container, projection, processed, world) {
+  var svg = d3.select(container)
     .append("svg")
-    .attr("class", name)
     .attr("width", projection.width)
     .attr("height", projection.height);
 
@@ -25,12 +24,15 @@ var makeMap = function(projection, name, processed, world) {
 module.exports = function() {
   var width = $(window).width() * 0.9;
 
-  var worldProjection = projections.world(width);
-
   var world50mPromise = $.get("world-50m.json").then(_.identity);
   $.when(aggregate(data), world50mPromise).then(function(processed, world) {
-    makeMap(projections.world(width), "world", processed, world);
-  });
+    d3.select("body")
+      .append("div")
+      .attr("class", "container")
+      .style("width", width + "px");
 
-  d3.select(self.frameElement).style("height", worldProjection.height + "px");
+    makeMap(".container", projections.world(width), processed, world);
+    makeMap(".container", projections.northAmerica(width), processed, world);
+    makeMap(".container", projections.europe(width), processed, world);
+  });
 };

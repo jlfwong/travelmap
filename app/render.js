@@ -3,7 +3,7 @@ var uniqueCounter = require("lib/unique_counter");
 var COLORS = [
   d3.rgb(0, 150, 0),
   d3.rgb(150, 0, 0),
-  d3.rgb(0, 0, 150),
+  d3.rgb(0, 0, 200),
   d3.rgb(150, 150, 0)
 ];
 
@@ -60,12 +60,16 @@ module.exports = function(opts) {
     .attr("class", "boundary")
     .attr("d", path);
 
+  // scale factor
+  var sf = Math.sqrt((projection.scale() / 205) * (projection.width / 1400));
+
   _.forOwn(processed.pairsByPerson, function(pairs, name) {
       svg.selectAll(".travelpath." + name)
         .data(pairs)
         .enter()
         .append("path")
         .attr("class", "travelpath " + name)
+        .attr("stroke-width", (1 * sf) + 'px')
         .attr("stroke-opacity", 0.25)
         .attr("stroke", COLORS[nameCounter(name)])
         .attr("fill-opacity", 0)
@@ -76,8 +80,12 @@ module.exports = function(opts) {
           if (!c1 || !c2) {
             return null;
           }
-          // TODO(jlfwong): The rx and ry arguments should be scaled
-          // relative to width/height
+
+          if ((c1[0] < 0 || c1[0] > projection.width ||
+               c1[1] < 0 || c1[1] > projection.height) ||
+              (c2[0] < 0 || c2[0] > projection.width ||
+               c2[1] < 0 || c2[1] > projection.height)) return null;
+
           var radius = (width / 2) * (1 + 0.1 * Math.random());
           return (
             "M" + c1[0] + "," + c1[1] +
@@ -108,7 +116,7 @@ module.exports = function(opts) {
       "d": function(d) {
         var sliceAngle = 2 * Math.PI / d.names.length;
         return arc({
-          outerRadius: 1 + 2 * Math.log(1 + d.totalCount),
+          outerRadius: sf * (1 + 2 * Math.log(1 + d.totalCount)),
           startAngle: d.nameIndex * sliceAngle,
           endAngle: (d.nameIndex + 1) * sliceAngle
         });
