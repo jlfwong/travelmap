@@ -17,6 +17,8 @@ module.exports = function(rawData) {
     });
   });
 
+  var slim2Promise = $.get("slim-2.json");
+
   return $.when.apply($.when, _.pluck(data, 'promise'))
     .then(function() {
       var geocodeResults = Array.prototype.slice.apply(arguments);
@@ -34,10 +36,22 @@ module.exports = function(rawData) {
       var reverseResults = Array.prototype.slice.apply(arguments);
 
       _.each(reverseResults, function(result, index) {
-        _.extend(data[index], {humanized: result});
+        _.extend(data[index], {
+          humanized: result.display_name,
+          country: result.address.country,
+          countryCode: result.address.country_code
+        });
       });
     })
     .then(function() {
+      return slim2Promise;
+    })
+    .then(function(slim2) {
+      var alpha2ToId = _.reduce(slim2, function(result, d) {
+        result[d['alpha-2'].toLowerCase()] = parseInt(d['country-code'], 10);
+        return result;
+      }, {});
+
       var places = _.values(_.reduce(data, function(result, d) {
         var key = d.humanized;
         var place;
@@ -66,6 +80,10 @@ module.exports = function(rawData) {
             lat: place.lat,
             lon: place.lon,
             humanized: place.humanized,
+            countryCode: place.countryCode,
+            country: place.country,
+            // TODO(jlfwong): Rename count to something more helpful, then just
+            // use extend
             count: place.countByName[name],
             totalCount: place.count,
             placeRaw: place.placeRaw
@@ -83,9 +101,24 @@ module.exports = function(rawData) {
         return result;
       }, {});
 
+      var countriesById = _.reduce(placesPerPerson, function(result, place) {
+        var key = alpha2ToId[place.countryCode];
+        var country;
+        if (!(country = result[key])) {
+          result[key] = {
+            count: 0,
+            name: place.country
+          };
+        }
+        // One point per person per city in the country
+        result[key].count++;
+        return result;
+      }, {});
+
       return {
         placesPerPerson: placesPerPerson,
-        pairsByPerson: pairsByPerson
+        pairsByPerson: pairsByPerson,
+        countriesById: countriesById
       };
     });
 };

@@ -29,7 +29,8 @@ describe('geocode', function() {
       var deferred = $.Deferred();
       var ajaxStub = sandbox.stub($, 'ajax').returns(deferred.promise());
       geocode.reverse({lat: 48.8565056, lon: 2.3521334}).then(function(result) {
-        expect(result).to.be("Paris, Ile-de-France, France");
+        expect(result.display_name).to.be("Paris, Ile-de-France, France");
+        expect(result.address.country_code).to.be("fr");
         done();
       });
       deferred.resolveWith(deferred, [PARIS_REVERSE_RESPONSE]);
@@ -232,16 +233,16 @@ var PARIS_RESPONSE = [
 
 var PARIS_REVERSE_RESPONSE = {
     "address": {
-        "country": "France", 
-        "country_code": "fr", 
-        "county": "Paris", 
+        "country": "France",
+        "country_code": "fr",
+        "county": "Paris",
         "state": "Ile-de-France"
-    }, 
-    "display_name": "Paris, Ile-de-France, France", 
-    "lat": "48.85886575", 
-    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright", 
-    "lon": "2.32003761177144", 
-    "osm_id": "71525", 
-    "osm_type": "relation", 
+    },
+    "display_name": "Paris, Ile-de-France, France",
+    "lat": "48.85886575",
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+    "lon": "2.32003761177144",
+    "osm_id": "71525",
+    "osm_type": "relation",
     "place_id": "97357969"
 };

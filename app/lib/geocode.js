@@ -28,6 +28,9 @@ geocode.reverse = function(args) {
     if (!data) {
       throw new Error("Reverse Geocoding '" + args + "' failed.");
     }
-    return data.display_name;
+    return {
+      display_name: data.display_name,
+      address: data.address
+    };
   });
 };
