@@ -86,11 +86,12 @@ module.exports = function(opts) {
               (c2[0] < 0 || c2[0] > projection.width ||
                c2[1] < 0 || c2[1] > projection.height)) return null;
 
-          var radius = (width / 2) * (1 + 0.1 * Math.random());
+          // TODO(jlfwong): Increase jitter for shorter distances
+          var radius = (width / 2) * (1 + 0.2 * Math.random());
           return (
             "M" + c1[0] + "," + c1[1] +
             " A" + radius + "," + radius +
-            " 0 0,1 " + c2[0] + "," + c2[1]
+            " 0 0,0 " + c2[0] + "," + c2[1]
           );
         });
   });
