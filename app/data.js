@@ -1,4 +1,4 @@
-var FAMILY_1985_GSEB = [
+var FAMILY_1985_GSEB__ = [
   "Hibaldstow, England",
   "Ottawa, Canada",
   "Calgary, Alberta",
@@ -7,25 +7,25 @@ var FAMILY_1985_GSEB = [
   "Ottawa, Canada"
 ];
 
-var FAMILY_1988_GST = [
+var FAMILY_1988_GS__T_ = [
   "Hibaldstow, England",
   "Corfu, Greece",
   "Hibaldstow, England",
   "Ottawa, Canada"
 ];
 
-var FAMILY_1988_EB = [
+var FAMILY_1988___EB__ = [
   "Hibaldstow, England",
   "Ottawa, Canada"
 ];
 
-var FAMILY_1990_GSEBT = [
+var FAMILY_1990_GSEBT_ = [
   "Oshawa, Canada",
   "Ottawa, Canada"
 ];
 
 // TODO(jlfwong): Was I born yet?
-var FAMILY_1991_GSEBT = [
+var FAMILY_1991_GSEBT_ = [
   "Oshawa, Canada",
   "Ottawa, Canada",
   "Westmeath, Canada",
@@ -69,7 +69,7 @@ var FAMILY_1994_GSEBTJ_part = [
   "Ottawa, Canada"
 ];
 
-var FAMILY_1994_GSBTJ = [
+var FAMILY_1994_GS_BTJ = [
   "Mt. Tremblant, Canada",
   "Ottawa, Canada",
   "Calvin, Ontario, Canada", // Samuel de Champlain Park
@@ -83,7 +83,7 @@ var FAMILY_1994_GSBTJ = [
 // TODO(jlfwong): Confirm what Emma did here
 //
 // Emma flew Ottawa -> Calgary instead of doing the first part of the road trip
-var FAMILY_1994_E = [
+var FAMILY_1994___E___ = [
   "Mt. Tremblant, Canada",
   "Ottawa, Canada",
   FAMILY_1994_GSEBTJ_part
@@ -138,7 +138,7 @@ var FAMILY_2001_GSEBTJ = [
   "Ottawa, Canada"
 ];
 
-var FAMILY_2002_GSBTJ = [
+var FAMILY_2002_GS_BTJ = [
   "Hong Kong",
   "Melbourne, Australia",
   "Canberra, Australia",
@@ -146,12 +146,12 @@ var FAMILY_2002_GSBTJ = [
   "Ottawa, Canada"
 ];
 
-var FAMILY_2003_GSEBJ = [
+var FAMILY_2003_GSEB_J = [
   "Quepos, Costa Rica",
   "Ottawa, Canada"
 ];
 
-var FAMILY_2004_GSTJ = [
+var FAMILY_2004_GS__TJ = [
   "Jamaica", // Where?
   "Limon, Costa Rica",
   "Colon, Panama",
@@ -177,15 +177,15 @@ module.exports = {
     "Ottawa, Canada",
     FAMILY_1992_GSEBTJ,
     FAMILY_1993_GSEBTJ,
-    FAMILY_1994_GSBTJ,
+    FAMILY_1994_GS_BTJ,
     FAMILY_1995_GSEBTJ,
     FAMILY_1996_GSEBTJ,
     FAMILY_1997_GSEBTJ,
     FAMILY_1999_GSTJ,
     FAMILY_2001_GSEBTJ,
-    FAMILY_2002_GSBTJ,
-    FAMILY_2003_GSEBJ,
-    FAMILY_2004_GSTJ,
+    FAMILY_2002_GS_BTJ,
+    FAMILY_2003_GSEB_J,
+    FAMILY_2004_GS__TJ,
     FAMILY_2005_GSEBTJ,
     // 2005
     "Ottawa, Ontario",
@@ -330,13 +330,13 @@ module.exports = {
   ],
   "Becky": [
     "Ottawa, Canada",
-    FAMILY_1985_GSEB,
-    FAMILY_1988_EB,
-    FAMILY_1990_GSEBT,
-    FAMILY_1991_GSEBT,
+    FAMILY_1985_GSEB__,
+    FAMILY_1988___EB__,
+    FAMILY_1990_GSEBT_,
+    FAMILY_1991_GSEBT_,
     FAMILY_1992_GSEBTJ,
     FAMILY_1993_GSEBTJ,
-    FAMILY_1994_GSBTJ,
+    FAMILY_1994_GS_BTJ,
     "Paris, France",
     "Ottawa, Canada",
     FAMILY_1995_GSEBTJ,
@@ -375,7 +375,7 @@ module.exports = {
     FAMILY_2001_GSEBTJ,
     "Hueco Tanks, Texas, USA",
     "Ottawa, Ontario, Canada",
-    FAMILY_2002_GSBTJ,
+    FAMILY_2002_GS_BTJ,
     "Calgary, Alberta, Canada",
     "Ottawa, Ontario, Canada", // (NHS Graduation)
     "Calgary, Alberta, Canada",
@@ -393,7 +393,7 @@ module.exports = {
     "Canmore, Alberta, Canada",
     "Calgary, Alberta, Canada",
     "Ottawa, Ontario, Canada",
-    FAMILY_2003_GSEBJ,
+    FAMILY_2003_GSEB_J,
     "Calgary, Alberta, Canada",
     "Edmonton, Alberta, Canada",
     "McBride, British Columbia, Canada",
@@ -608,5 +608,127 @@ module.exports = {
     "Saskatoon, Saskatchewan, Canada",
     "Big River, Saskatchewan, Canada",
     "Saskatoon, Saskatchewan, Canada"
+  ],
+  "Emma": [
+    "Ottawa, Canada",
+    FAMILY_1985_GSEB__,
+    FAMILY_1988___EB__,
+    FAMILY_1990_GSEBT_,
+    FAMILY_1991_GSEBT_,
+    FAMILY_1992_GSEBTJ,
+    FAMILY_1993_GSEBTJ,
+    FAMILY_1994___E___,
+    FAMILY_1995_GSEBTJ,
+    FAMILY_1996_GSEBTJ,
+    FAMILY_1997_GSEBTJ,
+    FAMILY_2001_GSEBTJ,
+    // 2002
+    "Hong Kong",
+    "Shenzhen, China",
+    "Melbourne",
+    "Sydney",
+    "Byron Bay",
+    "Melbourne",
+    "Perth",
+    "Melbourne",
+    "Adelaide",
+    "Melbourne",
+    "Sydney",
+    "Byron Bay",
+    "Cairns",
+    "Kingston, Ontario",
+    // 2003
+    "Ottawa, Canada",
+    "Quepos, Costa Rica",
+    // 2004
+    "Manuel Antonio, Costa Rica",
+    "Quepos, Costa Rica",
+    "Peru",
+    "Ecuador",
+    "Quepos, Costa Rica", // TODO(jlfwong): Where?
+    "Ottawa, Canada",
+    "Mexico City, Mexico",
+    "Puerto Escondido, Mexico",
+    // "Ciudad de las Cuesas, Mexico", TODO(jlfwong): Where is this?
+    "Guatemala",
+    "El Salvador",
+    "Nicaragua",
+    "Costa Rica",
+    "Jaco, Costa Rica",
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    // 2005
+    "Santa Teresa, Costa Rica",
+    "Panama City, Panama",
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    // 2006
+    "Santa Teresa, Costa Rica",
+    "Bocas del Toro, Panama",
+    "Santa Teresa, Costa Rica",
+    // 2007
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    "Kingston, Canada",
+    "Ottawa, Canada",
+    // 2008
+    "Kingston, Canada",
+    "Vancouver, Canada",
+    "Kingston, Canada",
+    "Vancouver, Canada"<
+    "Ottawa, Canada",
+    // 2009
+    "Vancouver, Canada",
+    "San Jose, Costa Rica",
+    "Santa Teresa, Costa Rica",
+    "Vancouver, Canada",
+    "Santa Teresa, Costa Rica",
+    // 2010
+    "Vancouver, Canada",
+    "Sayulita, Mexico",
+    "Ottawa, Canada",
+    "Vancouver, Canada",
+    "Ottawa, Canada",
+    // 2011
+    "Vancouver, Canada",
+    "Fortaleza, Brazil",
+    "Rio de Janeiro, Brazil",
+    "Nelson, British Columbia, Canada",
+    "Vancouver, Canada",
+    "Ottawa, Canada",
+    // 2012
+    "Vancouver, Canada",
+    "Siem Riep, Cambodia",
+    "Vancouver, Canada",
+    "Bali, Indonesia",
+    "Gili, Indonesia",
+    "Sechelt, Canada",
+    "Santa Cruz, California",
+    "San Francisco, California",
+    "Bodega Bay, California",
+    "San Mateo, California", // Halfmoon Bay
+    "Ottawa, Canada",
+    "Sechelt, Canada",
+    "El Salvador",
+    "Nicaragua",
+    "Sechelt, Canada",
+    // 2013
+    "Vancouver, Canada",
+    "Sechelt, Canada",
+    "Vancouver, Canada",
+    "Sechelt, Canada",
+    "Todos Santos, Mexico",
+    "San Jose del Cabo, Mexico",
+    "Vancouver, Canada",
+    "Barcelona, Spain",
+    "Granada, Spain",
+    "Madrid, Spain",
+    "Sechelt, Vancouver"
   ]
 };
