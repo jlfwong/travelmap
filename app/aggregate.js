@@ -8,7 +8,7 @@ module.exports = function(rawData) {
   var data = [];
   var nameNum = 0;
   _.forOwn(rawData, function(placesForPerson, name) {
-    _.each(placesForPerson, function(placeRaw) {
+    _.each(_.flatten(placesForPerson), function(placeRaw) {
       data.push({
         name: name,
         placeRaw: placeRaw,

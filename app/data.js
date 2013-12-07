@@ -1,3 +1,156 @@
+var FAMILY_1985_GSEB = [
+  "Hibaldstow, England",
+  "Ottawa, Canada",
+  "Calgary, Alberta",
+  "Ottawa, Canada",
+  "Windermere, British Columbia",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1988_GST = [
+  "Hibaldstow, England",
+  "Corfu, Greece",
+  "Hibaldstow, England",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1988_EB = [
+  "Hibaldstow, England",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1990_GSEBT = [
+  "Oshawa, Canada",
+  "Ottawa, Canada"
+];
+
+// TODO(jlfwong): Was I born yet?
+var FAMILY_1991_GSEBT = [
+  "Oshawa, Canada",
+  "Ottawa, Canada",
+  "Westmeath, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1992_GSEBTJ = [
+  "Kingston, Canada",
+  "Ottawa, Canada",
+  "Perth, Canada", // Murphy's Point camping
+  "Hibaldstow, England",
+  "Bradford, West Yorkshire, England",
+  "Ilfracombe,  England",
+  "Chepstow, England",
+  "Hibaldstow, North Lincolnshire, England",
+  "Manchester, England",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1993_GSEBTJ = [
+  "Kingston, Canada",
+  "Ottawa, Canada",
+  "Westmeath, Canada",
+  "Ottawa, Canada"
+];
+
+
+var FAMILY_1994_GSEBTJ = [
+  "Calgary, Canada",
+  "Lake Windermere, Canada",
+  "Waterton, Alberta, Canada",
+  "Missoula, Montana, USA",
+  "West Yellowstone, Montana, USA",
+  "Greybull, Wyoming",
+  "Rapid City, South Dakota",
+  "Sioux Falls, South Dakota",
+  "Cloquet, Minnesota",
+  "Newberry, Michigan",
+  "Massey, Ontario, Canada",
+  "Ottawa, Canada",
+  "Toronto, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1994_GSBTJ = [
+  "Mt. Tremblant, Canada",
+  "Ottawa, Canada",
+  "Samuel de Champlain Park, Canada",
+  "Sault Ste Marie, Canada",
+  "Kakabeka Falls, Canada",
+  "Kenora, Canada",
+  "Crooked Lake, Canada",
+  FAMILY_1994_GSEBTJ
+];
+
+// TODO(jlfwong): Confirm what Emma did here
+//
+// Emma flew Ottawa -> Calgary instead of doing the first part of the road trip
+var FAMILY_1994_E = [
+  "Mt. Tremblant, Canada",
+  "Ottawa, Canada",
+  FAMILY_1994_GSEBTJ
+];
+
+// TODO(jlfwong): This came from becky's data, not the family trips
+var FAMILY_1995_GSEBTJ = [
+  "Riviere du Loup, Quebec, Canada",
+  "Truro, Nova Scotia, Canada",
+  "Port aux Basques, Newfoundland, Canada",
+  "Clarenville, Newfoundland, Canada",
+  "St. John’s, Newfoundland, Canada",
+  "Terra Nova, National Park, Newfoundland, Canada",
+  "Sydney, Nova Scotia, Canada",
+  "Trenton, Nova Scotia, Canada",
+  "Panmure Island, P.E.I., Canada",
+  "Charlottetown, P.E.I., Canada",
+  "Penobsquis, New Brunswick, Canada",
+  "Showhegan, Maine, USA",
+  "Ottawa, Ontario, Canada"
+];
+
+var FAMILY_1996_GSEBTJ = [
+  "Mt. Tremblant, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1997_GSEBTJ = [
+  "Reading, Pennsylvania, USA", // (Woodward gymnastics camp)
+  "Ottawa, Ontario, Canada",
+  "Farrelton, Quebec, Canada", // (Lu’s cottage)
+  "Montreal, Quebec, Canada",
+  "Farrelton, Quebec, Canada", // (Lu’s Cottage)
+  "Ottawa, Ontario, Canada"
+];
+
+// TODO(jlfwong): Did the whole family go to Tawingo?
+
+var FAMILY_2001_GSEBTJ = [
+  "Trelawny, Jamaica", // Silver Sands
+  "Ottawa, Canada"
+];
+
+var FAMILY_2002_GSBTJ = [
+  "Hong Kong",
+  "Melbourne, Australia",
+  "Canberra, Australia",
+  "Sydney, Australia",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2003_GSEBJ = [
+  "Quepos, Costa Rica",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2005_GSEBTJ = [
+  "Varadero, Cuba",
+  "Ottawa, Canada"
+];
+
+// TODO(jlfwong): Wher's Daryl's Cottage?
+
+// TODO(jlfwong): When did I go to New York with Dad? Where were mom and tammy
+// in the meantime?
+
 module.exports = {
   "Jamie": [
     // 1991
