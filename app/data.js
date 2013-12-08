@@ -67,6 +67,8 @@ var FAMILY_1985_GSEB__ = [
   "Calgary, Alberta",
   "Ottawa, Canada",
   "Windermere, British Columbia",
+  "Ottawa, Canada",
+  "New York, New York",
   "Ottawa, Canada"
 ];
 
@@ -227,6 +229,11 @@ var FAMILY_2002_GSEBTJ_p2 = [
   "Ottawa, Canada"
 ];
 
+var FAMILY_2003_GSEBTJ_pre = [
+  "Kingston, Canada",
+  "Ottawa, Canada"
+];
+
 var FAMILY_2003_GSEB_J = [
   "Quepos, Costa Rica",
   "Ottawa, Canada"
@@ -246,6 +253,16 @@ var FAMILY_2003_GS__TJ_p3 = [
   "Whistler, Canada",
   "Calgary, Canada",
   "Ottawa, Canada",
+];
+
+var FAMILY_2004_GS__TJ = [
+  "London, England",
+  "Paris, France",
+  "London, England",
+  "Oxford, England",
+  "York, England",
+  "London, England",
+  "Ottawa, Canada"
 ];
 
 var FAMILY_2005_GSEBTJ = [
@@ -269,9 +286,11 @@ module.exports = {
     FAMILY_2001_GSEBTJ,
     FAMILY_2002_GS_BTJ,
     FAMILY_2002_GSEBTJ_p2,
+    FAMILY_2003_GSEBTJ_pre,
     FAMILY_2003_GS__TJ_p2,
     FAMILY_2003_GS__TJ_p3,
     FAMILY_2003_GSEB_J,
+    FAMILY_2004_GS__TJ,
     FAMILY_2005_GSEBTJ,
     // 2005
     "Ottawa, Ontario",
@@ -484,6 +503,7 @@ module.exports = {
     "Canmore, Alberta, Canada",
     "Calgary, Alberta, Canada",
     "Ottawa, Ontario, Canada",
+    FAMILY_2003_GSEBTJ_pre,
     FAMILY_2003_GSEB_J,
     "Calgary, Alberta, Canada",
     "Edmonton, Alberta, Canada",
@@ -771,6 +791,7 @@ module.exports = {
     "Kingston, Ontario",
     // 2003
     "Ottawa, Canada",
+    FAMILY_2003_GSEBTJ_pre,
     "Quepos, Costa Rica",
     // 2004
     "Manuel Antonio, Costa Rica",
@@ -882,10 +903,12 @@ module.exports = {
     "Ottawa, Canada",
     FAMILY_2002_GS_BTJ,
     FAMILY_2002_GSEBTJ_p2,
+    FAMILY_2003_GSEBTJ_pre,
     FAMILY_2003_GS__TJ_p2,
     FAMILY_2003_GS__TJ_p3,
     "Scunthorpe, England",
     "Ottawa, Canada",
+    FAMILY_2004_GS__TJ,
     FAMILY_2005_GSEBTJ,
     "Ottawa, Canada",
     "Peterborough, Canada",
@@ -1085,8 +1108,10 @@ module.exports = {
     FAMILY_2002_GS_BTJ,
     FAMILY_2002_GSEBTJ_p2,
     FAMILY_2003_GSEB_J,
+    FAMILY_2003_GSEBTJ_pre,
     FAMILY_2003_GS__TJ_p2,
     FAMILY_2003_GS__TJ_p3,
+    FAMILY_2004_GS__TJ,
     FAMILY_2005_GSEBTJ
   ]
 };
