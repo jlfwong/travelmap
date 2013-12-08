@@ -1,3 +1,21 @@
+var FAMILY_1981_GSE___ = [
+  "Calgary, Canada",
+  "Vancouver, Canada",
+  "Calgary, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1982__SE____p1 = [
+  "Hibaldstow, England",
+  "London, England",
+  "Ottawa, Canada"
+];
+
+var FAMLIY_1982_GSE____p2 = [
+  "Hibaldstow, England",
+  "Ottawa, Canada"
+];
+
 var FAMILY_1985_GSEB__ = [
   "Hibaldstow, England",
   "Ottawa, Canada",
@@ -118,11 +136,29 @@ var FAMILY_1997_GSEBTJ = [
   "Ottawa, Ontario, Canada"
 ];
 
+var FAMILY_1997_G_E___ = [
+  "Washington D.C",
+  "Ottawa, Canada"
+];
+
+var FAMILY_1998_G_E___ = [
+  "New York, New York",
+  "Ottawa, Canada"
+];
+
 var FAMILY_1999_GS___J = [
   "Melbourne, Australia",
   "Canberra, Australia",
   "Cairns, Australia",
   "Sydney, Australia",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2000__SE___ = [
+  "Paris, France",
+  "Oxford, England",
+  "Chesterfield, England",
+  "London, England",
   "Ottawa, Canada"
 ];
 
@@ -142,7 +178,7 @@ var FAMILY_2002_GS_BTJ = [
 ];
 
 var FAMILY_2002_GSEBTJ_p2 = [
-  "Lac Rhéaume, Val-de-Monts, Quebec",
+  "Val-de-Monts, Quebec",
   "Ottawa, Canada"
 ];
 
@@ -171,8 +207,6 @@ var FAMILY_2005_GSEBTJ = [
   "Varadero, Cuba",
   "Ottawa, Canada"
 ];
-
-// TODO(jlfwong): Where's Daryl's Cottage?
 
 // TODO(jlfwong): When did I go to New York with Dad? Where were mom and tammy
 // in the meantime?
@@ -621,16 +655,55 @@ module.exports = {
   ],
   "Emma": [
     "Ottawa, Canada",
+    FAMILY_1981_GSE___,
+    FAMILY_1982__SE____p1,
+    FAMLIY_1982_GSE____p2,
     FAMILY_1985_GSEB__,
     FAMILY_1988___EB__,
     FAMILY_1990_GSEBT_,
     FAMILY_1991_GSEBT_,
     FAMILY_1992_GSEBTJ,
+    "Quebec City, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Montreal, Canada",
+    "Ottawa, Canada",
+    "Thunder Bay, Canada",
+    "Ottawa, Canada",
+    "Calgary, Canada",
+    "Ottawa, Canada",
     FAMILY_1993_GSEBTJ,
     FAMILY_1994___E___,
+    "Dominican Republic",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Mont Cascades, Canada",
     FAMILY_1995_GSEBTJ,
+    "Ottawa, Canada",
+    "Montreal, Canada",
+    "Ottawa, Canada",
+    // 1996
+    "Florida",
+    "Ottawa, Canada",
     FAMILY_1996_GSEBTJ,
+    "Montreal, Canada",
+    "Ottawa, Canada",
+    "Winnipeg, Canada",
+    "Ottawa, Canada",
+    // 1997
+    // TODO(jlfwong): Pan Am Games?
+    "Gananoque, Canada",
+    "Ottawa, Canada",
+    "North Bay, Canada",
+    FAMILY_1997_G_E___,
     FAMILY_1997_GSEBTJ,
+    FAMILY_1998_G_E___,
+    // 1999
+    "Atlanta, USA",
+    "Ottawa, Canada",
+    FAMILY_2000__SE___,
     FAMILY_2001_GSEBTJ,
     // 2002
     "Hong Kong",
@@ -655,7 +728,7 @@ module.exports = {
     "Quepos, Costa Rica",
     "Peru",
     "Ecuador",
-    "Quepos, Costa Rica", // TODO(jlfwong): Where?
+    "Quepos, Costa Rica",
     "Ottawa, Canada",
     "Mexico City, Mexico",
     "Puerto Escondido, Mexico",
