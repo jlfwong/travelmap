@@ -1,3 +1,42 @@
+var FAMILY_1975_GS____ = [
+  "Ibiza, Spain",
+  "Oxford, England",
+  "Manchester, England",
+  "Edinburgh, Scotland",
+  "Manchester, England",
+  "Oxfordshire, England",
+  "Austria",
+  "Oxfordshire, England",
+  "Manchester, England",
+  "Hibaldstow, England",
+  "London, England",
+  "New York, New York",
+  "Toronto, Canada",
+  "Calgary, Canada",
+  "Hibaldstow, England",
+  "Woodstock, England",
+  "Paris, France",
+  "Toronto, Canada",
+  "Calgary, Canada",
+  "San Francisco, California",
+  "Calgary, Canada",
+  "Oxford, England",
+  "Eynsham, England",
+  "Lake Windermere, England",
+  "Eynsham, England"
+];
+
+var FAMILY_1978_GS____ = [
+  "Paris, France",
+  "Eynsham, England",
+  "Calgary, Canada",
+  "New York, New York",
+  "Calgary, Canada",
+  "Ottawa, Canada",
+  "Calgary, Canada",
+  "Ottawa, Canada"
+];
+
 var FAMILY_1981_GSE___ = [
   "Calgary, Canada",
   "Vancouver, Canada",
@@ -11,9 +50,15 @@ var FAMILY_1982__SE____p1 = [
   "Ottawa, Canada"
 ];
 
-var FAMLIY_1982_GSE____p2 = [
+var FAMILY_1982___E____p2 = [
   "Hibaldstow, England",
   "Ottawa, Canada"
+];
+
+var FAMILY_1982_GS_____p2 = [
+  "Hibaldstow, England",
+  "Tenerife, Spain",
+  FAMILY_1982___E____p2
 ];
 
 var FAMILY_1985_GSEB__ = [
@@ -355,6 +400,10 @@ module.exports = {
     "Dublin, Ireland",
     "Edinburgh, Scotland",
     "London, England",
+    "Oxford, England",
+    "London, England",
+    "Doncaster, England",
+    "London, England",
     "Oslo, Norway",
     "Brussels, Belgium",
     "Berlin, Germany",
@@ -657,7 +706,7 @@ module.exports = {
     "Ottawa, Canada",
     FAMILY_1981_GSE___,
     FAMILY_1982__SE____p1,
-    FAMLIY_1982_GSE____p2,
+    FAMILY_1982___E____p2,
     FAMILY_1985_GSEB__,
     FAMILY_1988___EB__,
     FAMILY_1990_GSEBT_,
@@ -888,10 +937,14 @@ module.exports = {
     // 2012
     "Toronto, Canada",
     "Ottawa, Canada",
-    // 2013
-    "Florida", // TODO(jlfwong): Where in florida?
+    "Toronto, Canada",
+    "Blue Mountain, Canada",
+    "Toronto, Canada",
     "Ottawa, Canada",
-    "Florida",
+    // 2013
+    "Palm Bay, Florida", // TODO(jlfwong): Where in florida?
+    "Ottawa, Canada",
+    "Palm Bay, Florida",
     "Ottawa, Canada",
     "Toronto, Canada",
     "Innisfil, Canada", // Belle Ewart
@@ -982,6 +1035,58 @@ module.exports = {
     "Loch Ness, Scotland",
     "Kirkwall, Scotland",
     "Hibaldstow, England",
-    "Oxford, England"
+    "Oxford, England",
+    // 1972
+    "Lamorna Cove, Cornwall",
+    "Oxford, England",
+    "Hibaldstow, England",
+    "Hamburg, Germany",
+    "Copenhagen, Denmark",
+    "Stockholm, Sweden",
+    "Oslo, Norway",
+    "Stockholm, Sweden",
+    "Gothenburg, Sweden",
+    "Oxford, England",
+    // 1973
+    "Plymouth, England",
+    "Oxford, England",
+    "Hibaldstow, England",
+    "Oxford, England",
+    "Scilly Isles, England",
+    "Oxford, England",
+    "Hibaldstow, England",
+    "Isle of Man, England",
+    "Hibaldstow, England",
+    "Oxford, England",
+    "Hibaldstow, England",
+    "Oxford, England",
+    FAMILY_1975_GS____,
+    "New York, New York",
+    "Toronto, Canada",
+    "Calgary, Canada",
+    "Eynsham, England",
+    FAMILY_1978_GS____,
+    FAMILY_1981_GSE___,
+    FAMILY_1982__SE____p1,
+    FAMILY_1982_GS_____p2,
+    FAMILY_1985_GSEB__,
+    FAMILY_1988_GS__T_,
+    FAMILY_1990_GSEBT_,
+    FAMILY_1991_GSEBT_,
+    FAMILY_1992_GSEBTJ,
+    FAMILY_1993_GSEBTJ,
+    FAMILY_1994_GS_BTJ,
+    FAMILY_1995_GSEBTJ,
+    FAMILY_1996_GSEBTJ,
+    FAMILY_1997_GSEBTJ,
+    FAMILY_1999_GS___J,
+    FAMILY_2000__SE___,
+    FAMILY_2001_GSEBTJ,
+    FAMILY_2002_GS_BTJ,
+    FAMILY_2002_GSEBTJ_p2,
+    FAMILY_2003_GSEB_J,
+    FAMILY_2003_GS__TJ_p2,
+    FAMILY_2003_GS__TJ_p3,
+    FAMILY_2005_GSEBTJ
   ]
 };
