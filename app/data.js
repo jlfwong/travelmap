@@ -9,7 +9,9 @@ var FAMILY_1985_GSEB__ = [
 
 var FAMILY_1988_GS__T_ = [
   "Hibaldstow, England",
+  "London, England",
   "Corfu, Greece",
+  "London, England",
   "Hibaldstow, England",
   "Ottawa, Canada"
 ];
@@ -24,7 +26,6 @@ var FAMILY_1990_GSEBT_ = [
   "Ottawa, Canada"
 ];
 
-// TODO(jlfwong): Was I born yet?
 var FAMILY_1991_GSEBT_ = [
   "Oshawa, Canada",
   "Ottawa, Canada",
@@ -80,8 +81,6 @@ var FAMILY_1994_GS_BTJ = [
   FAMILY_1994_GSEBTJ_part
 ];
 
-// TODO(jlfwong): Confirm what Emma did here
-//
 // Emma flew Ottawa -> Calgary instead of doing the first part of the road trip
 var FAMILY_1994___E___ = [
   "Mt. Tremblant, Canada",
@@ -89,7 +88,6 @@ var FAMILY_1994___E___ = [
   FAMILY_1994_GSEBTJ_part
 ];
 
-// TODO(jlfwong): This came from becky's data, not the family trips
 var FAMILY_1995_GSEBTJ = [
   "Riviere du Loup, Quebec, Canada",
   "Truro, Nova Scotia, Canada",
@@ -112,8 +110,6 @@ var FAMILY_1996_GSEBTJ = [
 ];
 
 var FAMILY_1997_GSEBTJ = [
-  // TODO(jlfwong): Did we all stay in pennsylvania as long as becky was at
-  // camp?
   "Reading, Pennsylvania, USA", // (Woodward gymnastics camp)
   "Ottawa, Ontario, Canada",
   "Farrelton, Quebec, Canada", // (Lu’s cottage)
@@ -122,8 +118,7 @@ var FAMILY_1997_GSEBTJ = [
   "Ottawa, Ontario, Canada"
 ];
 
-// TODO(jlfwong): Was tammy on this trip?
-var FAMILY_1999_GSTJ = [
+var FAMILY_1999_GS___J = [
   "Melbourne, Australia",
   "Canberra, Australia",
   "Cairns, Australia",
@@ -146,12 +141,17 @@ var FAMILY_2002_GS_BTJ = [
   "Ottawa, Canada"
 ];
 
+var FAMILY_2002_GSEBTJ_p2 = [
+  "Lac Rhéaume, Val-de-Monts, Quebec",
+  "Ottawa, Canada"
+];
+
 var FAMILY_2003_GSEB_J = [
   "Quepos, Costa Rica",
   "Ottawa, Canada"
 ];
 
-var FAMILY_2004_GS__TJ = [
+var FAMILY_2003_GS__TJ_p2 = [
   "Jamaica", // Where?
   "Limon, Costa Rica",
   "Colon, Panama",
@@ -160,12 +160,17 @@ var FAMILY_2004_GS__TJ = [
   "Ottawa, Canada"
 ];
 
+var FAMILY_2003_GS__TJ_p3 = [
+  "Vancouver, Canada",
+  "Whistler, Canada",
+  "Calgary, Canada",
+  "Ottawa, Canada",
+];
+
 var FAMILY_2005_GSEBTJ = [
   "Varadero, Cuba",
   "Ottawa, Canada"
 ];
-
-// TODO(jlfwong): When did I go to Santa Theresa?
 
 // TODO(jlfwong): Where's Daryl's Cottage?
 
@@ -181,11 +186,13 @@ module.exports = {
     FAMILY_1995_GSEBTJ,
     FAMILY_1996_GSEBTJ,
     FAMILY_1997_GSEBTJ,
-    FAMILY_1999_GSTJ,
+    FAMILY_1999_GS___J,
     FAMILY_2001_GSEBTJ,
     FAMILY_2002_GS_BTJ,
+    FAMILY_2002_GSEBTJ_p2,
+    FAMILY_2003_GS__TJ_p2,
+    FAMILY_2003_GS__TJ_p3,
     FAMILY_2003_GSEB_J,
-    FAMILY_2004_GS__TJ,
     FAMILY_2005_GSEBTJ,
     // 2005
     "Ottawa, Ontario",
@@ -376,6 +383,7 @@ module.exports = {
     "Hueco Tanks, Texas, USA",
     "Ottawa, Ontario, Canada",
     FAMILY_2002_GS_BTJ,
+    FAMILY_2002_GSEBTJ_p2,
     "Calgary, Alberta, Canada",
     "Ottawa, Ontario, Canada", // (NHS Graduation)
     "Calgary, Alberta, Canada",
@@ -607,6 +615,8 @@ module.exports = {
     "Big River, Saskatchewan, Canada",
     "Saskatoon, Saskatchewan, Canada",
     "Big River, Saskatchewan, Canada",
+    "Saskatoon, Saskatchewan, Canada",
+    "Kauai, Hawaii",
     "Saskatoon, Saskatchewan, Canada"
   ],
   "Emma": [
@@ -729,6 +739,91 @@ module.exports = {
     "Barcelona, Spain",
     "Granada, Spain",
     "Madrid, Spain",
-    "Sechelt, Vancouver"
+    "Sechelt, Canada",
+    "Kauai, Hawaii",
+    "Toronto, Canada"
+  ],
+  "Tammy": [
+    FAMILY_1988_GS__T_,
+    FAMILY_1992_GSEBTJ,
+    FAMILY_1993_GSEBTJ,
+    FAMILY_1994_GS_BTJ,
+    FAMILY_1995_GSEBTJ,
+    FAMILY_1996_GSEBTJ,
+    "Scunthorpe, England",
+    "Ottawa, Canada",
+    FAMILY_1997_GSEBTJ,
+    "Scunthorpe, England",
+    "Ottawa, Canada",
+    FAMILY_2001_GSEBTJ,
+    "Quebec City, Canada",
+    "Ottawa, Canada",
+    FAMILY_2002_GS_BTJ,
+    FAMILY_2002_GSEBTJ_p2,
+    FAMILY_2003_GS__TJ_p2,
+    FAMILY_2003_GS__TJ_p3,
+    "Scunthorpe, England",
+    "Ottawa, Canada",
+    FAMILY_2005_GSEBTJ,
+    "Ottawa, Canada",
+    "Peterborough, Canada",
+    "Ottawa, Canada",
+    "Peterborough, Canada",
+    "Ottawa, Canada",
+    "Peterborough, Canada",
+    "Ottawa, Canada",
+    "Scunthorpe, England",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    // 2007 - 2008
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    // 2009
+    "Toronto, Canada",
+    "New York, New York",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    // 2010
+    "Toronto, Canada",
+    "Winnipeg, Manitoba",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Winnipeg, Manitoba",
+    "Ottawa, Canada",
+    // 2011
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Vancouver, Canada",
+    "Ottawa, Canada",
+    // 2012
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    // 2013
+    "Florida", // TODO(jlfwong): Where in florida?
+    "Ottawa, Canada",
+    "Florida",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Innisfil, Canada", // Belle Ewart
+    "Ottawa, Canada",
+    "Kauai, Hawaii",
+    "Ottawa, Canada"
   ]
 };

@@ -7,6 +7,7 @@ var cachedReverseGeocode = localStorageMemoize.promise("reverseGeocoder", geocod
 module.exports = function(rawData) {
   var data = [];
   var nameNum = 0;
+
   _.forOwn(rawData, function(placesForPerson, name) {
     _.each(_.flatten(placesForPerson), function(placeRaw) {
       data.push({
