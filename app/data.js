@@ -248,11 +248,22 @@ var FAMILY_2003_GS__TJ_p2 = [
   "Ottawa, Canada"
 ];
 
+var FAMILY_2003_GS____ = [
+  "Calgary, Canada",
+  "Ottawa, Canada"
+];
+
 var FAMILY_2003_GS__TJ_p3 = [
   "Vancouver, Canada",
   "Whistler, Canada",
   "Calgary, Canada",
   "Ottawa, Canada",
+];
+
+var FAMILY_2003__S__T_ = [
+  "Scunthorpe, England",
+  "London, England",
+  "Ottawa, Canada"
 ];
 
 var FAMILY_2004_GS__TJ = [
@@ -267,6 +278,27 @@ var FAMILY_2004_GS__TJ = [
 
 var FAMILY_2005_GSEBTJ = [
   "Varadero, Cuba",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2005_GS__TJ = [
+  "Peterborough, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2006_GS____ = [
+  "Calgary, Canada",
+  "Victoria, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2006__S__T_ = [
+  "Toronto, Canada",
+  "Ottawa, Canada",
+];
+
+var FAMILY_2007__SE___ = [
+  "Kingston, Canada",
   "Ottawa, Canada"
 ];
 
@@ -292,6 +324,7 @@ module.exports = {
     FAMILY_2003_GSEB_J,
     FAMILY_2004_GS__TJ,
     FAMILY_2005_GSEBTJ,
+    FAMILY_2005_GS__TJ,
     // 2005
     "Ottawa, Ontario",
     "Stratford, Ontario",
@@ -461,16 +494,19 @@ module.exports = {
     "Westport, Ontario, Canada",
     "Ottawa, Ontario, Canada",
     FAMILY_1997_GSEBTJ,
+    // 1998
     "Huntsville, Ontario, Canada",
     "Ottawa, Ontario, Canada",
     "Westport, Ontario, Canada",
     "Ottawa, Ontario, Canada",
     "Huntsville, Ontario, Canada", // Tawingo
+    // 1999
     "Ottawa, Ontario, Canada",
     "Westport, Ontario, Canada",
     "Ottawa, Ontario, Canada",
     "Huntsville, Ontario, Canada",
     "Ottawa, Ontario, Canada",
+    // 2000
     "Milan, Italy",
     "Venice, Italy",
     "Florence, Italy",
@@ -492,6 +528,7 @@ module.exports = {
     "Bishop, California, USA",
     "Calgary, Alberta, Canada",
     "Ottawa, Ontario, Canada",
+    // 2003
     "Edmonton, Alberta, Canada",
     "Calgary, Alberta, Canada",
     "Ottawa, Ontario, Canada",
@@ -505,6 +542,7 @@ module.exports = {
     "Ottawa, Ontario, Canada",
     FAMILY_2003_GSEBTJ_pre,
     FAMILY_2003_GSEB_J,
+    // 2004
     "Calgary, Alberta, Canada",
     "Edmonton, Alberta, Canada",
     "McBride, British Columbia, Canada",
@@ -513,6 +551,7 @@ module.exports = {
     "Calgary, Alberta, Canada",
     "Ottawa, Ontario, Canada",
     "Calgary, Alberta, Canada",
+    // 2005
     "San Jose, Costa Rica",
     "Santa Teresa, Costa Rica",
     "San Jose, Costa Rica",
@@ -528,7 +567,7 @@ module.exports = {
     "Zarautz, Spain",
     "San Sebastian, Spain",
     "Barcelona, Spain",
-    "Edenthorpe, England",
+    "Doncaster, England",
     "Paris, France",
     "Interlaken, Switzerland",
     "Grindelwald, Switzerland",
@@ -542,6 +581,7 @@ module.exports = {
     "Crested Butte, Colorado, USA",
     "Ottawa, Ontario, Canada",
     FAMILY_2005_GSEBTJ,
+    // 2006
     "Crested Butte, Colorado, USA",
     "Denver, Colorado, USA",
     "Anini Beach, Kauai, Hawaii, USA",
@@ -560,6 +600,7 @@ module.exports = {
     "Ottawa, Ontario, Canada",
     "Saint Paul, Minneapolis, Minnesota, USA",
     "Calgary, Alberta, Canada",
+    // 2007
     "Houston, Texas, USA",
     "Santa Teresa, Costa Rica",
     "Houston, Texas, USA",
@@ -572,6 +613,7 @@ module.exports = {
     "Westport, Ontario, Canada",
     "Napanee, Ontario, Canada",
     "Ottawa, Ontario, Canada",
+    // 2008
     "Toronto, Ontario, Canada",
     "Addis Ababa, Ethiopia",
     "Debre Sina, Ethiopia",
@@ -587,6 +629,7 @@ module.exports = {
     "Victoria, British Columbia, Canada",
     "Winnipeg, Manitoba, Canada",
     "Ottawa, Ontario, Canada",
+    // 2009
     "Winnipeg, Manitoba, Canada",
     "Golden, British Columbia, Canada",
     "Winnipeg, Manitoba, Canada",
@@ -623,6 +666,7 @@ module.exports = {
     "Auckland, New Zealand",
     "Winnipeg, Manitoba, Canada",
     "Ottawa, Ontario, Canada",
+    // 2010
     "Winnipeg, Manitoba, Canada",
     "Toronto, Ontario, Canada",
     "Ottawa, Ontario, Canada",
@@ -634,6 +678,7 @@ module.exports = {
     "Winnipeg, Manitoba, Canada",
     "Ottawa, Ontario, Canada",
     "Winnipeg, Manitoba, Canada",
+    // 2011
     "Clear Lake, Manitoba, Canada",
     "Winnipeg, Manitoba, Canada",
     "Rosthern, Saskatchewan, Canada",
@@ -654,6 +699,7 @@ module.exports = {
     "Guadalajara, Mexico",
     "Mexico City, Mexico",
     "Tequila, Mexico",
+    // 2012
     "Sayulita, Mexico",
     "Mazatlan, Mexico",
     "Winnipeg, Manitoba, Canada",
@@ -828,13 +874,12 @@ module.exports = {
     "Ottawa, Canada",
     "Santa Teresa, Costa Rica",
     "Ottawa, Canada",
-    "Kingston, Canada",
-    "Ottawa, Canada",
+    FAMILY_2007__SE___,
     // 2008
     "Kingston, Canada",
     "Vancouver, Canada",
     "Kingston, Canada",
-    "Vancouver, Canada"<
+    "Vancouver, Canada",
     "Ottawa, Canada",
     // 2009
     "Vancouver, Canada",
@@ -906,21 +951,18 @@ module.exports = {
     FAMILY_2003_GSEBTJ_pre,
     FAMILY_2003_GS__TJ_p2,
     FAMILY_2003_GS__TJ_p3,
-    "Scunthorpe, England",
-    "Ottawa, Canada",
+    FAMILY_2003__S__T_,
     FAMILY_2004_GS__TJ,
     FAMILY_2005_GSEBTJ,
+    FAMILY_2005_GS__TJ,
     "Ottawa, Canada",
     "Peterborough, Canada",
     "Ottawa, Canada",
     "Peterborough, Canada",
     "Ottawa, Canada",
-    "Peterborough, Canada",
+    "Ashover, England",
     "Ottawa, Canada",
-    "Scunthorpe, England",
-    "Ottawa, Canada",
-    "Toronto, Canada",
-    "Ottawa, Canada",
+    FAMILY_2006__S__T_,
     // 2007 - 2008
     "Toronto, Canada",
     "Ottawa, Canada",
@@ -1101,17 +1143,78 @@ module.exports = {
     FAMILY_1994_GS_BTJ,
     FAMILY_1995_GSEBTJ,
     FAMILY_1996_GSEBTJ,
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    // 1997
+    "Montreal, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
     FAMILY_1997_GSEBTJ,
     FAMILY_1999_GS___J,
+    // 2000
+    "Hong Kong",
+    "Ottawa, Canada",
     FAMILY_2000__SE___,
+    // 2001
+    "Scunthorpe, England",
+    "Paris, France",
+    "Ottawa, Canada",
     FAMILY_2001_GSEBTJ,
     FAMILY_2002_GS_BTJ,
+    "Cairns, Australia",
+    "Melbourne, Australia",
+    "Ottawa, Canada",
     FAMILY_2002_GSEBTJ_p2,
     FAMILY_2003_GSEB_J,
     FAMILY_2003_GSEBTJ_pre,
     FAMILY_2003_GS__TJ_p2,
+    FAMILY_2003_GS____,
     FAMILY_2003_GS__TJ_p3,
+    FAMILY_2003__S__T_,
+    "Oshawa, Canada",
+    "Ottawa, Canada",
+    // 2004
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Calgary, Canada",
+    "Ottawa, Canada",
     FAMILY_2004_GS__TJ,
-    FAMILY_2005_GSEBTJ
+    "Calgary, Canada",
+    "Ottawa, Canada",
+    FAMILY_2005_GSEBTJ,
+    "San Jose, Costa Rica",
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    "Barcelona, Spain",
+    "Ashover, England",
+    "Ottawa, Canada",
+    "Ashover, England",
+    "Ottawa, Canada",
+    FAMILY_2005_GS__TJ,
+    // 2006
+    "Peterborough, Canada",
+    "Ottawa, Canada",
+    "Santa Teresa, Costa Rica",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    "Ashover, England",
+    "Paris, France",
+    "Ottawa, Canada",
+    FAMILY_2006_GS____,
+    "Montreal, Canada",
+    "Ottawa, Canada",
+    FAMILY_2006__S__T_,
+    // 2007
+    "Houston, Texas, USA", // With Becky
+    "Santa Teresa, Costa Rica",
+    "Houston, Texas, USA",
+    "Ottawa, Canada",
+    FAMILY_2007__SE___,
   ]
 };

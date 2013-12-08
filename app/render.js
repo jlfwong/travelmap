@@ -1,9 +1,9 @@
 var uniqueCounter = require("lib/unique_counter");
 
 var COLORS = [
-  d3.rgb(0, 150, 0),
   d3.rgb(150, 0, 0),
-  d3.rgb(0, 0, 200),
+  d3.rgb(0, 150, 0),
+  d3.rgb(0, 0, 240),
   d3.rgb(150, 150, 0),
   d3.rgb(0, 150, 150)
 ];
