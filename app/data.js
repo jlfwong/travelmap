@@ -898,5 +898,90 @@ module.exports = {
     "Ottawa, Canada",
     "Kauai, Hawaii",
     "Ottawa, Canada"
+  ],
+  "Susan": [
+    // 1951
+    "Sheffield, England",
+    "Thorne, England",
+    "Finningley, England",
+    "Halifax, England",
+    "Abersoch, Wales",
+    "Halifax, England",
+    "Abersoch, Wales",
+    "Halifax, England",
+    "Abersoch, Wales",
+    "Halifax, England",
+    // 1956
+    "Thorne, England",
+    // 1957
+    "London, England",
+    "Gran Canaria",
+    "Cape Town, South Africa",
+    "Perth, Australia",
+    "Melbourne, Australia",
+    // 1959
+    "Uranquinty, Australia",
+    "Pearce, Australia",
+    // 1960
+    "Freemantle, Australia",
+    "Singapore",
+    // 1961
+    "Penang, Malaysia",
+    "Singapore",
+    "Gan, Maldive Islands",
+    "Lynham, England",
+    // 1961 - 1966
+    "Thorne, England",
+    "Bubwith, England",
+    "Newquay, England",
+    "Bubwith, England",
+    "Torquay, England",
+    "Bubwith, England",
+    // 1966
+    "Scotland",
+    "Bubwith, England",
+    "Isle of Skye, Scotland",
+    "Loch Etchachan, Scotland", // Cairngorm Mountains, Scotland
+    "Bubwith, England",
+    // 1967
+    "Jersey, Channel Islands",
+    "Bubwith, England",
+    "Brigg, England",
+    "Santiago de Compostella, Spain",
+    "Lisbon, Portugal",
+    "Gibraltar",
+    "Tangier, Morocco",
+    "Brigg, England",
+    // 1968
+    "Keswick, England",
+    "Grasmere, England",
+    "Ambleside, England",
+    "Windermere, England",
+    "Kendal, England",
+    "Brigg, England",
+    "Minehead, England",
+    "Brigg, England",
+    // 1969
+    "Oxford, England",
+    "Brigg, England",
+    "Oxford, England",
+    "Brigg, England",
+    "Oxford, England",
+    "Brigg, England",
+    // 1970
+    "Oxford, England",
+    "Brigg, England",
+    "Oxford, England",
+    "Brigg, England",
+    "Oxford, England",
+    // 1971
+    "Lamorna Cove, Cornwall",
+    "Oxford, England",
+    "Hibaldstow, England",
+    "Oban, Scotland",
+    "Loch Ness, Scotland",
+    "Kirkwall, Scotland",
+    "Hibaldstow, England",
+    "Oxford, England"
   ]
 };
