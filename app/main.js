@@ -34,5 +34,6 @@ module.exports = function() {
     makeMap(".container", projections.world(width), processed, world);
     makeMap(".container", projections.northAmerica(width), processed, world);
     makeMap(".container", projections.europe(width), processed, world);
+    makeMap(".container", projections.uk(width), processed, world);
   });
 };
