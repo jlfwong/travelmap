@@ -1,13 +1,6 @@
 var uniqueCounter = require("lib/unique_counter");
 
-var COLORS = [
-  d3.rgb(150, 0, 0),
-  d3.rgb(0, 150, 0),
-  d3.rgb(0, 0, 240),
-  d3.rgb(150, 150, 0),
-  d3.rgb(150, 0, 150),
-  d3.rgb(0, 150, 150)
-];
+var COLORS = d3.scale.category10();
 
 module.exports = function(opts) {
   var svg = opts.svg;
@@ -73,7 +66,7 @@ module.exports = function(opts) {
         .attr("class", "travelpath " + name)
         .attr("stroke-width", (1 * sf) + 'px')
         .attr("stroke-opacity", 0.25)
-        .attr("stroke", COLORS[nameCounter(name)])
+        .attr("stroke", COLORS(nameCounter(name)))
         .attr("fill-opacity", 0)
         .attr("d", function(pair) {
           var c1 = projection([pair[0].lon, pair[0].lat]);
@@ -109,7 +102,7 @@ module.exports = function(opts) {
     .append("path")
     .attr({
       "fill": function(d) {
-        return COLORS[nameCounter(d.name)];
+        return COLORS(nameCounter(d.name));
       },
       "fill-opacity": 0.75,
       "transform": function(d) {
