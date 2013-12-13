@@ -1,6 +1,11 @@
 var uniqueCounter = require("lib/unique_counter");
 
-var COLORS = d3.scale.category10();
+var colors = d3.scale.category10();
+var nameCounter = uniqueCounter();
+
+var nameColor = function(name) {
+  return colors(nameCounter(name));
+};
 
 module.exports = function(opts) {
   var svg = opts.svg;
@@ -13,11 +18,13 @@ module.exports = function(opts) {
   var path = d3.geo.path()
       .projection(projection);
 
-  var nameCounter = uniqueCounter();
   var arc = d3.svg.arc().innerRadius(0);
 
   var tooltip = d3.select("body")
+    .selectAll(".tooltip")
+    .data(1) // Lazy way of making only one of these
     .append("div")
+    .attr('class', 'tooltip')
     .style({
       "position": "absolute",
       "z-index": "10",
@@ -42,7 +49,7 @@ module.exports = function(opts) {
           visited = true;
           count = country.count;
         }
-        var grey = 10 + 5 * visited + 2 * Math.sqrt(count);
+        var grey = 10 + 5 * visited + 2 * Math.pow(count, 1.0/2.5);
         return d3.rgb(grey, grey, grey);
       },
       "d": path
@@ -66,7 +73,7 @@ module.exports = function(opts) {
         .attr("class", "travelpath " + name)
         .attr("stroke-width", (1 * sf) + 'px')
         .attr("stroke-opacity", 0.25)
-        .attr("stroke", COLORS(nameCounter(name)))
+        .attr("stroke", nameColor(name))
         .attr("fill-opacity", 0)
         .attr("d", function(pair) {
           var c1 = projection([pair[0].lon, pair[0].lat]);
@@ -100,9 +107,12 @@ module.exports = function(opts) {
     .data(placesPerPerson)
     .enter()
     .append("path")
+    .attr("class", function(d) {
+      return "place " + d.name;
+    })
     .attr({
       "fill": function(d) {
-        return COLORS(nameCounter(d.name));
+        return nameColor(d.name);
       },
       "fill-opacity": 0.75,
       "transform": function(d) {
@@ -131,4 +141,83 @@ module.exports = function(opts) {
     .on("mouseout", function() {
       tooltip.style("display", "none");
     });
+};
+
+module.exports.makeToggles = function(names) {
+  var enabled = _.reduce(names, function(result, val) {
+    result[val] = true;
+    return result;
+  }, {});
+
+  var update = function() {
+    _.each(names, function(name) {
+      var show = enabled[name];
+      d3.selectAll('.' + name).style('display', show ? 'inline' : 'none');
+      d3.select('.label-' + name).style('text-decoration', show ? 'none' : 'line-through');
+    });
+  };
+
+  var toggles = d3.select("body")
+    .append("div")
+    .attr("class", "toggles");
+
+  var lis = toggles
+    .append("ul")
+    .selectAll("li")
+    .data(names)
+    .enter()
+    .append("li");
+
+  lis.append("span").text("[");
+
+  lis
+    .append("a")
+    .attr("href", "#")
+    .text('toggle')
+    .on('click', function(name) {
+      enabled[name] = !enabled[name];
+      update();
+      event.preventDefault();
+    });
+
+  lis.append("span").text("] [");
+
+  lis
+    .append("a")
+    .attr("href", "#")
+    .text('only')
+    .on('click', function(name) {
+      _.each(names, function(name) { enabled[name] = false; });
+      enabled[name] = true;
+      update();
+      event.preventDefault();
+    });
+
+
+  lis.append("span").text("] ");
+
+  lis
+    .append("span")
+    .attr("href", "#")
+    .attr("class", function(name) {
+      return "label-" + name;
+    })
+    .style({
+      "color": nameColor,
+      "text-decoration": "none"
+    })
+    .text(_.identity);
+
+  toggles.append("span").text("[")
+
+  toggles.append("a")
+    .attr("href", "#")
+    .text("show all")
+    .on('click', function() {
+      _.each(names, function(name) { enabled[name] = true; });
+      update();
+      event.preventDefault();
+    });
+
+  toggles.append("span").text("]")
 };

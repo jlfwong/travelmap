@@ -25,6 +25,9 @@ module.exports = function() {
   var width = $(window).width() * 0.9;
 
   var world50mPromise = $.get("world-50m.json").then(_.identity);
+
+  render.makeToggles(_.keys(data));
+
   $.when(aggregate(data), world50mPromise).then(function(processed, world) {
     d3.select("body")
       .append("div")
