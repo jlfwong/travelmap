@@ -6,22 +6,30 @@ var cachedReverseGeocode = localStorageMemoize.promise("reverseGeocoder", geocod
 
 module.exports = function(rawData) {
   var data = [];
-  var nameNum = 0;
-
-  _.forOwn(rawData, function(placesForPerson, name) {
-    _.each(_.flatten(placesForPerson), function(placeRaw) {
-      data.push({
-        name: name,
-        placeRaw: placeRaw,
-        promise: cachedGeocode(placeRaw)
-      });
-    });
-  });
 
   var slim2Promise = $.get("slim-2.json");
 
-  return $.when.apply($.when, _.pluck(data, 'promise'))
-    .then(function() {
+  return $.when(
+    $.get("geocode_cache.json"),
+    $.get("reverse_geocode_cache.json")
+  )
+  .then(function(geocodeCacheData, reverseGeocodeCacheData) {
+    cachedGeocode.load(geocodeCacheData[0]);
+    cachedReverseGeocode.load(reverseGeocodeCacheData[0]);
+
+    _.forOwn(rawData, function(placesForPerson, name) {
+      _.each(_.flatten(placesForPerson), function(placeRaw) {
+        data.push({
+          name: name,
+          placeRaw: placeRaw,
+          promise: cachedGeocode(placeRaw)
+        });
+      });
+    });
+
+    return $.when.apply($.when, _.pluck(data, 'promise'));
+  })
+  .then(function() {
       // Geocode all the places
       var geocodeResults = Array.prototype.slice.apply(arguments);
       _(geocodeResults).each(function(result, index) {
@@ -136,4 +144,11 @@ module.exports = function(rawData) {
         countriesById: countriesById
       };
     });
+};
+
+// Invoke in browser with: require("aggregate").saveCaches()
+module.exports.saveCaches = function() {
+  var saveToFile = require("lib/save_to_file");
+  saveToFile(cachedGeocode.dump(), 'geocode_cache.json');
+  saveToFile(cachedReverseGeocode.dump(), 'reverse_geocode_cache.json');
 };

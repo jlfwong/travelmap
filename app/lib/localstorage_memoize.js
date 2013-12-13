@@ -44,16 +44,29 @@ localStorageMemoize.promise = function(cacheKeyPrefix, fn) {
       fn.apply(this, args).then(function() {
         var args = Array.prototype.slice.apply(arguments);
         cache[argKey] = args;
-        localStorage.setItem(localStorageKey, JSON.stringify(cache));
+        memoed.save();
         deferred.resolveWith(null, args);
       });
     }
     return deferred.promise();
   };
 
+  memoed.save = function() {
+    localStorage.setItem(localStorageKey, JSON.stringify(cache));
+  };
+
   memoed.clear = function() {
     cache = {};
-    localStorage.setItem(localStorageKey, JSON.stringify(cache));
+    memoed.save();
+  };
+
+  memoed.dump = function() {
+    return cache;
+  };
+
+  memoed.load = function(savedCache) {
+    _.extend(cache, savedCache);
+    memoed.save();
   };
 
   return memoed;
