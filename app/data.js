@@ -20,10 +20,13 @@ var FAMILY_1974_GS____ = [
   "Calgary, Canada",
   "San Francisco, California",
   "Calgary, Canada",
+  // TODO(jlfwong): I'm not sure this is in the right place (Nov 1976)
+  "Banff, Alberta",
+  "Calgary, Canada",
   "Oxford, England",
   "Eynsham, England",
   "Lake Windermere, England",
-  "Eynsham, England"
+  "Eynsham, England",
 ];
 
 var FAMILY_1978_GS____ = [
@@ -35,6 +38,21 @@ var FAMILY_1978_GS____ = [
   "Ottawa, Canada",
   "Calgary, Canada",
   "Ottawa, Canada"
+];
+
+var FAMILY_1979_GS____ = [
+  "Banff, Alberta",
+  "Kelowna, British Columbia",
+  "Vancouver, British Columbia",
+  "Banff, Alberta",
+  "Calgary, Alberta",
+  "Tunnel Mountain, Alberta",
+  "Calgary, Alberta"
+];
+
+var FAMILY_1980_GS____ = [
+  "Jasper, Alberta",
+  "Calgary, Alberta"
 ];
 
 var FAMILY_1981_GSE___ = [
@@ -59,6 +77,13 @@ var FAMILY_1982_GS_____p2 = [
   "Hibaldstow, England",
   "Tenerife, Spain",
   FAMILY_1982___E____p2
+];
+
+var FAMILY_1984_GS____ = [
+  "Hibaldstow, England",
+  // TODO(jlfwong): Why is there no dot here?!
+  "Majorca, Spain",
+  "Ottawa"
 ];
 
 var FAMILY_1985_GSEB__ = [
@@ -1239,6 +1264,10 @@ module.exports = {
     "Gibraltar",
     "Tangier, Morocco",
     "Brigg, England",
+    "London, England",
+    "Brigg, England",
+    "Scarborough, England",
+    "Brigg, England",
     // 1968
     "Keswick, England",
     "Grasmere, England",
@@ -1300,9 +1329,12 @@ module.exports = {
     "Calgary, Canada",
     "Eynsham, England",
     FAMILY_1978_GS____,
+    FAMILY_1979_GS____,
+    FAMILY_1980_GS____,
     FAMILY_1981_GSE___,
     FAMILY_1982__SE____p1,
     FAMILY_1982_GS_____p2,
+    FAMILY_1984_GS____,
     FAMILY_1985_GSEB__,
     FAMILY_1988_GS__T_,
     FAMILY_1989_GS____,
@@ -1587,6 +1619,8 @@ module.exports = {
     "Oxford, England",
     FAMILY_1974_GS____,
     FAMILY_1978_GS____,
+    FAMILY_1979_GS____,
+    FAMILY_1980_GS____,
     FAMILY_1981_GSE___,
     FAMILY_1982_GS_____p2,
     // 1983
@@ -1601,6 +1635,7 @@ module.exports = {
     "New York",
     "Ottawa",
     // 1984
+    FAMILY_1984_GS____,
     "Ottawa",
     "Vancouver",
     "Ottawa",
