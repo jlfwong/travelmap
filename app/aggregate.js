@@ -22,6 +22,7 @@ module.exports = function(rawData) {
 
   return $.when.apply($.when, _.pluck(data, 'promise'))
     .then(function() {
+      // Geocode all the places
       var geocodeResults = Array.prototype.slice.apply(arguments);
       _(geocodeResults).each(function(result, index) {
         _.extend(data[index], {
@@ -34,11 +35,12 @@ module.exports = function(rawData) {
       return $.when.apply($.when, _.pluck(data, 'reversePromise'));
     })
     .then(function() {
+      // Reverse geocode all the places based on the long/lat we get back from
+      // the geocoder.
       var reverseResults = Array.prototype.slice.apply(arguments);
 
       _.each(reverseResults, function(result, index) {
         _.extend(data[index], {
-          humanized: result.display_name,
           country: result.address.country,
           countryCode: result.address.country_code
         });
@@ -48,13 +50,21 @@ module.exports = function(rawData) {
       return slim2Promise;
     })
     .then(function(slim2) {
+      // alpha2Toid is a map from ISO-3166 alpha-2 code to ISO-3166 numeric id
+      //
+      // https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes
       var alpha2ToId = _.reduce(slim2, function(result, d) {
         result[d['alpha-2'].toLowerCase()] = parseInt(d['country-code'], 10);
         return result;
       }, {});
 
+      // Places is a unique list of all places. Each city should appear exactly
+      // once in this list.
       var places = _.values(_.reduce(data, function(result, d) {
-        var key = d.humanized;
+        // We deduplicate places based on their lat,lon. This allows "Ottawa",
+        // "Ottawa, Canada", and "Ottawa, Ontario, Canada", to all end up being
+        // part of the same data point.
+        var key = d.lat + "," + d.lon;
         var place;
         if (!(place = result[key])) {
           place = result[key] = _.extend({
@@ -72,6 +82,8 @@ module.exports = function(rawData) {
         return result;
       }, {}));
 
+      // Map from person's name to a list of all the places they've been, not
+      // necssarily in order.
       var placesPerPerson = _.reduce(places, function(result, place) {
         return result.concat(_.map(place.names, function(name, index) {
           return {
@@ -80,7 +92,6 @@ module.exports = function(rawData) {
             names: place.names,
             lat: place.lat,
             lon: place.lon,
-            humanized: place.humanized,
             countryCode: place.countryCode,
             country: place.country,
             // TODO(jlfwong): Rename count to something more helpful, then just
@@ -92,7 +103,10 @@ module.exports = function(rawData) {
         }));
       }, []);
 
+      // List of all the places a person has been in order
       var placesByPerson = _.groupBy(data, 'name');
+
+      // List of pairs of trips taken from place 1 to place 2
       var pairsByPerson = _.reduce(placesByPerson, function(result, places, name) {
         result[name] = _(places)
           .zip([null].concat(places))
