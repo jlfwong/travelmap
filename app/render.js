@@ -21,8 +21,6 @@ module.exports = function(opts) {
   var arc = d3.svg.arc().innerRadius(0);
 
   var tooltip = d3.select("body")
-    .selectAll(".tooltip")
-    .data(1) // Lazy way of making only one of these
     .append("div")
     .attr('class', 'tooltip')
     .style({

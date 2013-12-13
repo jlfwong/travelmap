@@ -4,6 +4,11 @@ var geocode = require("lib/geocode");
 var cachedGeocode = localStorageMemoize.promise("geocoder", geocode);
 var cachedReverseGeocode = localStorageMemoize.promise("reverseGeocoder", geocode.reverse);
 
+if (window.location.href.indexOf("localhost") === -1) {
+  cachedGeocode.cacheOnly();
+  cachedReverseGeocode.cacheOnly();
+}
+
 module.exports = function(rawData) {
   var data = [];
 
@@ -151,4 +156,10 @@ module.exports.saveCaches = function() {
   var saveToFile = require("lib/save_to_file");
   saveToFile(cachedGeocode.dump(), 'geocode_cache.json');
   saveToFile(cachedReverseGeocode.dump(), 'reverse_geocode_cache.json');
+};
+
+// Invoke in browser with: require("aggregate").clearCaches()
+module.exports.clearCaches = function() {
+  cachedGeocode.clear();
+  cachedReverseGeocode.clear();
 };

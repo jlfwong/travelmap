@@ -28,6 +28,7 @@ var localStorageMemoize = function(cacheKeyPrefix, fn) {
 localStorageMemoize.promise = function(cacheKeyPrefix, fn) {
   var localStorageKey = "pMemoV1_" + cacheKeyPrefix;
   var cache;
+  var cacheOnly = false;
 
   if (!(cache = JSON.parse(localStorage.getItem(localStorageKey)))) {
     cache = {};
@@ -41,6 +42,10 @@ localStorageMemoize.promise = function(cacheKeyPrefix, fn) {
     if (cachedVal) {
       deferred.resolveWith(null, cachedVal);
     } else {
+      if (cacheOnly) {
+        throw new Error(
+            "Cache only mode enabled. Cache miss on '" + argKey + "'.");
+      }
       fn.apply(this, args).then(function() {
         var args = Array.prototype.slice.apply(arguments);
         cache[argKey] = args;
@@ -67,6 +72,11 @@ localStorageMemoize.promise = function(cacheKeyPrefix, fn) {
   memoed.load = function(savedCache) {
     _.extend(cache, savedCache);
     memoed.save();
+  };
+
+  memoed.cacheOnly = function() {
+    cacheOnly = true;
+    return memoed;
   };
 
   return memoed;

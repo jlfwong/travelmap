@@ -1,821 +1,14 @@
 {
-    "[{\"lat\":43.6529206,\"lon\":-79.3849008}]": [
-        "Toronto, Ontario, Canada"
-    ],
-    "[{\"lat\":43.4655524,\"lon\":-80.5217786}]": [
-        "Regional Municipality of Waterloo, Ontario, Canada"
-    ],
-    "[{\"lat\":42.988097,\"lon\":-81.2460295}]": [
-        "London, Ontario, Canada"
-    ],
-    "[{\"lat\":45.4210328,\"lon\":-75.6900219}]": [
-        "Ottawa, Ontario, Canada"
-    ],
-    "[{\"lat\":43.1001067,\"lon\":-79.113966}]": [
-        "Regional Municipality of Niagara, Ontario, Canada"
-    ],
-    "[{\"lat\":43.254687,\"lon\":-79.8678197}]": [
-        "Oxford, Ontario, Canada"
-    ],
-    "[{\"lat\":37.7789601,\"lon\":-122.419199}]": [
-        "San Francisco, California, United States of America"
-    ],
-    "[{\"lat\":33.6591716,\"lon\":-117.8188893}]": [
-        "Orange, California, United States of America"
-    ],
-    "[{\"lat\":37.3855745,\"lon\":-122.08205}]": [
-        "Mountain View, United States of America"
-    ],
-    "[{\"lat\":34.0536781,\"lon\":-118.2427025}]": [
-        "Los Angeles County, California, United States of America"
-    ],
-    "[{\"lat\":40.7305991,\"lon\":-73.9865812}]": [
-        "New York, United States of America"
-    ],
-    "[{\"lat\":45.5224507,\"lon\":-73.5912827}]": [
-        "Montreal (06), Quebec, Canada"
-    ],
-    "[{\"lat\":37.8405959,\"lon\":-119.516643544532}]": [
-        "Mariposa County, California, United States of America"
-    ],
-    "[{\"lat\":21.2792788,\"lon\":-157.8285405}]": [
-        "Kalawao, Hawaii, United States of America"
-    ],
-    "[{\"lat\":45.4384143,\"lon\":12.318564}]": [
-        "Venice, Italy"
-    ],
-    "[{\"lat\":41.8932575,\"lon\":12.4830619}]": [
-        "Rome, Lazio, Italy"
-    ],
-    "[{\"lat\":43.7698712,\"lon\":11.2555757}]": [
-        "FI, Tuscany, Italy"
-    ],
-    "[{\"lat\":44.107033,\"lon\":9.8282255}]": [
-        "La Spezia, Liguria, Italy"
-    ],
-    "[{\"lat\":55.6867243,\"lon\":12.5700724}]": [
-        "Københavns Kommune, Capital Region of Denmark, Denmark"
-    ],
-    "[{\"lat\":52.3710088,\"lon\":4.9001115}]": [
-        "Stadsregio Amsterdam, North Holland, Kingdom of the Netherlands, The Netherlands"
-    ],
-    "[{\"lat\":51.5072759,\"lon\":-0.1276597}]": [
-        "London, Greater London, England, United Kingdom"
-    ],
-    "[{\"lat\":48.8565056,\"lon\":2.3521334}]": [
-        "Paris, Ile-de-France, France"
-    ],
-    "[{\"lat\":45.7575958,\"lon\":4.8323239}]": [
-        "Lyon, 69001-69009, France"
-    ],
-    "[{\"lat\":43.6044622,\"lon\":1.4442469}]": [
-        "Haute-Garonne, Midi-Pyrénées, France"
-    ],
-    "[{\"lat\":41.3870186,\"lon\":2.1700437}]": [
-        "Barcelone, Catalonia, Spain"
-    ],
-    "[{\"lat\":37.1830197,\"lon\":-3.602192}]": [
-        "Granada, Spain"
-    ],
-    "[{\"lat\":40.4167047,\"lon\":-3.7035825}]": [
-        "Madrid, Community of Madrid, Spain"
-    ],
-    "[{\"lat\":59.9132694,\"lon\":10.7391112}]": [
-        "Oslo, Norway"
-    ],
-    "[{\"lat\":53.3493074,\"lon\":-6.261175}]": [
-        "County Dublin, Leinster, Ireland"
-    ],
-    "[{\"lat\":55.9483399,\"lon\":-3.1932723}]": [
-        "City of Edinburgh, Scotland, United Kingdom"
-    ],
-    "[{\"lat\":50.8465406,\"lon\":4.3516841}]": [
-        "Brussels-Capital, French Community, Brussels-Capital Region, Belgium"
-    ],
-    "[{\"lat\":37.34223645,\"lon\":-121.638389830185}]": [
-        "Santa Clara County, California, United States of America"
-    ],
-    "[{\"lat\":52.5170365,\"lon\":13.3888599}]": [
-        "Oberhavel, Brandenburg Nordwest-Nordost Region, Brandebourg, Germany"
-    ],
-    "[{\"lat\":22.0603342,\"lon\":-159.503094}]": [
-        "Kauai, Hawaii, United States of America"
-    ],
-    "[{\"lat\":53.5116214,\"lon\":-0.5288681}]": [
-        "North Lincolnshire, Yorkshire and the Humber, England, United Kingdom"
-    ],
-    "[{\"lat\":51.0530588,\"lon\":-114.0625614}]": [
-        "Chinatown, Calgary, Alberta, T2P0W3, Canada"
-    ],
-    "[{\"lat\":43.9172764,\"lon\":-78.8614874}]": [
-        "Durham Region, Ontario, Canada"
-    ],
-    "[{\"lat\":53.7941567,\"lon\":-1.7494778}]": [
-        "West Yorkshire, Yorkshire and the Humber, England, United Kingdom"
-    ],
-    "[{\"lat\":45.3509719,\"lon\":-75.9292376}]": [
-        "Morgan's Grant, Ottawa, Ontario, K2K 0G1, Canada"
-    ],
-    "[{\"lat\":44.2299618,\"lon\":-76.4805666}]": [
-        "Kingston, Ontario, K7L 2Y7, Canada"
-    ],
-    "[{\"lat\":51.6539127,\"lon\":-2.6655183}]": [
-        "Gloucestershire, South West England, England, United Kingdom"
-    ],
-    "[{\"lat\":53.4791466,\"lon\":-2.2447445}]": [
-        "Cheshire, North West England, England, United Kingdom"
-    ],
-    "[{\"lat\":46.2633485,\"lon\":-74.5758582}]": [
-        "Quebec, Canada"
-    ],
-    "[{\"lat\":44.9590625,\"lon\":-79.7522603}]": [
-        "Orillia, Ontario, Canada"
-    ],
-    "[{\"lat\":52.85,\"lon\":-103.716667}]": [
-        "Crooked River, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":48.4026901,\"lon\":-89.6248515}]": [
-        "Thunder Bay, Ontario, Canada"
-    ],
-    "[{\"lat\":49.6632779,\"lon\":-94.2925904}]": [
-        "Kenora, Ontario, Canada"
-    ],
-    "[{\"lat\":44.6782299,\"lon\":-76.3961901}]": [
-        "Westport, Ontario, Canada"
-    ],
-    "[{\"lat\":43.3235642,\"lon\":-79.8011553}]": [
-        "Burlington, Canada"
-    ],
-    "[{\"lat\":50.4637179,\"lon\":-115.9898321}]": [
-        "Regional District of East Kootenay, British Columbia, Canada"
-    ],
-    "[{\"lat\":49.2046486,\"lon\":-122.9064512}]": [
-        "Greater Vancouver Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":49.0516605,\"lon\":-113.9095263}]": [
-        "Waterton Park, Alberta, Canada"
-    ],
-    "[{\"lat\":46.8700801,\"lon\":-113.9952796}]": [
-        "Missoula, Montana, United States of America"
-    ],
-    "[{\"lat\":44.6631636,\"lon\":-111.1010655}]": [
-        "Gallatin, Montana, United States of America"
-    ],
-    "[{\"lat\":44.4891746,\"lon\":-108.0562174}]": [
-        "Big Horn County, Wyoming, United States of America"
-    ],
-    "[{\"lat\":44.0805434,\"lon\":-103.2310149}]": [
-        "Pennington County, South Dakota, United States of America"
-    ],
-    "[{\"lat\":43.5499749,\"lon\":-96.700327}]": [
-        "Minnehaha County, South Dakota, United States of America"
-    ],
-    "[{\"lat\":46.7216102,\"lon\":-92.4593566}]": [
-        "Cloquet, United States of America"
-    ],
-    "[{\"lat\":43.6539659,\"lon\":-79.3789811795021}]": [
-        "Toronto, Ontario, M5B2H1, Canada"
-    ],
-    "[{\"lat\":46.3549984,\"lon\":-85.5095587}]": [
-        "Newberry, United States of America"
-    ],
-    "[{\"lat\":47.8358164,\"lon\":-69.5368025}]": [
-        "Rimouski County, Quebec, Canada"
-    ],
-    "[{\"lat\":47.5776635,\"lon\":-59.1424188}]": [
-        "Port Aux Basques, Newfoundland and Labrador, Canada"
-    ],
-    "[{\"lat\":45.366668,\"lon\":-63.300006}]": [
-        "Colchester County, Nova Scotia, Canada"
-    ],
-    "[{\"lat\":48.1679902,\"lon\":-53.9646413}]": [
-        "Clarenville, Newfoundland and Labrador, Canada"
-    ],
-    "[{\"lat\":47.5614849,\"lon\":-52.7125839}]": [
-        "St. John's, Newfoundland and Labrador, Canada"
-    ],
-    "[{\"lat\":46.136922,\"lon\":-60.1917192}]": [
-        "Cape Breton County, Nova Scotia, Canada"
-    ],
-    "[{\"lat\":45.6170384,\"lon\":-62.6373129}]": [
-        "Pictou County, Nova Scotia, Canada"
-    ],
-    "[{\"lat\":46.1416725,\"lon\":-62.4831024}]": [
-        "Kings County, Prince Edward Island, Canada"
-    ],
-    "[{\"lat\":46.2333097,\"lon\":-63.1310277}]": [
-        "Queens County, Prince Edward Island, Canada"
-    ],
-    "[{\"lat\":45.7762632,\"lon\":-65.3809999}]": [
-        "Comté de Kings, New Brunswick, Canada"
-    ],
-    "[{\"lat\":44.7650618,\"lon\":-69.719218}]": [
-        "Somerset, Maine, United States of America"
-    ],
-    "[{\"lat\":45.7774717,\"lon\":-75.9158975}]": [
-        "Low, Quebec, Canada"
-    ],
-    "[{\"lat\":45.3264384,\"lon\":-79.2202088}]": [
-        "Huntsville, Ontario, Canada"
-    ],
-    "[{\"lat\":40.3364587,\"lon\":-75.9288612}]": [
-        "Berks County, Pennsylvania, United States of America"
-    ],
-    "[{\"lat\":45.4666211,\"lon\":9.1906166}]": [
-        "Milan, Lombardy, Italy"
-    ],
-    "[{\"lat\":40.624906,\"lon\":14.374836}]": [
-        "Sorrento, Italy"
-    ],
-    "[{\"lat\":43.0711952,\"lon\":12.6146669}]": [
-        "PG, Ombrie, Italy"
-    ],
-    "[{\"lat\":31.920385,\"lon\":-106.0385877}]": [
-        "El Paso, Texas, United States of America"
-    ],
-    "[{\"lat\":22.2787952,\"lon\":114.1581009}]": [
-        "惠东县, Guangdong, People's Republic of China"
-    ],
-    "[{\"lat\":-37.8142176,\"lon\":144.9631608}]": [
-        "City of Melbourne, Victoria, Australia"
-    ],
-    "[{\"lat\":-35.43583045,\"lon\":149.114732642451}]": [
-        "Gordon, Canberra, Nouvelle Galles du Sud, 2906, Australia"
-    ],
-    "[{\"lat\":-33.8548157,\"lon\":151.2164539}]": [
-        "Sydney, Nouvelle Galles du Sud, Australia"
-    ],
-    "[{\"lat\":-27.96820465,\"lon\":153.415959900746}]": [
-        "Labrador, Gold Coast, Queensland, 4215, Australia"
-    ],
-    "[{\"lat\":37.36650935,\"lon\":-118.398123813497}]": [
-        "Inyo County, California, United States of America"
-    ],
-    "[{\"lat\":49.5,\"lon\":-119.583333}]": [
-        "Regional District of Okanagan-Similkameen, British Columbia, Canada"
-    ],
-    "[{\"lat\":53.5268245,\"lon\":-113.524454536818}]": [
-        "Edmonton, Alberta, Canada"
-    ],
-    "[{\"lat\":51.0866897,\"lon\":-115.3481135}]": [
-        "Canmore, Alberta, Canada"
-    ],
-    "[{\"lat\":9.4334604,\"lon\":-84.1628613}]": [
-        "Quepos, Puntarenas, Costa Rica"
-    ],
-    "[{\"lat\":53.30577515,\"lon\":-120.161266176879}]": [
-        "Regional District of Fraser-Fort George, British Columbia, Canada"
-    ],
-    "[{\"lat\":9.7888222,\"lon\":-84.301611}]": [
-        "Floralia, San Jose, Costa Rica"
-    ],
-    "[{\"lat\":9.3358,\"lon\":-83.5718}]": [
-        "Santa Teresa, San Jose, Costa Rica"
-    ],
-    "[{\"lat\":38.37555435,\"lon\":-0.531416889824083}]": [
-        "Provincia de Alacant / Alicante, Valencian Community, Spain"
-    ],
-    "[{\"lat\":39.55773285,\"lon\":-0.299777427158372}]": [
-        "Valence, Valencian Community, Spain"
-    ],
-    "[{\"lat\":40.0918182,\"lon\":0.126368992651066}]": [
-        "Castellón, Valencian Community, Spain"
-    ],
-    "[{\"lat\":43.3213324,\"lon\":-1.9856227}]": [
-        "San Sebastián, 20003, Spain"
-    ],
-    "[{\"lat\":53.5529148,\"lon\":-1.0659478}]": [
-        "South Yorkshire, Yorkshire and the Humber, England, United Kingdom"
-    ],
-    "[{\"lat\":43.2863159,\"lon\":-2.1748013}]": [
-        "Guipuscoa, Basque Country, Spain"
-    ],
-    "[{\"lat\":46.6855231,\"lon\":7.85852}]": [
-        "Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Berne, Switzerland"
-    ],
-    "[{\"lat\":46.6242733,\"lon\":8.0367462}]": [
-        "Grindelwald, Switzerland"
-    ],
-    "[{\"lat\":23.1362039,\"lon\":-81.2845165}]": [
-        "Varadero, Matanzas, Cuba"
-    ],
-    "[{\"lat\":38.8670165,\"lon\":-106.982172871923}]": [
-        "Gunnison County, Colorado, United States of America"
-    ],
-    "[{\"lat\":39.7391536,\"lon\":-104.9847034}]": [
-        "Denver County, Colorado, United States of America"
-    ],
-    "[{\"lat\":21.87350015,\"lon\":-159.453942789064}]": [
-        "Kauai County, Hawaii, United States of America"
-    ],
-    "[{\"lat\":39.501145,\"lon\":-106.046798766117}]": [
-        "Summit County, Colorado, United States of America"
-    ],
-    "[{\"lat\":34.00714,\"lon\":-118.759366820849}]": [
-        "Los Angeles County, California, United States of America"
-    ],
-    "[{\"lat\":36.3044399,\"lon\":-112.290046352048}]": [
-        "Coconino County, Arizona, United States of America"
-    ],
-    "[{\"lat\":44.9151766,\"lon\":-93.2125797}]": [
-        "Hennepin County, Minnesota, United States of America"
-    ],
-    "[{\"lat\":38.5738096,\"lon\":-109.5462146}]": [
-        "Grand, Utah, United States of America"
-    ],
-    "[{\"lat\":49.5041718,\"lon\":-115.062561}]": [
-        "Regional District of East Kootenay, British Columbia, Canada"
-    ],
-    "[{\"lat\":29.9519265,\"lon\":-95.5409169840524}]": [
-        "Harris County, Texas, United States of America"
-    ],
-    "[{\"lat\":44.2479926,\"lon\":-76.9510646}]": [
-        "Napanee, Ontario, Canada"
-    ],
-    "[{\"lat\":9.6752117,\"lon\":39.5324899}]": [
-        "Debre Birhan, Amhara, Ethiopia"
-    ],
-    "[{\"lat\":9.8476917,\"lon\":39.7652557}]": [
-        "Debre Sina, Amhara, Ethiopia"
-    ],
-    "[{\"lat\":9.5822051,\"lon\":39.7422587}]": [
-        "Ankobar, Amhara, Ethiopia"
-    ],
-    "[{\"lat\":9,\"lon\":38.75}]": [
-        "Menahereya Kazanchis, Kirkos, Addis-Abeba, 3001, Ethiopia"
-    ],
-    "[{\"lat\":8.5410261,\"lon\":39.2705461}]": [
-        "East Shewa, Oromia, Ethiopia"
-    ],
-    "[{\"lat\":49.8091669,\"lon\":-97.1329711403466}]": [
-        "Montcalm, Winnipeg, Manitoba, R3J3T7, Canada"
-    ],
-    "[{\"lat\":-35.1127598,\"lon\":173.2677315}]": [
-        "Kaitaia, Northland, New Zealand"
-    ],
-    "[{\"lat\":-36.50775635,\"lon\":174.540946482123}]": [
-        "Rodney, Auckland, New Zealand"
-    ],
-    "[{\"lat\":-35.1664105,\"lon\":173.1562074}]": [
-        "Ahipara, Northland, New Zealand"
-    ],
-    "[{\"lat\":51.297741,\"lon\":-116.9670661}]": [
-        "Columbia-Shuswap Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":48.4283327,\"lon\":-123.3649269}]": [
-        "Capital Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":-36.8296474,\"lon\":175.7073602}]": [
-        "Whitianga, Waikato, New Zealand"
-    ],
-    "[{\"lat\":-37.6865464,\"lon\":176.1684472}]": [
-        "Tauranga, Bay of Plenty, New Zealand"
-    ],
-    "[{\"lat\":-38.1381493,\"lon\":176.252922}]": [
-        "Rotorua, Bay of Plenty, New Zealand"
-    ],
-    "[{\"lat\":-38.6883048,\"lon\":176.0755486}]": [
-        "Taupo, Waikato, New Zealand"
-    ],
-    "[{\"lat\":-40.354244,\"lon\":175.6134125}]": [
-        "Palmerston North, Manawatu-Wanganui, New Zealand"
-    ],
-    "[{\"lat\":-41.2887639,\"lon\":174.7772239}]": [
-        "Te Aro, Wellington, 6011, New Zealand"
-    ],
-    "[{\"lat\":-42.4499584,\"lon\":171.2080589}]": [
-        "Greymouth, West Coast, New Zealand"
-    ],
-    "[{\"lat\":-41.2925943,\"lon\":174.0081429}]": [
-        "Picton, New Zealand"
-    ],
-    "[{\"lat\":-44.6975757,\"lon\":169.1359628}]": [
-        "Wanaka, Otago, New Zealand"
-    ],
-    "[{\"lat\":-45.0317203,\"lon\":168.6608096}]": [
-        "Queenstown, Otago, New Zealand"
-    ],
-    "[{\"lat\":-46.41222,\"lon\":168.34843}]": [
-        "Invercargill City, Southland, New Zealand"
-    ],
-    "[{\"lat\":-45.8739282,\"lon\":170.503488}]": [
-        "Dunedin, Otago, New Zealand"
-    ],
-    "[{\"lat\":-45.0997681,\"lon\":170.9684232}]": [
-        "Oamaru, Otago, New Zealand"
-    ],
-    "[{\"lat\":-43.530955,\"lon\":172.6366455}]": [
-        "Christchurch City, Canterbury, New Zealand"
-    ],
-    "[{\"lat\":-41.2710849,\"lon\":173.2836756}]": [
-        "Nelson, New Zealand"
-    ],
-    "[{\"lat\":-41.112493,\"lon\":173.0094875}]": [
-        "Motueka, New Zealand"
-    ],
-    "[{\"lat\":-40.88992935,\"lon\":172.933972832555}]": [
-        "New Zealand"
-    ],
-    "[{\"lat\":-37.7876214,\"lon\":175.2813186}]": [
-        "Hamilton City, Waikato, New Zealand"
-    ],
-    "[{\"lat\":49.2499987,\"lon\":-123.1333301}]": [
-        "Greater Vancouver Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":58.7459208,\"lon\":-94.1096716670477}]": [
-        "Churchill, Manitoba, Canada"
-    ],
-    "[{\"lat\":50.68565765,\"lon\":-100.020014190941}]": [
-        "Dauphin, Manitoba, Canada"
-    ],
-    "[{\"lat\":52.6637395,\"lon\":-106.3349159}]": [
-        "Rosthern, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":55.2810741,\"lon\":-114.7717876}]": [
-        "Slave Lake, Alberta, Canada"
-    ],
-    "[{\"lat\":50.6765557,\"lon\":-120.3417342}]": [
-        "Thompson-Nicola Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":51.27959075,\"lon\":-119.793587244578}]": [
-        "Thompson-Nicola Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":50.4480951,\"lon\":-104.6158181}]": [
-        "Regina, Saskatchewan, S4S0A2, Canada"
-    ],
-    "[{\"lat\":23.2235642,\"lon\":-106.4162761}]": [
-        "Mazatlán, Sinaloa, 82000, Mexico"
-    ],
-    "[{\"lat\":20.869272,\"lon\":-105.437398254689}]": [
-        "Sayulita, Nayarit, Mexico"
-    ],
-    "[{\"lat\":20.676143,\"lon\":-103.3469982}]": [
-        "Guadalajara, Jalisco, Mexico"
-    ],
-    "[{\"lat\":19.4325301,\"lon\":-99.1332102}]": [
-        "Mexico City, Distrito Federal, Mexico"
-    ],
-    "[{\"lat\":20.8792098,\"lon\":-103.8388845}]": [
-        "Tequila, Jalisco, Mexico"
-    ],
-    "[{\"lat\":53.833333,\"lon\":-107.033333}]": [
-        "Big River, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":52,\"lon\":-106.983333}]": [
-        "Vanscoy, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":52.1303794,\"lon\":-106.6605124}]": [
-        "Saskatoon, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":48.4061651,\"lon\":-89.2591415}]": [
-        "Thunder Bay, Ontario, Canada"
-    ],
-    "[{\"lat\":46.511678,\"lon\":-84.3161911}]": [
-        "Sault Sainte Marie, Ontario, Canada"
-    ],
-    "[{\"lat\":50.4001239,\"lon\":-105.5409135}]": [
-        "Moose Jaw, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":49.816667,\"lon\":-105.616667}]": [
-        "Cardross, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":52.983333,\"lon\":-105.433333}]": [
-        "Birch Hills, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":49.6079199,\"lon\":-114.4389805}]": [
-        "Blairmore, Alberta, Canada"
-    ],
-    "[{\"lat\":49.2831087,\"lon\":-117.2155595}]": [
-        "Regional District of Central Kootenay, British Columbia, Canada"
-    ],
-    "[{\"lat\":49.6243026,\"lon\":-123.2062242}]": [
-        "Squamish-Lillooet Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":49.466667,\"lon\":-123.766667}]": [
-        "Sunshine Coast Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":50.814479,\"lon\":-121.3223156}]": [
-        "Thompson-Nicola Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":52.8752077,\"lon\":-118.0824384}]": [
-        "Jasper, Alberta, Canada"
-    ],
-    "[{\"lat\":53.2640001,\"lon\":-109.032243088434}]": [
-        "Turtle River No. 469, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":49.6950059,\"lon\":-112.8421767}]": [
-        "Lethbridge, Alberta, Canada"
-    ],
-    "[{\"lat\":-3.7304512,\"lon\":-38.5217989}]": [
-        "Fortaleza, Ceará, Brazil"
-    ],
-    "[{\"lat\":49.494202,\"lon\":-117.2878681}]": [
-        "Regional District of Central Kootenay, British Columbia, Canada"
-    ],
-    "[{\"lat\":-22.2752762,\"lon\":-42.419415}]": [
-        "Microrregião Nova Friburgo, Mesorregião Centro Fluminense, Rio de Janeiro, Brazil"
-    ],
-    "[{\"lat\":13.3452447,\"lon\":103.8541628}]": [
-        "Siem Reap, Cambodia"
-    ],
-    "[{\"lat\":36.9746099,\"lon\":-122.0294259}]": [
-        "Santa Cruz County, California, United States of America"
-    ],
-    "[{\"lat\":38.273529,\"lon\":-123.0061118}]": [
-        "Sonoma, California, United States of America"
-    ],
-    "[{\"lat\":12.3724928,\"lon\":-84.8700308}]": [
-        "?, Nicaragua"
-    ],
-    "[{\"lat\":13.8000382,\"lon\":-88.9140683}]": [
-        "Ilobasco, El Salvador"
-    ],
-    "[{\"lat\":27.9214023,\"lon\":-110.9194436}]": [
-        "Guaymas, 85400, Mexico"
-    ],
-    "[{\"lat\":23.0539875,\"lon\":-109.7012321}]": [
-        "San Jose Del Cabo, South Lower California, Mexico"
-    ],
-    "[{\"lat\":22.3103532,\"lon\":114.0395625}]": [
-        "New Territories, Hong Kong, People's Republic of China"
-    ],
-    "[{\"lat\":22.1919514,\"lon\":113.5381216}]": [
-        "澳門 Macao, Macau, People's Republic of China"
-    ],
-    "[{\"lat\":21.304547,\"lon\":-157.8556764}]": [
-        "Kalawao, Hawaii, United States of America"
-    ],
-    "[{\"lat\":35.465419,\"lon\":139.620149}]": [
-        "Shimotsuga, Japan"
-    ],
-    "[{\"lat\":49.0246299,\"lon\":-122.799814}]": [
-        "Greater Vancouver Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":50.2811704,\"lon\":-107.7935232}]": [
-        "Swift Current, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":31.9523021,\"lon\":-87.3005169}]": [
-        "Wilcox, Alabama, United States of America"
-    ],
-    "[{\"lat\":50.0415358,\"lon\":-110.6775465}]": [
-        "Medicine Hat, Alberta, Canada"
-    ],
-    "[{\"lat\":51.7919223,\"lon\":-114.1132781}]": [
-        "Olds, Alberta, Canada"
-    ],
-    "[{\"lat\":53.5558285,\"lon\":-113.557352747797}]": [
-        "Edmonton, Alberta, Canada"
-    ],
-    "[{\"lat\":52.7761737,\"lon\":-108.2977496}]": [
-        "North Battleford, Saskatchewan, Canada"
-    ],
-    "[{\"lat\":51.2859257,\"lon\":-114.0105994}]": [
-        "Airdrie, Alberta, Canada"
-    ],
-    "[{\"lat\":50.7063061,\"lon\":-113.9784371}]": [
-        "Okotoks, Alberta, Canada"
-    ],
-    "[{\"lat\":46.9340552,\"lon\":7.4521406}]": [
-        "Verwaltungskreis Bern-Mittelland, Verwaltungsregion Bern-Mittelland, Berne, Switzerland"
-    ],
-    "[{\"lat\":50.5797079,\"lon\":-113.8569213}]": [
-        "High River, Alberta, Canada"
-    ],
-    "[{\"lat\":51.0369794,\"lon\":-113.8227717}]": [
-        "Chestermere, Alberta, Canada"
-    ],
-    "[{\"lat\":51.563216,\"lon\":-114.1000016}]": [
-        "Carstairs, Alberta, Canada"
-    ],
-    "[{\"lat\":52.4756821,\"lon\":-113.7397706}]": [
-        "Lacombe, Alberta, Canada"
-    ],
-    "[{\"lat\":53.4168134,\"lon\":-2.2321381}]": [
-        "Cheshire, North West England, England, United Kingdom"
-    ],
-    "[{\"lat\":52.6794142,\"lon\":-113.5871706}]": [
-        "Ponoka, Alberta, Canada"
-    ],
-    "[{\"lat\":51.1777781,\"lon\":-115.5682504}]": [
-        "Banff, Alberta, Canada"
-    ],
-    "[{\"lat\":52.3056132,\"lon\":-114.0908391}]": [
-        "Sylvan Lake, Alberta, T4S 1S3, Canada"
-    ],
-    "[{\"lat\":51.4172151,\"lon\":-116.2117391}]": [
-        "Lake Louise, Alberta, Canada"
-    ],
-    "[{\"lat\":51.3965941,\"lon\":-116.4889591}]": [
-        "Columbia-Shuswap Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":50.7000661,\"lon\":-119.2849158}]": [
-        "Salmon Arm, Canada"
-    ],
-    "[{\"lat\":50.9933958,\"lon\":-118.191765}]": [
-        "Columbia-Shuswap Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":50.82875395,\"lon\":-118.985525301764}]": [
-        "Columbia-Shuswap Regional District, British Columbia, Canada"
-    ],
-    "[{\"lat\":39.779217,\"lon\":-105.182551222303}]": [
-        "Jefferson County, Colorado, United States of America"
-    ],
-    "[{\"lat\":43.5811229,\"lon\":-90.8231247}]": [
-        "Vernon, Wisconsin, United States of America"
-    ],
-    "[{\"lat\":49.8876629,\"lon\":-119.4961612}]": [
-        "Regional District of Central Okanagan, British Columbia, Canada"
-    ],
-    "[{\"lat\":33.688338,\"lon\":-93.5838331918629}]": [
-        "Hempstead County, Arkansas, United States of America"
-    ],
-    "[{\"lat\":49.166667,\"lon\":-121.95}]": [
-        "Chilliwack, Canada"
-    ],
-    "[{\"lat\":47.5048851,\"lon\":-111.2918908}]": [
-        "Cascade County, Montana, United States of America"
-    ],
-    "[{\"lat\":-37.3643443,\"lon\":145.4020432}]": [
-        "Shire of Murrindindi, Victoria, Australia"
-    ],
-    "[{\"lat\":45.9838436,\"lon\":-112.5007277}]": [
-        "Silver Bow County, Montana, United States of America"
-    ],
-    "[{\"lat\":40.7606467,\"lon\":-111.89109}]": [
-        "Salt Lake County, Utah, United States of America"
-    ],
-    "[{\"lat\":38.4732259,\"lon\":-121.2980707}]": [
-        "Sacramento, California, United States of America"
-    ],
-    "[{\"lat\":40.4738445,\"lon\":-122.283282137092}]": [
-        "Shasta County, California, United States of America"
-    ],
-    "[{\"lat\":45.5202471,\"lon\":-122.6741949}]": [
-        "Multnomah County, Oregon, United States of America"
-    ],
-    "[{\"lat\":44.121358,\"lon\":-123.194175488064}]": [
-        "Lane County, Oregon, United States of America"
-    ],
-    "[{\"lat\":47.6038321,\"lon\":-122.3300624}]": [
-        "Seattle, United States of America"
-    ],
-    "[{\"lat\":48.6373174,\"lon\":7.83736912924304}]": [
-        "Bas-Rhin, Alsace, France"
-    ],
-    "[{\"lat\":56.1134536,\"lon\":-3.1646819}]": [
-        "Fife, Scotland, United Kingdom"
-    ],
-    "[{\"lat\":56.3403301,\"lon\":-2.7954131}]": [
-        "Fife, Scotland, United Kingdom"
-    ],
-    "[{\"lat\":51.7521553,\"lon\":-1.2582135}]": [
-        "Oxfordshire, South East England, England, United Kingdom"
-    ],
-    "[{\"lat\":52.2385239,\"lon\":-0.902493}]": [
-        "Northamptonshire, East Midlands, England, United Kingdom"
-    ],
-    "[{\"lat\":52.6367811,\"lon\":-1.1312289}]": [
-        "Leicester, East Midlands, England, United Kingdom"
-    ],
-    "[{\"lat\":52.4081812,\"lon\":-1.510477}]": [
-        "West Midlands, England, United Kingdom"
-    ],
-    "[{\"lat\":53.7974185,\"lon\":-1.5437941}]": [
-        "Leeds, Royaume-Uni"
-    ],
-    "[{\"lat\":54.3272096,\"lon\":-2.74843}]": [
-        "Cumbria, North West England, England, United Kingdom"
-    ],
-    "[{\"lat\":53.3806626,\"lon\":-1.4702278}]": [
-        "South Yorkshire, Yorkshire and the Humber, England, United Kingdom"
-    ],
-    "[{\"lat\":40.201824,\"lon\":-77.1893888}]": [
-        "Cumberland County, Pennsylvania, United States of America"
-    ],
-    "[{\"lat\":54.9770924,\"lon\":-1.6142059}]": [
-        "Tyne and Wear, North East England, England, United Kingdom"
-    ],
-    "[{\"lat\":53.9590555,\"lon\":-1.0815361}]": [
-        "York, Yorkshire and the Humber, England, United Kingdom"
-    ],
-    "[{\"lat\":50.84340935,\"lon\":4.36748762309029}]": [
-        "Brussels-Capital, French Community, Brussels-Capital Region, Belgium"
-    ],
-    "[{\"lat\":39.952335,\"lon\":-75.163789}]": [
-        "Philadelphie, United States of America"
-    ],
-    "[{\"lat\":50.9138201,\"lon\":-1.39908338865525}]": [
-        "Southampton, South East England, England, United Kingdom"
-    ],
-    "[{\"lat\":51.1491704,\"lon\":-0.1896803}]": [
-        "West Sussex, South East England, England, United Kingdom"
-    ],
-    "[{\"lat\":53.5534586,\"lon\":-0.4868528}]": [
-        "North Lincolnshire, Yorkshire and the Humber, England, United Kingdom"
-    ],
-    "[{\"lat\":28.6138967,\"lon\":77.2159562}]": [
-        "Bulandshahr, Uttar Pradesh, 203001, India"
-    ],
-    "[{\"lat\":14.5906216,\"lon\":120.9799696}]": [
-        "Manila, Metro Manila, Philippines"
-    ],
-    "[{\"lat\":17.9712148,\"lon\":-76.7928128}]": [
-        "Saint Andrew, Surrey County, Jamaica"
-    ],
-    "[{\"lat\":28.2935724,\"lon\":-16.6218483519602}]": [
-        "Santa Cruz de Ténérife, Canary Islands, Spain"
-    ],
-    "[{\"lat\":39.5908711,\"lon\":19.8557341}]": [
-        "Corfu Prefecture, Ionian Islands Periphery, Greece"
-    ],
-    "[{\"lat\":44.1650631,\"lon\":-75.1371416}]": [
-        "St. Lawrence, New York, United States of America"
-    ],
-    "[{\"lat\":38.7128995,\"lon\":-9.1328948}]": [
-        "Lisboa, Portugal"
-    ],
-    "[{\"lat\":-35.2820709,\"lon\":149.1286673}]": [
-        "Turner, Canberra, Territoire de la capitale australienne, 2602, Australia"
-    ],
-    "[{\"lat\":31.2253441,\"lon\":121.4888922}]": [
-        "Huangpu District, Shanghai, People's Republic of China"
-    ],
-    "[{\"lat\":40.2505379,\"lon\":116.625088590652}]": [
-        "Shunyi District, Beijing, People's Republic of China"
-    ],
-    "[{\"lat\":31.2984758,\"lon\":120.622239}]": [
-        "Changxing, Zhejiang, People's Republic of China"
-    ],
-    "[{\"lat\":31.4887073,\"lon\":109.318140891572}]": [
-        "Wuxi, Wanzhou Region, Chongqing, People's Republic of China"
-    ],
-    "[{\"lat\":37.5710824,\"lon\":126.9953036}]": [
-        "Seoul, South Korea"
-    ],
-    "[{\"lat\":43.9277552,\"lon\":2.147899}]": [
-        "Albi, 81000, France"
-    ],
-    "[{\"lat\":55.861147,\"lon\":-4.2499891}]": [
-        "Glasgow City, Scotland, United Kingdom"
-    ],
-    "[{\"lat\":30.5960213,\"lon\":114.2992796}]": [
-        "Jiang'an District, Wuhan City, Hubei, People's Republic of China"
-    ],
-    "[{\"lat\":38.9105358,\"lon\":121.6105997}]": [
-        "Ganjingzi District, Dalian City, Liaoning, People's Republic of China"
-    ],
-    "[{\"lat\":41.8045293,\"lon\":123.4277858}]": [
-        "Shenhe District, Shenyang City, Liaoning, People's Republic of China"
-    ],
-    "[{\"lat\":48.2084671,\"lon\":16.3730908}]": [
-        "Bezirk Wien, Vienna, Austria"
-    ],
-    "[{\"lat\":45.6300555,\"lon\":13.7879014}]": [
-        "TS, Friuli-Venezia Giulia, Italy"
-    ],
-    "[{\"lat\":46.0664228,\"lon\":11.1257601}]": [
-        "TN, Trentino-Alto Adige/Südtirol, Italy"
-    ],
-    "[{\"lat\":18.9332806,\"lon\":-99.259912442626}]": [
-        "Cuernavaca, Morelos, Mexico"
-    ],
-    "[{\"lat\":31.6554651,\"lon\":36.3242451899544}]": [
-        "Amman, Jordan"
-    ],
-    "[{\"lat\":30.3273975,\"lon\":35.4464006}]": [
-        "Um Sayhun, Jordan"
-    ],
-    "[{\"lat\":10.2735633,\"lon\":-84.0739102}]": [
-        "Heredia, Costa Rica"
-    ],
-    "[{\"lat\":43.8514981,\"lon\":18.3886134}]": [
-        "New Sarajevo municipality, Sarajevo Canton, Entity Federation of Bosnia and Herzegovina, Bosnia and Herzegovina"
-    ],
-    "[{\"lat\":-8.4666145,\"lon\":-51.3333976}]": [
-        "Cumaru do Norte, Pará, Brazil"
-    ],
-    "[{\"lat\":43.6112422,\"lon\":3.8767337}]": [
-        "Montpellier, 34000, France"
-    ],
-    "[{\"lat\":50.12134215,\"lon\":8.66195118582712}]": [
-        "Frankfurt, District de Darmstadt, Hesse, Germany, European Union"
-    ],
-    "[{\"lat\":50.4647952,\"lon\":17.0072177}]": [
-        "powiat nyski, Opole Voivodeship, Poland"
-    ],
-    "[{\"lat\":42.6953868,\"lon\":2.8844713}]": [
-        "Pyrénées-Orientales, Languedoc-Roussillon, France"
-    ],
-    "[{\"lat\":25.276006,\"lon\":110.2847529}]": [
-        "Lingui Xian, Guangxi, People's Republic of China"
-    ],
-    "[{\"lat\":42.52505,\"lon\":3.0831554}]": [
-        "Pyrénées-Orientales, Languedoc-Roussillon, France"
-    ],
-    "[\"Niagara Falls, Canada\"]": [
+    "[\"Perth, Canada\"]": [
         {
-            "lat": 43.1001067,
-            "lon": -79.113966
+            "lat": 44.898868,
+            "lon": -76.2469425
+        }
+    ],
+    "[\"Kingston, Canada\"]": [
+        {
+            "lat": 44.2299618,
+            "lon": -76.4805666
         }
     ],
     "[\"Ottawa, Canada\"]": [
@@ -824,10 +17,448 @@
             "lon": -75.6900219
         }
     ],
+    "[\"Ilfracombe,  England\"]": [
+        {
+            "lat": 51.2076674,
+            "lon": -4.1254662
+        }
+    ],
+    "[\"Hibaldstow, England\"]": [
+        {
+            "lat": 53.5116214,
+            "lon": -0.5288681
+        }
+    ],
+    "[\"Hibaldstow, North Lincolnshire, England\"]": [
+        {
+            "lat": 53.5116214,
+            "lon": -0.5288681
+        }
+    ],
+    "[\"Bradford, West Yorkshire, England\"]": [
+        {
+            "lat": 53.7941567,
+            "lon": -1.7494778
+        }
+    ],
+    "[\"Mt. Tremblant, Canada\"]": [
+        {
+            "lat": 46.2633485,
+            "lon": -74.5758582
+        }
+    ],
+    "[\"Chepstow, England\"]": [
+        {
+            "lat": 51.6539127,
+            "lon": -2.6655183
+        }
+    ],
+    "[\"Westmeath, Canada\"]": [
+        {
+            "lat": 45.3509719,
+            "lon": -75.9292376
+        }
+    ],
+    "[\"Sault Ste Marie, Canada\"]": [
+        {
+            "lat": 46.511678,
+            "lon": -84.3161911
+        }
+    ],
+    "[\"Kakabeka Falls, Canada\"]": [
+        {
+            "lat": 48.4026901,
+            "lon": -89.6248515
+        }
+    ],
+    "[\"Manchester, England\"]": [
+        {
+            "lat": 53.4791466,
+            "lon": -2.2447445
+        }
+    ],
+    "[\"Kenora, Canada\"]": [
+        {
+            "lat": 49.7601947,
+            "lon": -94.4818206
+        }
+    ],
+    "[\"Calgary, Canada\"]": [
+        {
+            "lat": 51.0530588,
+            "lon": -114.0625614
+        }
+    ],
+    "[\"Crooked Lake, Canada\"]": [
+        {
+            "lat": 46.29194005,
+            "lon": -80.7229340637812
+        }
+    ],
+    "[\"Greybull, Wyoming\"]": [
+        {
+            "lat": 44.4891746,
+            "lon": -108.0562174
+        }
+    ],
+    "[\"Lake Windermere, Canada\"]": [
+        {
+            "lat": 50.4637179,
+            "lon": -115.9898321
+        }
+    ],
+    "[\"West Yellowstone, Montana, USA\"]": [
+        {
+            "lat": 44.6631636,
+            "lon": -111.1010655
+        }
+    ],
+    "[\"Calvin, Ontario, Canada\"]": [
+        {
+            "lat": 45.0609589,
+            "lon": -80.0607948
+        }
+    ],
+    "[\"Waterton, Alberta, Canada\"]": [
+        {
+            "lat": 49.0516605,
+            "lon": -113.9095263
+        }
+    ],
+    "[\"Missoula, Montana, USA\"]": [
+        {
+            "lat": 46.8700801,
+            "lon": -113.9952796
+        }
+    ],
+    "[\"Sioux Falls, South Dakota\"]": [
+        {
+            "lat": 43.5499749,
+            "lon": -96.700327
+        }
+    ],
+    "[\"Rapid City, South Dakota\"]": [
+        {
+            "lat": 44.0805434,
+            "lon": -103.2310149
+        }
+    ],
+    "[\"Cloquet, Minnesota\"]": [
+        {
+            "lat": 46.7216102,
+            "lon": -92.4593566
+        }
+    ],
+    "[\"Newberry, Michigan\"]": [
+        {
+            "lat": 46.3549984,
+            "lon": -85.5095587
+        }
+    ],
+    "[\"Truro, Nova Scotia, Canada\"]": [
+        {
+            "lat": 45.366668,
+            "lon": -63.300006
+        }
+    ],
+    "[\"Port aux Basques, Newfoundland, Canada\"]": [
+        {
+            "lat": 47.5776635,
+            "lon": -59.1424188
+        }
+    ],
+    "[\"Clarenville, Newfoundland, Canada\"]": [
+        {
+            "lat": 48.1679902,
+            "lon": -53.9646413
+        }
+    ],
+    "[\"Riviere du Loup, Quebec, Canada\"]": [
+        {
+            "lat": 47.8358164,
+            "lon": -69.5368025
+        }
+    ],
     "[\"Toronto, Canada\"]": [
         {
             "lat": 43.6529206,
             "lon": -79.3849008
+        }
+    ],
+    "[\"Terra Nova National Park, Newfoundland, Canada\"]": [
+        {
+            "lat": 48.5443968,
+            "lon": -54.0186085
+        }
+    ],
+    "[\"Massey, Ontario, Canada\"]": [
+        {
+            "lat": 43.6539659,
+            "lon": -79.3789811795021
+        }
+    ],
+    "[\"Panmure Island, Canada\"]": [
+        {
+            "lat": 46.1416725,
+            "lon": -62.4831024
+        }
+    ],
+    "[\"Trenton, Nova Scotia, Canada\"]": [
+        {
+            "lat": 45.6170384,
+            "lon": -62.6373129
+        }
+    ],
+    "[\"St. John’s, Newfoundland, Canada\"]": [
+        {
+            "lat": 47.5614849,
+            "lon": -52.7125839
+        }
+    ],
+    "[\"Sydney, Nova Scotia, Canada\"]": [
+        {
+            "lat": 46.136922,
+            "lon": -60.1917192
+        }
+    ],
+    "[\"Skowhegan, Maine, USA\"]": [
+        {
+            "lat": 44.7650618,
+            "lon": -69.719218
+        }
+    ],
+    "[\"Penobsquis, New Brunswick, Canada\"]": [
+        {
+            "lat": 45.7762632,
+            "lon": -65.3809999
+        }
+    ],
+    "[\"Charlottetown, Canada\"]": [
+        {
+            "lat": 46.2333097,
+            "lon": -63.1310277
+        }
+    ],
+    "[\"Farrelton, Quebec, Canada\"]": [
+        {
+            "lat": 45.7774717,
+            "lon": -75.9158975
+        }
+    ],
+    "[\"Reading, Pennsylvania, USA\"]": [
+        {
+            "lat": 40.3364587,
+            "lon": -75.9288612
+        }
+    ],
+    "[\"Huntsville, Ontario, Canada\"]": [
+        {
+            "lat": 45.3264384,
+            "lon": -79.2202088
+        }
+    ],
+    "[\"Cairns, Australia\"]": [
+        {
+            "lat": -16.9204963,
+            "lon": 145.7719011
+        }
+    ],
+    "[\"Canberra, Australia\"]": [
+        {
+            "lat": -35.2820709,
+            "lon": 149.1286673
+        }
+    ],
+    "[\"Ottawa, Ontario, Canada\"]": [
+        {
+            "lat": 45.4210328,
+            "lon": -75.6900219
+        }
+    ],
+    "[\"Melbourne, Australia\"]": [
+        {
+            "lat": -37.8142176,
+            "lon": 144.9631608
+        }
+    ],
+    "[\"Montreal, Quebec, Canada\"]": [
+        {
+            "lat": 45.5224507,
+            "lon": -73.5912827
+        }
+    ],
+    "[\"Sydney, Australia\"]": [
+        {
+            "lat": -33.8548157,
+            "lon": 151.2164539
+        }
+    ],
+    "[\"Kalamazoo, Michigan\"]": [
+        {
+            "lat": 42.291707,
+            "lon": -85.5872286
+        }
+    ],
+    "[\"Mt Rushmore, South Dakota\"]": [
+        {
+            "lat": 43.8787301,
+            "lon": -103.4591934
+        }
+    ],
+    "[\"Calgary\"]": [
+        {
+            "lat": 51.0530588,
+            "lon": -114.0625614
+        }
+    ],
+    "[\"Windermere, Canada\"]": [
+        {
+            "lat": 50.4637179,
+            "lon": -115.9898321
+        }
+    ],
+    "[\"Trelawny, Jamaica\"]": [
+        {
+            "lat": 18.3607043,
+            "lon": -77.6061609927665
+        }
+    ],
+    "[\"Chicago, Illinois\"]": [
+        {
+            "lat": 41.8756208,
+            "lon": -87.6243706
+        }
+    ],
+    "[\"Waterton, Alberta\"]": [
+        {
+            "lat": 49.0516605,
+            "lon": -113.9095263
+        }
+    ],
+    "[\"Ottawa\"]": [
+        {
+            "lat": 45.4210328,
+            "lon": -75.6900219
+        }
+    ],
+    "[\"Limon, Costa Rica\"]": [
+        {
+            "lat": 10.3787478,
+            "lon": -83.5848401
+        }
+    ],
+    "[\"Jamaica\"]": [
+        {
+            "lat": 18.1850507,
+            "lon": -77.3947693
+        }
+    ],
+    "[\"Hong Kong\"]": [
+        {
+            "lat": 22.2787952,
+            "lon": 114.1581009
+        }
+    ],
+    "[\"Colon, Panama\"]": [
+        {
+            "lat": 9.3560848,
+            "lon": -79.8963425
+        }
+    ],
+    "[\"Quepos, Costa Rica\"]": [
+        {
+            "lat": 9.4334604,
+            "lon": -84.1628613
+        }
+    ],
+    "[\"Cartagena, Colombia\"]": [
+        {
+            "lat": 10.4236044,
+            "lon": -75.524172
+        }
+    ],
+    "[\"Whistler, Canada\"]": [
+        {
+            "lat": 50.1183158,
+            "lon": -122.9587054
+        }
+    ],
+    "[\"Vancouver, Canada\"]": [
+        {
+            "lat": 49.2499987,
+            "lon": -123.1333301
+        }
+    ],
+    "[\"Val-de-Monts, Quebec\"]": [
+        {
+            "lat": 45.7214181,
+            "lon": -75.7005885
+        }
+    ],
+    "[\"Paris, France\"]": [
+        {
+            "lat": 48.8565056,
+            "lon": 2.3521334
+        }
+    ],
+    "[\"Oxford, England\"]": [
+        {
+            "lat": 51.7521553,
+            "lon": -1.2582135
+        }
+    ],
+    "[\"York, England\"]": [
+        {
+            "lat": 53.9590555,
+            "lon": -1.0815361
+        }
+    ],
+    "[\"New York, New York\"]": [
+        {
+            "lat": 40.7305991,
+            "lon": -73.9865812
+        }
+    ],
+    "[\"London, England\"]": [
+        {
+            "lat": 51.5072759,
+            "lon": -0.1276597
+        }
+    ],
+    "[\"Peterborough, Canada\"]": [
+        {
+            "lat": 44.2876446,
+            "lon": -78.3272997
+        }
+    ],
+    "[\"Varadero, Cuba\"]": [
+        {
+            "lat": 23.1362039,
+            "lon": -81.2845165
+        }
+    ],
+    "[\"Ottawa, Ontario\"]": [
+        {
+            "lat": 45.4210328,
+            "lon": -75.6900219
+        }
+    ],
+    "[\"Stratford, Ontario\"]": [
+        {
+            "lat": 43.3713882,
+            "lon": -80.9825903
+        }
+    ],
+    "[\"Kingston, Ontario\"]": [
+        {
+            "lat": 44.2299618,
+            "lon": -76.4805666
+        }
+    ],
+    "[\"Waterloo, Ontario\"]": [
+        {
+            "lat": 43.4655524,
+            "lon": -80.5217786
         }
     ],
     "[\"Waterloo, Canada\"]": [
@@ -842,10 +473,10 @@
             "lon": -79.8678197
         }
     ],
-    "[\"London, Canada\"]": [
+    "[\"Niagara Falls, Canada\"]": [
         {
-            "lat": 42.988097,
-            "lon": -81.2460295
+            "lat": 43.1001067,
+            "lon": -79.113966
         }
     ],
     "[\"Montreal, Canada\"]": [
@@ -854,10 +485,10 @@
             "lon": -73.5912827
         }
     ],
-    "[\"Tahoe, California\"]": [
+    "[\"London, Canada\"]": [
         {
-            "lat": 33.6591716,
-            "lon": -117.8188893
+            "lat": 42.988097,
+            "lon": -81.2460295
         }
     ],
     "[\"San Francisco, California\"]": [
@@ -866,22 +497,10 @@
             "lon": -122.419199
         }
     ],
-    "[\"New York, New York\"]": [
+    "[\"Tahoe, California\"]": [
         {
-            "lat": 40.7305991,
-            "lon": -73.9865812
-        }
-    ],
-    "[\"Los Angeles, California\"]": [
-        {
-            "lat": 34.0536781,
-            "lon": -118.2427025
-        }
-    ],
-    "[\"Mountain View, California\"]": [
-        {
-            "lat": 37.3855745,
-            "lon": -122.08205
+            "lat": 33.6591716,
+            "lon": -117.8188893
         }
     ],
     "[\"Waikiki, Hawaii\"]": [
@@ -890,10 +509,16 @@
             "lon": -157.8285405
         }
     ],
-    "[\"Florence, Italy\"]": [
+    "[\"Tobermory, Canada\"]": [
         {
-            "lat": 43.7698712,
-            "lon": 11.2555757
+            "lat": 45.2543796,
+            "lon": -81.6657519
+        }
+    ],
+    "[\"Los Angeles, California\"]": [
+        {
+            "lat": 34.0536781,
+            "lon": -118.2427025
         }
     ],
     "[\"Rome, Italy\"]": [
@@ -902,16 +527,28 @@
             "lon": 12.4830619
         }
     ],
-    "[\"Venice, Italy\"]": [
+    "[\"Mountain View, California\"]": [
         {
-            "lat": 45.4384143,
-            "lon": 12.318564
+            "lat": 37.3855745,
+            "lon": -122.08205
+        }
+    ],
+    "[\"Florence, Italy\"]": [
+        {
+            "lat": 43.7698712,
+            "lon": 11.2555757
         }
     ],
     "[\"Yosemite National Park, California\"]": [
         {
             "lat": 37.8405959,
             "lon": -119.516643544532
+        }
+    ],
+    "[\"Venice, Italy\"]": [
+        {
+            "lat": 45.4384143,
+            "lon": 12.318564
         }
     ],
     "[\"La Spezia, Italy\"]": [
@@ -944,22 +581,10 @@
             "lon": 1.4442469
         }
     ],
-    "[\"Paris, France\"]": [
+    "[\"Madrid, Spain\"]": [
         {
-            "lat": 48.8565056,
-            "lon": 2.3521334
-        }
-    ],
-    "[\"Amsterdam, Holland\"]": [
-        {
-            "lat": 52.3710088,
-            "lon": 4.9001115
-        }
-    ],
-    "[\"London, England\"]": [
-        {
-            "lat": 51.5072759,
-            "lon": -0.1276597
+            "lat": 40.4167047,
+            "lon": -3.7035825
         }
     ],
     "[\"Granada, Spain\"]": [
@@ -968,16 +593,16 @@
             "lon": -3.602192
         }
     ],
-    "[\"Dublin, Ireland\"]": [
+    "[\"Amsterdam, Holland\"]": [
         {
-            "lat": 53.3493074,
-            "lon": -6.261175
+            "lat": 52.3710088,
+            "lon": 4.9001115
         }
     ],
-    "[\"Madrid, Spain\"]": [
+    "[\"Dublin, Ireland\"]": [
         {
-            "lat": 40.4167047,
-            "lon": -3.7035825
+            "lat": 53.3494299,
+            "lon": -6.2600969
         }
     ],
     "[\"Oslo, Norway\"]": [
@@ -1004,100 +629,82 @@
             "lon": 13.3888599
         }
     ],
+    "[\"Corfu, Greece\"]": [
+        {
+            "lat": 39.5908711,
+            "lon": 19.8557341
+        }
+    ],
     "[\"Kauai, Hawaii\"]": [
         {
             "lat": 22.0603342,
             "lon": -159.503094
         }
     ],
-    "[\"New York City, USA\"]": [
+    "[\"Doncaster, England\"]": [
         {
-            "lat": 40.7305991,
-            "lon": -73.9865812
+            "lat": 53.5227681,
+            "lon": -1.1335312
         }
     ],
-    "[\"Calgary, Alberta, Canada\"]": [
+    "[\"Winnipeg, Manitoba\"]": [
+        {
+            "lat": 49.8091669,
+            "lon": -97.1329711403466
+        }
+    ],
+    "[\"San Jose, California\"]": [
+        {
+            "lat": 37.3438502,
+            "lon": -121.8831349
+        }
+    ],
+    "[\"Blue Mountain, Canada\"]": [
+        {
+            "lat": 45.9204762,
+            "lon": -60.1849373
+        }
+    ],
+    "[\"Scunthorpe, England\"]": [
+        {
+            "lat": 53.594323,
+            "lon": -0.6544569
+        }
+    ],
+    "[\"Ashover, England\"]": [
+        {
+            "lat": 53.1639462,
+            "lon": -1.4794232
+        }
+    ],
+    "[\"Innisfil, Canada\"]": [
+        {
+            "lat": 44.3815499,
+            "lon": -79.6967901
+        }
+    ],
+    "[\"Windermere, British Columbia\"]": [
+        {
+            "lat": 50.4637179,
+            "lon": -115.9898321
+        }
+    ],
+    "[\"Calgary, Alberta\"]": [
         {
             "lat": 51.0530588,
             "lon": -114.0625614
         }
     ],
-    "[\"Hibaldstow, North Lincolnshire, England\"]": [
+    "[\"Palm Bay, Florida\"]": [
         {
-            "lat": 53.5116214,
-            "lon": -0.5288681
+            "lat": 28.0331886,
+            "lon": -80.6429695
         }
     ],
-    "[\"San Jose, California\"]": [
-        {
-            "lat": 37.34223645,
-            "lon": -121.638389830185
-        }
-    ],
-    "[\"Ottawa, Ontario, Canada\"]": [
-        {
-            "lat": 45.4210328,
-            "lon": -75.6900219
-        }
-    ],
-    "[\"Oshawa, Ontario, Canada\"]": [
+    "[\"Oshawa, Canada\"]": [
         {
             "lat": 43.9172764,
             "lon": -78.8614874
-        }
-    ],
-    "[\"Westmeath, Ontario, Canada\"]": [
-        {
-            "lat": 45.3509719,
-            "lon": -75.9292376
-        }
-    ],
-    "[\"Mt. Tremblant, Quebec, Canada\"]": [
-        {
-            "lat": 46.2633485,
-            "lon": -74.5758582
-        }
-    ],
-    "[\"Kingston, Ontario, Canada\"]": [
-        {
-            "lat": 44.2299618,
-            "lon": -76.4805666
-        }
-    ],
-    "[\"Chepstow, England\"]": [
-        {
-            "lat": 51.6539127,
-            "lon": -2.6655183
-        }
-    ],
-    "[\"Bradford, West Yorkshire, England\"]": [
-        {
-            "lat": 53.7941567,
-            "lon": -1.7494778
-        }
-    ],
-    "[\"Rushing River, Kenora, Ontario\"]": [
-        {
-            "lat": 49.6632779,
-            "lon": -94.2925904
-        }
-    ],
-    "[\"Manchester, England\"]": [
-        {
-            "lat": 53.4791466,
-            "lon": -2.2447445
-        }
-    ],
-    "[\"Kakabeka Falls, Ontario, Canada\"]": [
-        {
-            "lat": 48.4026901,
-            "lon": -89.6248515
-        }
-    ],
-    "[\"Crooked Lake, Saskatchewan, Canada\"]": [
-        {
-            "lat": 52.85,
-            "lon": -103.716667
         }
     ],
     "[\"Westport, Ontario, Canada\"]": [
@@ -1106,166 +713,22 @@
             "lon": -76.3961901
         }
     ],
-    "[\"Burlington, Ontario, Canada\"]": [
+    "[\"Milan, Italy\"]": [
         {
-            "lat": 43.3235642,
-            "lon": -79.8011553
+            "lat": 45.4666211,
+            "lon": 9.1906166
         }
     ],
-    "[\"Lake Windermere, British\"]": [
+    "[\"Quebec City, Canada\"]": [
         {
-            "lat": 50.4637179,
-            "lon": -115.9898321
+            "lat": 45.5181298,
+            "lon": -73.5508743749861
         }
     ],
-    "[\"Columbia, Canada\"]": [
+    "[\"Kingston, Ontario, Canada\"]": [
         {
-            "lat": 49.2046486,
-            "lon": -122.9064512
-        }
-    ],
-    "[\"Missoula, Montana, USA\"]": [
-        {
-            "lat": 46.8700801,
-            "lon": -113.9952796
-        }
-    ],
-    "[\"Waterton, Alberta, Canada\"]": [
-        {
-            "lat": 49.0516605,
-            "lon": -113.9095263
-        }
-    ],
-    "[\"West Yellowstone, Montana, USA\"]": [
-        {
-            "lat": 44.6631636,
-            "lon": -111.1010655
-        }
-    ],
-    "[\"Greybull, Wyoming, USA\"]": [
-        {
-            "lat": 44.4891746,
-            "lon": -108.0562174
-        }
-    ],
-    "[\"Murphy’s Point, Ontario, Canada\"]": [
-        {
-            "lat": 44.9590625,
-            "lon": -79.7522603
-        }
-    ],
-    "[\"Rapid City, South Dakota, USA\"]": [
-        {
-            "lat": 44.0805434,
-            "lon": -103.2310149
-        }
-    ],
-    "[\"Sioux Falls, South Dakota, USA\"]": [
-        {
-            "lat": 43.5499749,
-            "lon": -96.700327
-        }
-    ],
-    "[\"Cloquet, Minnesota, USA\"]": [
-        {
-            "lat": 46.7216102,
-            "lon": -92.4593566
-        }
-    ],
-    "[\"Newberry, Michigan, USA\"]": [
-        {
-            "lat": 46.3549984,
-            "lon": -85.5095587
-        }
-    ],
-    "[\"Riviere du Loup, Quebec, Canada\"]": [
-        {
-            "lat": 47.8358164,
-            "lon": -69.5368025
-        }
-    ],
-    "[\"Truro, Nova Scotia, Canada\"]": [
-        {
-            "lat": 45.366668,
-            "lon": -63.300006
-        }
-    ],
-    "[\"Port aux Basques, Newfoundland, Canada\"]": [
-        {
-            "lat": 47.5776635,
-            "lon": -59.1424188
-        }
-    ],
-    "[\"Clarenville, Newfoundland, Canada\"]": [
-        {
-            "lat": 48.1679902,
-            "lon": -53.9646413
-        }
-    ],
-    "[\"Toronto, Ontario, Canada\"]": [
-        {
-            "lat": 43.6529206,
-            "lon": -79.3849008
-        }
-    ],
-    "[\"Massey, Ontario, Canada\"]": [
-        {
-            "lat": 43.6539659,
-            "lon": -79.3789811795021
-        }
-    ],
-    "[\"St. John’s, Newfoundland, Canada\"]": [
-        {
-            "lat": 47.5614849,
-            "lon": -52.7125839
-        }
-    ],
-    "[\"Trenton, Nova Scotia, Canada\"]": [
-        {
-            "lat": 45.6170384,
-            "lon": -62.6373129
-        }
-    ],
-    "[\"Sydney, Nova Scotia, Canada\"]": [
-        {
-            "lat": 46.136922,
-            "lon": -60.1917192
-        }
-    ],
-    "[\"Panmure Island, Prince Edward Island, Canada\"]": [
-        {
-            "lat": 46.1416725,
-            "lon": -62.4831024
-        }
-    ],
-    "[\"Charlottetown, Prince Edward Island, Canada\"]": [
-        {
-            "lat": 46.2333097,
-            "lon": -63.1310277
-        }
-    ],
-    "[\"Penobsquis, New Brunswick, Canada\"]": [
-        {
-            "lat": 45.7762632,
-            "lon": -65.3809999
-        }
-    ],
-    "[\"Skowhegan, Maine, USA\"]": [
-        {
-            "lat": 44.7650618,
-            "lon": -69.719218
-        }
-    ],
-    "[\"Farrelton, Quebec, Canada\"]": [
-        {
-            "lat": 45.7774717,
-            "lon": -75.9158975
-        }
-    ],
-    "[\"Huntsville, Ontario, Canada\"]": [
-        {
-            "lat": 45.3264384,
-            "lon": -79.2202088
+            "lat": 44.2299618,
+            "lon": -76.4805666
         }
     ],
     "[\"Assisi, Italy\"]": [
@@ -1274,40 +737,22 @@
             "lon": 12.6146669
         }
     ],
-    "[\"Milan, Italy\"]": [
-        {
-            "lat": 45.4666211,
-            "lon": 9.1906166
-        }
-    ],
-    "[\"Reading, Pennsylvania, USA\"]": [
-        {
-            "lat": 40.3364587,
-            "lon": -75.9288612
-        }
-    ],
     "[\"Sorrento, Italy\"]": [
         {
             "lat": 40.624906,
             "lon": 14.374836
         }
     ],
-    "[\"Montreal, Quebec, Canada\"]": [
+    "[\"Burlington, Ontario, Canada\"]": [
         {
-            "lat": 45.5224507,
-            "lon": -73.5912827
+            "lat": 43.3235642,
+            "lon": -79.8011553
         }
     ],
-    "[\"Hong Kong\"]": [
+    "[\"Rivière Kipawa, Quebec, Canada\"]": [
         {
-            "lat": 22.2787952,
-            "lon": 114.1581009
-        }
-    ],
-    "[\"Canberra, New South Wales, Australia\"]": [
-        {
-            "lat": -35.43583045,
-            "lon": 149.114732642451
+            "lat": 46.9680459,
+            "lon": -78.060633
         }
     ],
     "[\"Hueco Tanks, Texas, USA\"]": [
@@ -1316,46 +761,10 @@
             "lon": -106.0385877
         }
     ],
-    "[\"Surfers Paradise, Gold Coast, Queensland, Australia\"]": [
+    "[\"Calgary, Alberta, Canada\"]": [
         {
-            "lat": -27.96820465,
-            "lon": 153.415959900746
-        }
-    ],
-    "[\"Sydney, New South Wales, Australia\"]": [
-        {
-            "lat": -33.8548157,
-            "lon": 151.2164539
-        }
-    ],
-    "[\"Melbourne, Victoria, Australia\"]": [
-        {
-            "lat": -37.8142176,
-            "lon": 144.9631608
-        }
-    ],
-    "[\"Penticton, British\"]": [
-        {
-            "lat": 49.5,
-            "lon": -119.583333
-        }
-    ],
-    "[\"Quepos, Costa Rica\"]": [
-        {
-            "lat": 9.4334604,
-            "lon": -84.1628613
-        }
-    ],
-    "[\"Bishop, California, USA\"]": [
-        {
-            "lat": 37.36650935,
-            "lon": -118.398123813497
-        }
-    ],
-    "[\"Edmonton, Alberta, Canada\"]": [
-        {
-            "lat": 53.5268245,
-            "lon": -113.524454536818
+            "lat": 51.0530588,
+            "lon": -114.0625614
         }
     ],
     "[\"Canmore, Alberta, Canada\"]": [
@@ -1364,16 +773,28 @@
             "lon": -115.3481135
         }
     ],
-    "[\"Ottawa, Ontario, Canada \"]": [
+    "[\"Penticton, British Columbia, Canada\"]": [
         {
-            "lat": 45.4210328,
-            "lon": -75.6900219
+            "lat": 49.5,
+            "lon": -119.583333
         }
     ],
     "[\"McBride, British Columbia, Canada\"]": [
         {
             "lat": 53.30577515,
             "lon": -120.161266176879
+        }
+    ],
+    "[\"Edmonton, Alberta, Canada\"]": [
+        {
+            "lat": 53.5268245,
+            "lon": -113.524454536818
+        }
+    ],
+    "[\"Bishop, California, USA\"]": [
+        {
+            "lat": 37.36650935,
+            "lon": -118.398123813497
         }
     ],
     "[\"Santa Teresa, Costa Rica\"]": [
@@ -1388,34 +809,28 @@
             "lon": 0.126368992651066
         }
     ],
-    "[\"Zarautz, Spain\"]": [
-        {
-            "lat": 43.2863159,
-            "lon": -2.1748013
-        }
-    ],
     "[\"San Jose, Costa Rica\"]": [
         {
             "lat": 9.7888222,
             "lon": -84.301611
         }
     ],
+    "[\"Vaqueira, Spain\"]": [
+        {
+            "lat": 42.6992676,
+            "lon": 0.9316411
+        }
+    ],
+    "[\"Zarautz, Spain\"]": [
+        {
+            "lat": 43.2863159,
+            "lon": -2.1748013
+        }
+    ],
     "[\"Alicante, Spain\"]": [
         {
             "lat": 38.37555435,
             "lon": -0.531416889824083
-        }
-    ],
-    "[\"Valencia, Spain\"]": [
-        {
-            "lat": 39.55773285,
-            "lon": -0.299777427158372
-        }
-    ],
-    "[\"San Sebastian, Spain\"]": [
-        {
-            "lat": 43.3213324,
-            "lon": -1.9856227
         }
     ],
     "[\"Interlaken, Switzerland\"]": [
@@ -1430,22 +845,16 @@
             "lon": 8.0367462
         }
     ],
-    "[\"Varadero, Cuba\"]": [
+    "[\"Valencia, Spain\"]": [
         {
-            "lat": 23.1362039,
-            "lon": -81.2845165
+            "lat": 39.55773285,
+            "lon": -0.299777427158372
         }
     ],
-    "[\"Crested Butte, Colorado, USA\"]": [
+    "[\"San Sebastian, Spain\"]": [
         {
-            "lat": 38.8670165,
-            "lon": -106.982172871923
-        }
-    ],
-    "[\"Edenthorpe, England\"]": [
-        {
-            "lat": 53.5529148,
-            "lon": -1.0659478
+            "lat": 43.3213324,
+            "lon": -1.9856227
         }
     ],
     "[\"Breckenridge, Colorado, USA\"]": [
@@ -1454,16 +863,22 @@
             "lon": -106.046798766117
         }
     ],
-    "[\"Crested Butte, Colorado\"]": [
+    "[\"Crested Butte, Colorado, USA\"]": [
         {
             "lat": 38.8670165,
             "lon": -106.982172871923
         }
     ],
-    "[\"London, Ontario, Canada\"]": [
+    "[\"Anini Beach, Kauai, Hawaii, USA\"]": [
         {
-            "lat": 42.988097,
-            "lon": -81.2460295
+            "lat": 22.22477285,
+            "lon": -159.448674572349
+        }
+    ],
+    "[\"Crested Butte, Colorado\"]": [
+        {
+            "lat": 38.8670165,
+            "lon": -106.982172871923
         }
     ],
     "[\"Grand Canyon National Park, USA\"]": [
@@ -1472,16 +887,22 @@
             "lon": -112.290046352048
         }
     ],
-    "[\"Denver, Colorado, USA\"]": [
-        {
-            "lat": 39.7391536,
-            "lon": -104.9847034
-        }
-    ],
     "[\"Moab, Utah, USA\"]": [
         {
             "lat": 38.5738096,
             "lon": -109.5462146
+        }
+    ],
+    "[\"London, Ontario, Canada\"]": [
+        {
+            "lat": 42.988097,
+            "lon": -81.2460295
+        }
+    ],
+    "[\"Denver, Colorado, USA\"]": [
+        {
+            "lat": 39.7391536,
+            "lon": -104.9847034
         }
     ],
     "[\"Saint Paul, Minneapolis, Minnesota, USA\"]": [
@@ -1490,22 +911,16 @@
             "lon": -93.2125797
         }
     ],
-    "[\"Malibu, California, USA\"]": [
-        {
-            "lat": 34.00714,
-            "lon": -118.759366820849
-        }
-    ],
-    "[\"Beach, Kauai, Hawaii, USA\"]": [
-        {
-            "lat": 21.87350015,
-            "lon": -159.453942789064
-        }
-    ],
     "[\"Fernie, British Columbia, Canada\"]": [
         {
             "lat": 49.5041718,
             "lon": -115.062561
+        }
+    ],
+    "[\"Malibu, California, USA\"]": [
+        {
+            "lat": 34.00714,
+            "lon": -118.759366820849
         }
     ],
     "[\"Napanee, Ontario, Canada\"]": [
@@ -1520,6 +935,12 @@
             "lon": 39.5324899
         }
     ],
+    "[\"Debre Sina, Ethiopia\"]": [
+        {
+            "lat": 9.8476917,
+            "lon": 39.7652557
+        }
+    ],
     "[\"Ankober, Ethiopia\"]": [
         {
             "lat": 9.5822051,
@@ -1532,58 +953,10 @@
             "lon": 38.75
         }
     ],
-    "[\"Debre Sina, Ethiopia\"]": [
-        {
-            "lat": 9.8476917,
-            "lon": 39.7652557
-        }
-    ],
-    "[\"Sina, Ethiopia\"]": [
-        {
-            "lat": 9.8476917,
-            "lon": 39.7652557
-        }
-    ],
     "[\"Nazret, Ethiopia\"]": [
         {
             "lat": 8.5410261,
             "lon": 39.2705461
-        }
-    ],
-    "[\"Auckland, New Zealand\"]": [
-        {
-            "lat": -36.50775635,
-            "lon": 174.540946482123
-        }
-    ],
-    "[\"Kaitaia, New Zealand\"]": [
-        {
-            "lat": -35.1127598,
-            "lon": 173.2677315
-        }
-    ],
-    "[\"Golden, British Columbia, Canada\"]": [
-        {
-            "lat": 51.297741,
-            "lon": -116.9670661
-        }
-    ],
-    "[\"Whitianga, New Zealand\"]": [
-        {
-            "lat": -36.8296474,
-            "lon": 175.7073602
-        }
-    ],
-    "[\"Ahipara, New Zealand\"]": [
-        {
-            "lat": -35.1664105,
-            "lon": 173.1562074
-        }
-    ],
-    "[\"Winnipeg, Manitoba, Canada\"]": [
-        {
-            "lat": 49.8091669,
-            "lon": -97.1329711403466
         }
     ],
     "[\"Houston, Texas, USA\"]": [
@@ -1592,10 +965,46 @@
             "lon": -95.5409169840524
         }
     ],
-    "[\"Victoria, British Columbia, Canada\"]": [
+    "[\"Toronto, Ontario, Canada\"]": [
         {
-            "lat": 48.4283327,
-            "lon": -123.3649269
+            "lat": 43.6529206,
+            "lon": -79.3849008
+        }
+    ],
+    "[\"Golden, British Columbia, Canada\"]": [
+        {
+            "lat": 51.297741,
+            "lon": -116.9670661
+        }
+    ],
+    "[\"Auckland, New Zealand\"]": [
+        {
+            "lat": -36.50775635,
+            "lon": 174.540946482123
+        }
+    ],
+    "[\"Ahipara, New Zealand\"]": [
+        {
+            "lat": -35.1664105,
+            "lon": 173.1562074
+        }
+    ],
+    "[\"Kaitaia, New Zealand\"]": [
+        {
+            "lat": -35.1127598,
+            "lon": 173.2677315
+        }
+    ],
+    "[\"Winnipeg, Manitoba, Canada\"]": [
+        {
+            "lat": 49.8091669,
+            "lon": -97.1329711403466
+        }
+    ],
+    "[\"Rotorua, New Zealand\"]": [
+        {
+            "lat": -38.1381493,
+            "lon": 176.252922
         }
     ],
     "[\"Tauranga, New Zealand\"]": [
@@ -1604,10 +1013,22 @@
             "lon": 176.1684472
         }
     ],
-    "[\"Rotorua, New Zealand\"]": [
+    "[\"Whitianga, New Zealand\"]": [
         {
-            "lat": -38.1381493,
-            "lon": 176.252922
+            "lat": -36.8296474,
+            "lon": 175.7073602
+        }
+    ],
+    "[\"Taupo, New Zealand\"]": [
+        {
+            "lat": -38.6883048,
+            "lon": 176.0755486
+        }
+    ],
+    "[\"Victoria, British Columbia, Canada\"]": [
+        {
+            "lat": 48.4283327,
+            "lon": -123.3649269
         }
     ],
     "[\"Palmerston North, New Zealand\"]": [
@@ -1622,10 +1043,10 @@
             "lon": 174.0081429
         }
     ],
-    "[\"Taupo, New Zealand\"]": [
+    "[\"Greymouth, New Zealand\"]": [
         {
-            "lat": -38.6883048,
-            "lon": 176.0755486
+            "lat": -42.4499584,
+            "lon": 171.2080589
         }
     ],
     "[\"Wanaka, New Zealand\"]": [
@@ -1634,16 +1055,16 @@
             "lon": 169.1359628
         }
     ],
+    "[\"Franz Josef, New Zealand\"]": [
+        {
+            "lat": -43.3889668,
+            "lon": 170.1819048
+        }
+    ],
     "[\"Wellington, New Zealand\"]": [
         {
             "lat": -41.2887639,
             "lon": 174.7772239
-        }
-    ],
-    "[\"Greymouth, New Zealand\"]": [
-        {
-            "lat": -42.4499584,
-            "lon": 171.2080589
         }
     ],
     "[\"Queenstown, New Zealand\"]": [
@@ -1658,6 +1079,24 @@
             "lon": 170.503488
         }
     ],
+    "[\"Christchurch, New Zealand\"]": [
+        {
+            "lat": -43.530955,
+            "lon": 172.6366455
+        }
+    ],
+    "[\"Motueka, New Zealand\"]": [
+        {
+            "lat": -41.112493,
+            "lon": 173.0094875
+        }
+    ],
+    "[\"Nelson, New Zealand\"]": [
+        {
+            "lat": -41.2710849,
+            "lon": 173.2836756
+        }
+    ],
     "[\"Oamaru, New Zealand\"]": [
         {
             "lat": -45.0997681,
@@ -1670,22 +1109,10 @@
             "lon": 168.34843
         }
     ],
-    "[\"Christchurch, New Zealand\"]": [
+    "[\"National Park, New Zealand\"]": [
         {
-            "lat": -43.530955,
-            "lon": 172.6366455
-        }
-    ],
-    "[\"Nelson, New Zealand\"]": [
-        {
-            "lat": -41.2710849,
-            "lon": 173.2836756
-        }
-    ],
-    "[\"Motueka, New Zealand\"]": [
-        {
-            "lat": -41.112493,
-            "lon": 173.0094875
+            "lat": -39.1727294,
+            "lon": 175.4037274
         }
     ],
     "[\"Abel Tasman National Park, New Zealand\"]": [
@@ -1700,22 +1127,16 @@
             "lon": 175.2813186
         }
     ],
-    "[\"Clear Lake, Manitoba, Canada\"]": [
-        {
-            "lat": 50.68565765,
-            "lon": -100.020014190941
-        }
-    ],
     "[\"Rosthern, Saskatchewan, Canada\"]": [
         {
             "lat": 52.6637395,
             "lon": -106.3349159
         }
     ],
-    "[\"Penticton, British Columbia, Canada\"]": [
+    "[\"Clear Lake, Manitoba, Canada\"]": [
         {
-            "lat": 49.5,
-            "lon": -119.583333
+            "lat": 50.68565765,
+            "lon": -100.020014190941
         }
     ],
     "[\"Slave Lake, Alberta, Canada\"]": [
@@ -1730,16 +1151,22 @@
             "lon": -94.1096716670477
         }
     ],
+    "[\"Coleman, Alberta, Canada\"]": [
+        {
+            "lat": 49.6337239,
+            "lon": -114.502435
+        }
+    ],
     "[\"Vancouver, British Columbia, Canada\"]": [
         {
             "lat": 49.2499987,
             "lon": -123.1333301
         }
     ],
-    "[\"Sayulita, Mexico\"]": [
+    "[\"Shuswap, British Columbia, Canada\"]": [
         {
-            "lat": 20.869272,
-            "lon": -105.437398254689
+            "lat": 50.7916245,
+            "lon": -119.7101127
         }
     ],
     "[\"East Barriere Lake, British Columbia, Canada\"]": [
@@ -1748,40 +1175,16 @@
             "lon": -119.793587244578
         }
     ],
+    "[\"Sayulita, Mexico\"]": [
+        {
+            "lat": 20.869272,
+            "lon": -105.437398254689
+        }
+    ],
     "[\"Regina, Saskatchewan, Canada\"]": [
         {
             "lat": 50.4480951,
             "lon": -104.6158181
-        }
-    ],
-    "[\"Guadalajara, Mexico\"]": [
-        {
-            "lat": 20.676143,
-            "lon": -103.3469982
-        }
-    ],
-    "[\"Mazatlan, Mexico\"]": [
-        {
-            "lat": 23.2235642,
-            "lon": -106.4162761
-        }
-    ],
-    "[\"Kamloops, British Columbia, Canada\"]": [
-        {
-            "lat": 50.6765557,
-            "lon": -120.3417342
-        }
-    ],
-    "[\"Tequila, Mexico\"]": [
-        {
-            "lat": 20.8792098,
-            "lon": -103.8388845
-        }
-    ],
-    "[\"Mexico City, Mexico\"]": [
-        {
-            "lat": 19.4325301,
-            "lon": -99.1332102
         }
     ],
     "[\"Vanscoy, Saskatchewan, Canada\"]": [
@@ -1790,22 +1193,58 @@
             "lon": -106.983333
         }
     ],
+    "[\"Mazatlan, Mexico\"]": [
+        {
+            "lat": 23.2234374,
+            "lon": -106.4161919
+        }
+    ],
+    "[\"Tequila, Mexico\"]": [
+        {
+            "lat": 20.8792098,
+            "lon": -103.8388845
+        }
+    ],
+    "[\"Kamloops, British Columbia, Canada\"]": [
+        {
+            "lat": 50.6765557,
+            "lon": -120.3417342
+        }
+    ],
+    "[\"Mexico City, Mexico\"]": [
+        {
+            "lat": 19.4325301,
+            "lon": -99.1332102
+        }
+    ],
+    "[\"Guadalajara, Mexico\"]": [
+        {
+            "lat": 20.676143,
+            "lon": -103.3469982
+        }
+    ],
     "[\"Big River, Saskatchewan, Canada\"]": [
         {
             "lat": 53.833333,
             "lon": -107.033333
         }
     ],
-    "[\"Saskatoon, Saskatchewan, Canada\"]": [
+    "[\"Sainte-Agathe-des-Monts\"]": [
         {
-            "lat": 52.1303794,
-            "lon": -106.6605124
+            "lat": 46.0440349,
+            "lon": -74.2811555
         }
     ],
     "[\"Cardross, Saskatchewan, Canada\"]": [
         {
             "lat": 49.816667,
             "lon": -105.616667
+        }
+    ],
+    "[\"Saskatoon, Saskatchewan, Canada\"]": [
+        {
+            "lat": 52.1303794,
+            "lon": -106.6605124
         }
     ],
     "[\"Moose Jaw, Saskatchewan, Canada\"]": [
@@ -1838,10 +1277,10 @@
             "lon": -117.2155595
         }
     ],
-    "[\"Sechelt, British Columbia, Canada\"]": [
+    "[\"Kaslo, British Columbia, Canada\"]": [
         {
-            "lat": 49.466667,
-            "lon": -123.766667
+            "lat": 49.91045435,
+            "lon": -116.907608487854
         }
     ],
     "[\"Birch Lake, Saskatchewan, Canada\"]": [
@@ -1850,10 +1289,16 @@
             "lon": -105.433333
         }
     ],
-    "[\"Britannia Beach, Squamish, British Columbia, Canada\"]": [
+    "[\"Sechelt, British Columbia, Canada\"]": [
         {
-            "lat": 49.6243026,
-            "lon": -123.2062242
+            "lat": 49.466667,
+            "lon": -123.766667
+        }
+    ],
+    "[\"Squamish, British Columbia, Canada\"]": [
+        {
+            "lat": 49.7,
+            "lon": -123.1500001
         }
     ],
     "[\"Jasper, Alberta, Canada\"]": [
@@ -1868,1336 +1313,16 @@
             "lon": -112.8421767
         }
     ],
-    "[\"Cache Creek, British Columbia, Canada\"]": [
-        {
-            "lat": 50.814479,
-            "lon": -121.3223156
-        }
-    ],
-    "[\"Turtle Lake, Saskatchewan, Canada\"]": [
-        {
-            "lat": 53.2640001,
-            "lon": -109.032243088434
-        }
-    ],
-    "[\"Fortaleza, Brazil\"]": [
-        {
-            "lat": -3.7304512,
-            "lon": -38.5217989
-        }
-    ],
-    "[\"Vancouver, Canada\"]": [
-        {
-            "lat": 49.2499987,
-            "lon": -123.1333301
-        }
-    ],
-    "[\"Rio de Janeiro, Brazil\"]": [
-        {
-            "lat": -22.2752762,
-            "lon": -42.419415
-        }
-    ],
-    "[\"Siem Riep, Cambodia\"]": [
-        {
-            "lat": 13.3452447,
-            "lon": 103.8541628
-        }
-    ],
-    "[\"Nelson, British Columbia, Canada\"]": [
-        {
-            "lat": 49.494202,
-            "lon": -117.2878681
-        }
-    ],
-    "[\"Bali\"]": [
-        {
-            "lat": 48.8565056,
-            "lon": 2.3521334
-        }
-    ],
-    "[\"Sechelt, Canada\"]": [
-        {
-            "lat": 49.466667,
-            "lon": -123.766667
-        }
-    ],
-    "[\"Bodega Bay, California\"]": [
-        {
-            "lat": 38.273529,
-            "lon": -123.0061118
-        }
-    ],
-    "[\"Todo Santos, Mexico\"]": [
-        {
-            "lat": 27.9214023,
-            "lon": -110.9194436
-        }
-    ],
-    "[\"El Salvador\"]": [
-        {
-            "lat": 13.8000382,
-            "lon": -88.9140683
-        }
-    ],
-    "[\"Santa Cruz, California\"]": [
-        {
-            "lat": 36.9746099,
-            "lon": -122.0294259
-        }
-    ],
-    "[\"San Jose del Cabo, Mexico\"]": [
-        {
-            "lat": 23.0539875,
-            "lon": -109.7012321
-        }
-    ],
-    "[\"Nicaragua\"]": [
-        {
-            "lat": 12.3724928,
-            "lon": -84.8700308
-        }
-    ],
-    "[\"Sechelt, British Columbia\"]": [
-        {
-            "lat": 49.466667,
-            "lon": -123.766667
-        }
-    ],
-    "[\"Macau\"]": [
-        {
-            "lat": 22.1919514,
-            "lon": 113.5381216
-        }
-    ],
-    "[\"Toy Shan, China\"]": [
-        {
-            "lat": 22.3103532,
-            "lon": 114.0395625
-        }
-    ],
-    "[\"Honolulu\"]": [
-        {
-            "lat": 21.304547,
-            "lon": -157.8556764
-        }
-    ],
-    "[\"San Francisco\"]": [
-        {
-            "lat": 37.7789601,
-            "lon": -122.419199
-        }
-    ],
-    "[\"White Rock, British Columbia\"]": [
-        {
-            "lat": 49.0246299,
-            "lon": -122.799814
-        }
-    ],
-    "[\"Yokohama\"]": [
-        {
-            "lat": 35.465419,
-            "lon": 139.620149
-        }
-    ],
-    "[\"Swift Current\"]": [
-        {
-            "lat": 50.2811704,
-            "lon": -107.7935232
-        }
-    ],
-    "[\"Calgary, Canada\"]": [
-        {
-            "lat": 51.0530588,
-            "lon": -114.0625614
-        }
-    ],
-    "[\"Moose Jaw\"]": [
-        {
-            "lat": 50.4001239,
-            "lon": -105.5409135
-        }
-    ],
-    "[\"Medicine Hat\"]": [
-        {
-            "lat": 50.0415358,
-            "lon": -110.6775465
-        }
-    ],
-    "[\"Regina\"]": [
-        {
-            "lat": 50.4480951,
-            "lon": -104.6158181
-        }
-    ],
-    "[\"Wilcox\"]": [
-        {
-            "lat": 31.9523021,
-            "lon": -87.3005169
-        }
-    ],
-    "[\"Lethbridge\"]": [
-        {
-            "lat": 49.6950059,
-            "lon": -112.8421767
-        }
-    ],
-    "[\"North Battleford\"]": [
-        {
-            "lat": 52.7761737,
-            "lon": -108.2977496
-        }
-    ],
-    "[\"Calgary\"]": [
-        {
-            "lat": 51.0530588,
-            "lon": -114.0625614
-        }
-    ],
-    "[\"Okotoks\"]": [
-        {
-            "lat": 50.7063061,
-            "lon": -113.9784371
-        }
-    ],
-    "[\"Edmonton\"]": [
-        {
-            "lat": 53.5558285,
-            "lon": -113.557352747797
-        }
-    ],
-    "[\"Olds\"]": [
-        {
-            "lat": 51.7919223,
-            "lon": -114.1132781
-        }
-    ],
-    "[\"High River\"]": [
-        {
-            "lat": 50.5797079,
-            "lon": -113.8569213
-        }
-    ],
-    "[\"Airdrie\"]": [
-        {
-            "lat": 51.2859257,
-            "lon": -114.0105994
-        }
-    ],
-    "[\"Carstairs\"]": [
-        {
-            "lat": 51.563216,
-            "lon": -114.1000016
-        }
-    ],
-    "[\"Chestermere\"]": [
-        {
-            "lat": 51.0369794,
-            "lon": -113.8227717
-        }
-    ],
-    "[\"Red Deer\"]": [
-        {
-            "lat": 46.9340552,
-            "lon": 7.4521406
-        }
-    ],
-    "[\"Didsbury\"]": [
-        {
-            "lat": 53.4168134,
-            "lon": -2.2321381
-        }
-    ],
-    "[\"Ponoka\"]": [
-        {
-            "lat": 52.6794142,
-            "lon": -113.5871706
-        }
-    ],
-    "[\"Canmore\"]": [
-        {
-            "lat": 51.0866897,
-            "lon": -115.3481135
-        }
-    ],
-    "[\"Lacombe\"]": [
-        {
-            "lat": 52.4756821,
-            "lon": -113.7397706
-        }
-    ],
-    "[\"Banff\"]": [
-        {
-            "lat": 51.1777781,
-            "lon": -115.5682504
-        }
-    ],
-    "[\"Sylvan Lake\"]": [
-        {
-            "lat": 52.3056132,
-            "lon": -114.0908391
-        }
-    ],
-    "[\"Jasper\"]": [
-        {
-            "lat": 52.8752077,
-            "lon": -118.0824384
-        }
-    ],
-    "[\"Revelstoke\"]": [
-        {
-            "lat": 50.9933958,
-            "lon": -118.191765
-        }
-    ],
-    "[\"Lake Louise\"]": [
-        {
-            "lat": 51.4172151,
-            "lon": -116.2117391
-        }
-    ],
-    "[\"Sicamous\"]": [
-        {
-            "lat": 50.82875395,
-            "lon": -118.985525301764
-        }
-    ],
-    "[\"Salmon Arm\"]": [
-        {
-            "lat": 50.7000661,
-            "lon": -119.2849158
-        }
-    ],
-    "[\"Field\"]": [
-        {
-            "lat": 51.3965941,
-            "lon": -116.4889591
-        }
-    ],
-    "[\"Golden\"]": [
-        {
-            "lat": 39.779217,
-            "lon": -105.182551222303
-        }
-    ],
-    "[\"Kelowna\"]": [
-        {
-            "lat": 49.8876629,
-            "lon": -119.4961612
-        }
-    ],
-    "[\"Chilliwack\"]": [
-        {
-            "lat": 49.166667,
-            "lon": -121.95
-        }
-    ],
-    "[\"Vernon\"]": [
-        {
-            "lat": 43.5811229,
-            "lon": -90.8231247
-        }
-    ],
-    "[\"Hope\"]": [
-        {
-            "lat": 33.688338,
-            "lon": -93.5838331918629
-        }
-    ],
-    "[\"Victoria\"]": [
-        {
-            "lat": -37.3643443,
-            "lon": 145.4020432
-        }
-    ],
-    "[\"Vancouver\"]": [
-        {
-            "lat": 49.2499987,
-            "lon": -123.1333301
-        }
-    ],
-    "[\"Great Falls\"]": [
-        {
-            "lat": 47.5048851,
-            "lon": -111.2918908
-        }
-    ],
-    "[\"Salt Lake City\"]": [
-        {
-            "lat": 40.7606467,
-            "lon": -111.89109
-        }
-    ],
-    "[\"Butte\"]": [
-        {
-            "lat": 45.9838436,
-            "lon": -112.5007277
-        }
-    ],
-    "[\"Reno\"]": [
-        {
-            "lat": 48.6373174,
-            "lon": 7.83736912924304
-        }
-    ],
-    "[\"Sacramento\"]": [
-        {
-            "lat": 38.4732259,
-            "lon": -121.2980707
-        }
-    ],
-    "[\"Portland\"]": [
-        {
-            "lat": 45.5202471,
-            "lon": -122.6741949
-        }
-    ],
-    "[\"Redding\"]": [
-        {
-            "lat": 40.4738445,
-            "lon": -122.283282137092
-        }
-    ],
-    "[\"Eugene\"]": [
-        {
-            "lat": 44.121358,
-            "lon": -123.194175488064
-        }
-    ],
-    "[\"Seattle\"]": [
-        {
-            "lat": 47.6038321,
-            "lon": -122.3300624
-        }
-    ],
-    "[\"London\"]": [
-        {
-            "lat": 51.5072759,
-            "lon": -0.1276597
-        }
-    ],
-    "[\"Edinburgh\"]": [
-        {
-            "lat": 55.9483399,
-            "lon": -3.1932723
-        }
-    ],
-    "[\"Oxford\"]": [
-        {
-            "lat": 51.7521553,
-            "lon": -1.2582135
-        }
-    ],
-    "[\"Toronto\"]": [
-        {
-            "lat": 43.6529206,
-            "lon": -79.3849008
-        }
-    ],
-    "[\"Kirkcaldy\"]": [
-        {
-            "lat": 56.1134536,
-            "lon": -3.1646819
-        }
-    ],
-    "[\"St Andrews\"]": [
-        {
-            "lat": 56.3403301,
-            "lon": -2.7954131
-        }
-    ],
-    "[\"Northampton\"]": [
-        {
-            "lat": 52.2385239,
-            "lon": -0.902493
-        }
-    ],
-    "[\"Coventry\"]": [
-        {
-            "lat": 52.4081812,
-            "lon": -1.510477
-        }
-    ],
-    "[\"Leicester\"]": [
-        {
-            "lat": 52.6367811,
-            "lon": -1.1312289
-        }
-    ],
-    "[\"Leeds\"]": [
-        {
-            "lat": 53.7974185,
-            "lon": -1.5437941
-        }
-    ],
-    "[\"Sheffield\"]": [
-        {
-            "lat": 53.3806626,
-            "lon": -1.4702278
-        }
-    ],
-    "[\"Newcastle-upon-Tyne\"]": [
-        {
-            "lat": 54.9770924,
-            "lon": -1.6142059
-        }
-    ],
-    "[\"Kendal\"]": [
-        {
-            "lat": 54.3272096,
-            "lon": -2.74843
-        }
-    ],
-    "[\"Carlisle\"]": [
-        {
-            "lat": 40.201824,
-            "lon": -77.1893888
-        }
-    ],
-    "[\"York\"]": [
-        {
-            "lat": 53.9590555,
-            "lon": -1.0815361
-        }
-    ],
-    "[\"Amsterdam\"]": [
-        {
-            "lat": 52.3710088,
-            "lon": 4.9001115
-        }
-    ],
-    "[\"Brussels\"]": [
-        {
-            "lat": 50.84340935,
-            "lon": 4.36748762309029
-        }
-    ],
-    "[\"Paris\"]": [
-        {
-            "lat": 48.8565056,
-            "lon": 2.3521334
-        }
-    ],
-    "[\"Manchester\"]": [
-        {
-            "lat": 53.4791466,
-            "lon": -2.2447445
-        }
-    ],
-    "[\"New York\"]": [
-        {
-            "lat": 40.7305991,
-            "lon": -73.9865812
-        }
-    ],
-    "[\"Philadelphia\"]": [
-        {
-            "lat": 39.952335,
-            "lon": -75.163789
-        }
-    ],
-    "[\"Southampton\"]": [
-        {
-            "lat": 50.9138201,
-            "lon": -1.39908338865525
-        }
-    ],
-    "[\"Brigg\"]": [
-        {
-            "lat": 53.5534586,
-            "lon": -0.4868528
-        }
-    ],
-    "[\"Gatwick\"]": [
-        {
-            "lat": 51.1491704,
-            "lon": -0.1896803
-        }
-    ],
-    "[\"Kingston, Jamaica\"]": [
-        {
-            "lat": 17.9712148,
-            "lon": -76.7928128
-        }
-    ],
-    "[\"Manila\"]": [
-        {
-            "lat": 14.5906216,
-            "lon": 120.9799696
-        }
-    ],
-    "[\"Briggs\"]": [
-        {
-            "lat": 44.1650631,
-            "lon": -75.1371416
-        }
-    ],
-    "[\"New Delhi\"]": [
-        {
-            "lat": 28.6138967,
-            "lon": 77.2159562
-        }
-    ],
-    "[\"Corfu\"]": [
-        {
-            "lat": 39.5908711,
-            "lon": 19.8557341
-        }
-    ],
-    "[\"Tenerife\"]": [
-        {
-            "lat": 28.2935724,
-            "lon": -16.6218483519602
-        }
-    ],
-    "[\"Dublin\"]": [
-        {
-            "lat": 53.3493074,
-            "lon": -6.261175
-        }
-    ],
-    "[\"Lisbon\"]": [
-        {
-            "lat": 38.7128995,
-            "lon": -9.1328948
-        }
-    ],
-    "[\"Sydney\"]": [
-        {
-            "lat": -33.8548157,
-            "lon": 151.2164539
-        }
-    ],
-    "[\"Canberra\"]": [
-        {
-            "lat": -35.2820709,
-            "lon": 149.1286673
-        }
-    ],
-    "[\"Shanghai\"]": [
-        {
-            "lat": 31.2253441,
-            "lon": 121.4888922
-        }
-    ],
-    "[\"Wuxi\"]": [
-        {
-            "lat": 31.4887073,
-            "lon": 109.318140891572
-        }
-    ],
-    "[\"Beijing\"]": [
-        {
-            "lat": 40.2505379,
-            "lon": 116.625088590652
-        }
-    ],
-    "[\"Suzhou\"]": [
-        {
-            "lat": 31.2984758,
-            "lon": 120.622239
-        }
-    ],
-    "[\"Shenyang\"]": [
-        {
-            "lat": 41.8045293,
-            "lon": 123.4277858
-        }
-    ],
-    "[\"Wuhan\"]": [
-        {
-            "lat": 30.5960213,
-            "lon": 114.2992796
-        }
-    ],
-    "[\"Toulouse\"]": [
-        {
-            "lat": 43.6044622,
-            "lon": 1.4442469
-        }
-    ],
-    "[\"Glasgow\"]": [
-        {
-            "lat": 55.861147,
-            "lon": -4.2499891
-        }
-    ],
-    "[\"Seoul\"]": [
-        {
-            "lat": 37.5710824,
-            "lon": 126.9953036
-        }
-    ],
-    "[\"Albi\"]": [
-        {
-            "lat": 43.9277552,
-            "lon": 2.147899
-        }
-    ],
-    "[\"Dalian\"]": [
-        {
-            "lat": 38.9105358,
-            "lon": 121.6105997
-        }
-    ],
-    "[\"Vienna\"]": [
-        {
-            "lat": 48.2084671,
-            "lon": 16.3730908
-        }
-    ],
-    "[\"Melbourne\"]": [
-        {
-            "lat": -37.8142176,
-            "lon": 144.9631608
-        }
-    ],
-    "[\"Rome\"]": [
-        {
-            "lat": 41.8932575,
-            "lon": 12.4830619
-        }
-    ],
-    "[\"Trieste\"]": [
-        {
-            "lat": 45.6300555,
-            "lon": 13.7879014
-        }
-    ],
-    "[\"Milan\"]": [
-        {
-            "lat": 45.4666211,
-            "lon": 9.1906166
-        }
-    ],
-    "[\"Trento\"]": [
-        {
-            "lat": 46.0664228,
-            "lon": 11.1257601
-        }
-    ],
-    "[\"Costa Rica\"]": [
-        {
-            "lat": 10.2735633,
-            "lon": -84.0739102
-        }
-    ],
-    "[\"Cuernavaca, Mexico\"]": [
-        {
-            "lat": 18.9332806,
-            "lon": -99.259912442626
-        }
-    ],
-    "[\"Petra, Jordan\"]": [
-        {
-            "lat": 30.3273975,
-            "lon": 35.4464006
-        }
-    ],
-    "[\"Sarajevo\"]": [
-        {
-            "lat": 43.8514981,
-            "lon": 18.3886134
-        }
-    ],
-    "[\"Amman, Jordan\"]": [
-        {
-            "lat": 31.6554651,
-            "lon": 36.3242451899544
-        }
-    ],
-    "[\"Montpellier\"]": [
-        {
-            "lat": 43.6112422,
-            "lon": 3.8767337
-        }
-    ],
-    "[\"Brasilia\"]": [
-        {
-            "lat": -8.4666145,
-            "lon": -51.3333976
-        }
-    ],
-    "[\"Barcelona\"]": [
-        {
-            "lat": 41.3870186,
-            "lon": 2.1700437
-        }
-    ],
-    "[\"Carcassone\"]": [
-        {
-            "lat": 50.4647952,
-            "lon": 17.0072177
-        }
-    ],
-    "[\"Mexico City\"]": [
-        {
-            "lat": 19.4325301,
-            "lon": -99.1332102
-        }
-    ],
-    "[\"Guilin\"]": [
-        {
-            "lat": 25.276006,
-            "lon": 110.2847529
-        }
-    ],
-    "[\"Collioure\"]": [
-        {
-            "lat": 42.52505,
-            "lon": 3.0831554
-        }
-    ],
-    "[\"Perpignan\"]": [
-        {
-            "lat": 42.6953868,
-            "lon": 2.8844713
-        }
-    ],
-    "[\"Frankfurt\"]": [
-        {
-            "lat": 50.12134215,
-            "lon": 8.66195118582712
-        }
-    ],
-    "[\"Lake Windermere, British Columbia, Canada\"]": [
-        {
-            "lat": 50.637891,
-            "lon": -116.0228511
-        }
-    ],
-    "[\"Burlington, Vermont\"]": [
-        {
-            "lat": 44.4723989,
-            "lon": -73.2114941
-        }
-    ],
-    "[\"Reading, Pennsylvania\"]": [
-        {
-            "lat": 40.3364587,
-            "lon": -75.9288612
-        }
-    ],
-    "[\"Westmeath, Canada\"]": [
-        {
-            "lat": 45.3509719,
-            "lon": -75.9292376
-        }
-    ],
-    "[\"Hibaldstow, England\"]": [
-        {
-            "lat": 53.5116214,
-            "lon": -0.5288681
-        }
-    ],
-    "[\"Ilfracombe, England\"]": [
-        {
-            "lat": 51.2076674,
-            "lon": -4.1254662
-        }
-    ],
-    "[\"Bradford, England\"]": [
-        {
-            "lat": 53.7941567,
-            "lon": -1.7494778
-        }
-    ],
-    "[\"Huntsville, Ontario\"]": [
-        {
-            "lat": 45.3264384,
-            "lon": -79.2202088
-        }
-    ],
-    "[\"Melbourne, Australia\"]": [
-        {
-            "lat": -37.8142176,
-            "lon": 144.9631608
-        }
-    ],
-    "[\"Canberra, Australia\"]": [
-        {
-            "lat": -35.2820709,
-            "lon": 149.1286673
-        }
-    ],
-    "[\"Cairns, Australia\"]": [
-        {
-            "lat": -16.9204963,
-            "lon": 145.7719011
-        }
-    ],
-    "[\"Scunthorpe, England\"]": [
-        {
-            "lat": 53.594323,
-            "lon": -0.6544569
-        }
-    ],
-    "[\"Sydney, Australia\"]": [
-        {
-            "lat": -33.8548157,
-            "lon": 151.2164539
-        }
-    ],
-    "[\"Jamaica\"]": [
-        {
-            "lat": 18.1850507,
-            "lon": -77.3947693
-        }
-    ],
-    "[\"Limon, Costa Rica\"]": [
-        {
-            "lat": 10.3787478,
-            "lon": -83.5848401
-        }
-    ],
-    "[\"Colon, Panama\"]": [
-        {
-            "lat": 9.3560848,
-            "lon": -79.8963425
-        }
-    ],
-    "[\"Ottawa, Ontario\"]": [
-        {
-            "lat": 45.4210328,
-            "lon": -75.6900219
-        }
-    ],
-    "[\"Stratford, Ontario\"]": [
-        {
-            "lat": 43.3713882,
-            "lon": -80.9825903
-        }
-    ],
-    "[\"Kingston, Ontario\"]": [
-        {
-            "lat": 44.2299618,
-            "lon": -76.4805666
-        }
-    ],
-    "[\"Oxford, England\"]": [
-        {
-            "lat": 51.7521553,
-            "lon": -1.2582135
-        }
-    ],
-    "[\"York, England\"]": [
-        {
-            "lat": 53.9590555,
-            "lon": -1.0815361
-        }
-    ],
-    "[\"Waterloo, Ontario\"]": [
-        {
-            "lat": 43.4655524,
-            "lon": -80.5217786
-        }
-    ],
-    "[\"Cartagena, Colombia\"]": [
-        {
-            "lat": 10.4236044,
-            "lon": -75.524172
-        }
-    ],
-    "[\"Waterton Park, Alberta\"]": [
-        {
-            "lat": 49.0516605,
-            "lon": -113.9095263
-        }
-    ],
-    "[\"Rapid City, South Dakota\"]": [
-        {
-            "lat": 44.0805434,
-            "lon": -103.2310149
-        }
-    ],
-    "[\"Greybull, Wyoming\"]": [
-        {
-            "lat": 44.4891746,
-            "lon": -108.0562174
-        }
-    ],
-    "[\"Yellowstone Park\"]": [
-        {
-            "lat": 33.9056305,
-            "lon": -116.9588404
-        }
-    ],
-    "[\"Sioux Falls, South Dakota\"]": [
-        {
-            "lat": 43.5499749,
-            "lon": -96.700327
-        }
-    ],
-    "[\"Newberry, Michigan\"]": [
-        {
-            "lat": 46.3549984,
-            "lon": -85.5095587
-        }
-    ],
-    "[\"Cloquet, Minnesota\"]": [
-        {
-            "lat": 46.7216102,
-            "lon": -92.4593566
-        }
-    ],
-    "[\"Lake Windermere, British Columbia\"]": [
-        {
-            "lat": 50.4637179,
-            "lon": -115.9898321
-        }
-    ],
-    "[\"Perth, Canada\"]": [
-        {
-            "lat": 44.898868,
-            "lon": -76.2469425
-        }
-    ],
-    "[\"Mt. Tremblant, Canada\"]": [
-        {
-            "lat": 46.2633485,
-            "lon": -74.5758582
-        }
-    ],
-    "[\"Sault Ste Marie, Canada\"]": [
-        {
-            "lat": 46.511678,
-            "lon": -84.3161911
-        }
-    ],
-    "[\"Kingston, Canada\"]": [
-        {
-            "lat": 44.2299618,
-            "lon": -76.4805666
-        }
-    ],
-    "[\"Kakabeka Falls, Canada\"]": [
-        {
-            "lat": 48.4026901,
-            "lon": -89.6248515
-        }
-    ],
-    "[\"Kenora, Canada\"]": [
-        {
-            "lat": 49.7601947,
-            "lon": -94.4818206
-        }
-    ],
-    "[\"Crooked Lake, Canada\"]": [
-        {
-            "lat": 46.29194005,
-            "lon": -80.7229340637812
-        }
-    ],
-    "[\"Ilfracombe,  England\"]": [
-        {
-            "lat": 51.2076674,
-            "lon": -4.1254662
-        }
-    ],
-    "[\"Lake Windermere, Canada\"]": [
-        {
-            "lat": 50.4637179,
-            "lon": -115.9898321
-        }
-    ],
-    "[\"Tobermory, Canada\"]": [
-        {
-            "lat": 45.2543796,
-            "lon": -81.6657519
-        }
-    ],
-    "[\"Terra Nova National Park, Newfoundland, Canada\"]": [
-        {
-            "lat": 48.5443968,
-            "lon": -54.0186085
-        }
-    ],
-    "[\"Panmure Island, Canada\"]": [
-        {
-            "lat": 46.1416725,
-            "lon": -62.4831024
-        }
-    ],
-    "[\"Charlottetown, Canada\"]": [
-        {
-            "lat": 46.2333097,
-            "lon": -63.1310277
-        }
-    ],
-    "[\"Calvin, Ontario, Canada\"]": [
-        {
-            "lat": 45.0609589,
-            "lon": -80.0607948
-        }
-    ],
-    "[\"Trelawny, Jamaica\"]": [
-        {
-            "lat": 18.3607043,
-            "lon": -77.6061609927665
-        }
-    ],
-    "[\"Vaqueira, Spain\"]": [
-        {
-            "lat": 42.6992676,
-            "lon": 0.9316411
-        }
-    ],
-    "[\"Calgary, Alberta\"]": [
-        {
-            "lat": 51.0530588,
-            "lon": -114.0625614
-        }
-    ],
-    "[\"Windermere, British Columbia\"]": [
-        {
-            "lat": 50.4637179,
-            "lon": -115.9898321
-        }
-    ],
-    "[\"Oshawa, Canada\"]": [
-        {
-            "lat": 43.9172764,
-            "lon": -78.8614874
-        }
-    ],
-    "[\"Anini Beach, Kauai, Hawaii, USA\"]": [
-        {
-            "lat": 22.22477285,
-            "lon": -159.448674572349
-        }
-    ],
-    "[\"Toronto, Ontario, Canada\\t\"]": [
-        {
-            "lat": 43.6529206,
-            "lon": -79.3849008
-        }
-    ],
-    "[\"Squamish, British Columbia, Canada\"]": [
-        {
-            "lat": 49.7,
-            "lon": -123.1500001
-        }
-    ],
-    "[\"Saskatoon, Saskatchewan, Canada \"]": [
-        {
-            "lat": 52.1303794,
-            "lon": -106.6605124
-        }
-    ],
-    "[\"Franz Josef, New Zealand\"]": [
-        {
-            "lat": -43.3889668,
-            "lon": 170.1819048
-        }
-    ],
-    "[\"Sainte-Agathe-des-Monts\"]": [
-        {
-            "lat": 46.0440349,
-            "lon": -74.2811555
-        }
-    ],
-    "[\"Coleman, Alberta, Canada\"]": [
-        {
-            "lat": 49.6337239,
-            "lon": -114.502435
-        }
-    ],
-    "[\"National Park, New Zealand\"]": [
-        {
-            "lat": -39.1727294,
-            "lon": 175.4037274
-        }
-    ],
-    "[\"Rivière Kipawa, Quebec, Canada\"]": [
-        {
-            "lat": 46.9680459,
-            "lon": -78.060633
-        }
-    ],
-    "[\"Shuswap, British Columbia, Canada\"]": [
-        {
-            "lat": 50.7916245,
-            "lon": -119.7101127
-        }
-    ],
-    "[\"Kaslo, British Columbia, Canada\"]": [
-        {
-            "lat": 49.91045435,
-            "lon": -116.907608487854
-        }
-    ],
-    "[\"Byron Bay\"]": [
-        {
-            "lat": -28.6434398,
-            "lon": 153.6140262
-        }
-    ],
-    "[\"Manuel Antonio, Costa Rica\"]": [
-        {
-            "lat": 9.3909842,
-            "lon": -84.1487702
-        }
-    ],
-    "[\"Perth\"]": [
-        {
-            "lat": -31.9527121,
-            "lon": 115.8604796
-        }
-    ],
-    "[\"Cairns\"]": [
-        {
-            "lat": -16.9204963,
-            "lon": 145.7719011
-        }
-    ],
-    "[\"Adelaide\"]": [
-        {
-            "lat": -34.9274284,
-            "lon": 138.599899
-        }
-    ],
-    "[\"Peru\"]": [
-        {
-            "lat": -6.8699697,
-            "lon": -75.0458515
-        }
-    ],
-    "[\"Ecuador\"]": [
-        {
-            "lat": -1.3397668,
-            "lon": -79.3666965
-        }
-    ],
-    "[\"Jaco, Costa Rica\"]": [
-        {
-            "lat": 9.6155888,
-            "lon": -84.6287923
-        }
-    ],
-    "[\"Puerto Escondido, Mexico\"]": [
-        {
-            "lat": 15.8624446,
-            "lon": -97.0716331
-        }
-    ],
-    "[\"Guatemala\"]": [
-        {
-            "lat": 15.6356088,
-            "lon": -89.8988087
-        }
-    ],
-    "[\"Panama City\"]": [
-        {
-            "lat": 30.1600827,
-            "lon": -85.6545729
-        }
-    ],
-    "[\"Bocas del Toro, Panama\"]": [
-        {
-            "lat": 9.3538223,
-            "lon": -82.4559391
-        }
-    ],
-    "[\"Gili\"]": [
-        {
-            "lat": 58.4061618,
-            "lon": 56.0839397
-        }
-    ],
-    "[false]": [
-        {
-            "lat": 49.2695309,
-            "lon": -123.1238224
-        }
-    ],
-    "[\"Todos Santos, Mexico\"]": [
-        {
-            "lat": 23.4500668,
-            "lon": -110.2253737
-        }
-    ],
-    "[\"Sechelt, Vancouver\"]": [
-        {
-            "lat": 49.3260477,
-            "lon": -123.0002649
-        }
-    ],
-    "[\"San Mateo, California\"]": [
-        {
-            "lat": 37.5446217,
-            "lon": -122.3091165
-        }
-    ],
-    "[\"Shenzhen, China\"]": [
-        {
-            "lat": 22.5462321,
-            "lon": 114.0570068
-        }
-    ],
-    "[\"Gili, Indonesia\"]": [
-        {
-            "lat": -8.7537739,
-            "lon": 115.9289614
-        }
-    ],
-    "[\"Bali, Indonesia\"]": [
-        {
-            "lat": -8.365323,
-            "lon": 115.1685763
-        }
-    ],
-    "[\"Panama City, Panama\"]": [
-        {
-            "lat": 8.9707433,
-            "lon": -79.5344539
-        }
-    ],
-    "[\"Corfu, Greece\"]": [
-        {
-            "lat": 39.5908711,
-            "lon": 19.8557341
-        }
-    ],
-    "[\"Whistler, Canada\"]": [
-        {
-            "lat": 50.1183158,
-            "lon": -122.9587054
-        }
-    ],
-    "[\"Florida\"]": [
-        {
-            "lat": 27.7567667,
-            "lon": -81.4639835
-        }
-    ],
-    "[\"Winnipeg, Manitoba\"]": [
-        {
-            "lat": 49.8091669,
-            "lon": -97.1329711403466
-        }
-    ],
-    "[\"Peterborough, Canada\"]": [
-        {
-            "lat": 44.2876446,
-            "lon": -78.3272997
-        }
-    ],
-    "[\"Innisfil, Canada\"]": [
-        {
-            "lat": 44.3815499,
-            "lon": -79.6967901
-        }
-    ],
-    "[\"Quebec City, Canada\"]": [
-        {
-            "lat": 45.5181298,
-            "lon": -73.5508743749861
-        }
-    ],
     "[\"Dominican Republic\"]": [
         {
             "lat": 19.094175,
             "lon": -70.3012705
+        }
+    ],
+    "[\"Cache Creek, British Columbia, Canada\"]": [
+        {
+            "lat": 50.814479,
+            "lon": -121.3223156
         }
     ],
     "[\"Mont Cascades, Canada\"]": [
@@ -3212,16 +1337,22 @@
             "lon": -89.2591415
         }
     ],
+    "[\"Saskatoon, Saskatchewan, Canada \"]": [
+        {
+            "lat": 52.1303794,
+            "lon": -106.6605124
+        }
+    ],
+    "[\"Turtle Lake, Saskatchewan, Canada\"]": [
+        {
+            "lat": 53.2640001,
+            "lon": -109.032243088434
+        }
+    ],
     "[\"Gananoque, Canada\"]": [
         {
             "lat": 44.3296277,
             "lon": -76.1625737
-        }
-    ],
-    "[\"Winnipeg, Canada\"]": [
-        {
-            "lat": 49.8833343,
-            "lon": -97.1666741
         }
     ],
     "[\"Washington D.C\"]": [
@@ -3230,10 +1361,28 @@
             "lon": -77.0363716
         }
     ],
+    "[\"Winnipeg, Canada\"]": [
+        {
+            "lat": 49.8833343,
+            "lon": -97.1666741
+        }
+    ],
     "[\"Atlanta, USA\"]": [
         {
             "lat": 33.7490987,
             "lon": -84.3901849
+        }
+    ],
+    "[\"Florida\"]": [
+        {
+            "lat": 27.7567667,
+            "lon": -81.4639835
+        }
+    ],
+    "[\"Shenzhen, China\"]": [
+        {
+            "lat": 22.5462321,
+            "lon": 114.0570068
         }
     ],
     "[\"North Bay, Canada\"]": [
@@ -3242,64 +1391,190 @@
             "lon": -79.4579427
         }
     ],
+    "[\"Melbourne\"]": [
+        {
+            "lat": -37.8142176,
+            "lon": 144.9631608
+        }
+    ],
+    "[\"Byron Bay\"]": [
+        {
+            "lat": -28.6434398,
+            "lon": 153.6140262
+        }
+    ],
+    "[\"Sydney\"]": [
+        {
+            "lat": -33.8548157,
+            "lon": 151.2164539
+        }
+    ],
+    "[\"Manuel Antonio, Costa Rica\"]": [
+        {
+            "lat": 9.3909842,
+            "lon": -84.1487702
+        }
+    ],
+    "[\"Perth\"]": [
+        {
+            "lat": -31.9527121,
+            "lon": 115.8604796
+        }
+    ],
+    "[\"Adelaide\"]": [
+        {
+            "lat": -34.9274284,
+            "lon": 138.599899
+        }
+    ],
+    "[\"Cairns\"]": [
+        {
+            "lat": -16.9204963,
+            "lon": 145.7719011
+        }
+    ],
     "[\"Chesterfield, England\"]": [
         {
             "lat": 53.2352134,
             "lon": -1.4264097
         }
     ],
-    "[\"Val-de-Monts, Quebec\"]": [
+    "[\"Puerto Escondido, Mexico\"]": [
         {
-            "lat": 45.7214181,
-            "lon": -75.7005885
+            "lat": 15.8624446,
+            "lon": -97.0716331
         }
     ],
-    "[\"Gran Canaria\"]": [
+    "[\"Peru\"]": [
         {
-            "lat": 27.95798955,
-            "lon": -15.6062452589725
+            "lat": -6.8699697,
+            "lon": -75.0458515
         }
     ],
-    "[\"Abersoch, Wales\"]": [
+    "[\"El Salvador\"]": [
         {
-            "lat": 52.8226822,
-            "lon": -4.5075491
+            "lat": 13.8000382,
+            "lon": -88.9140683
         }
     ],
-    "[\"Cape Town, South Africa\"]": [
+    "[\"Ecuador\"]": [
         {
-            "lat": -33.9289049,
-            "lon": 18.4172485
+            "lat": -1.3397668,
+            "lon": -79.3666965
         }
     ],
-    "[\"Uranquinty, Australia\"]": [
+    "[\"Jaco, Costa Rica\"]": [
         {
-            "lat": -35.1918295,
-            "lon": 147.2481215
+            "lat": 9.6155888,
+            "lon": -84.6287923
         }
     ],
-    "[\"Freemantle, Australia\"]": [
+    "[\"Guatemala\"]": [
         {
-            "lat": -33.2733333,
-            "lon": 149.3344444
+            "lat": 15.6356088,
+            "lon": -89.8988087
         }
     ],
-    "[\"Pearce, Australia\"]": [
+    "[\"Costa Rica\"]": [
         {
-            "lat": -35.3599301,
-            "lon": 149.084276
+            "lat": 10.2735633,
+            "lon": -84.0739102
         }
     ],
-    "[\"Singapore\"]": [
+    "[\"Nicaragua\"]": [
         {
-            "lat": 1.2909305,
-            "lon": 103.8528878
+            "lat": 12.3724928,
+            "lon": -84.8700308
         }
     ],
-    "[\"Penang, Malaysia\"]": [
+    "[\"Bocas del Toro, Panama\"]": [
         {
-            "lat": 5.4065013,
-            "lon": 100.2559077
+            "lat": 9.3538223,
+            "lon": -82.4559391
+        }
+    ],
+    "[\"Panama City, Panama\"]": [
+        {
+            "lat": 8.9707433,
+            "lon": -79.5344539
+        }
+    ],
+    "[\"Maui, Hawaii\"]": [
+        {
+            "lat": 20.7873849,
+            "lon": -156.38627
+        }
+    ],
+    "[\"Fortaleza, Brazil\"]": [
+        {
+            "lat": -3.7304512,
+            "lon": -38.5217989
+        }
+    ],
+    "[\"Siem Riep, Cambodia\"]": [
+        {
+            "lat": 13.3452447,
+            "lon": 103.8541628
+        }
+    ],
+    "[\"Gili, Indonesia\"]": [
+        {
+            "lat": -8.8114,
+            "lon": 116.5003
+        }
+    ],
+    "[\"Nelson, British Columbia, Canada\"]": [
+        {
+            "lat": 49.494202,
+            "lon": -117.2878681
+        }
+    ],
+    "[\"Rio de Janeiro, Brazil\"]": [
+        {
+            "lat": -22.9112163,
+            "lon": -43.2093781
+        }
+    ],
+    "[\"Bali, Indonesia\"]": [
+        {
+            "lat": -8.365323,
+            "lon": 115.1685763
+        }
+    ],
+    "[\"Sechelt, Canada\"]": [
+        {
+            "lat": 49.466667,
+            "lon": -123.766667
+        }
+    ],
+    "[\"Todos Santos, Mexico\"]": [
+        {
+            "lat": 23.4500668,
+            "lon": -110.2253737
+        }
+    ],
+    "[\"San Jose del Cabo, Mexico\"]": [
+        {
+            "lat": 23.0539875,
+            "lon": -109.7012321
+        }
+    ],
+    "[\"Bodega Bay, California\"]": [
+        {
+            "lat": 38.273529,
+            "lon": -123.0061118
+        }
+    ],
+    "[\"Santa Cruz, California\"]": [
+        {
+            "lat": 36.9746099,
+            "lon": -122.0294259
+        }
+    ],
+    "[\"San Mateo, California\"]": [
+        {
+            "lat": 37.5446217,
+            "lon": -122.3091165
         }
     ],
     "[\"Sheffield, England\"]": [
@@ -3308,16 +1583,76 @@
             "lon": -1.4702278
         }
     ],
+    "[\"Abersoch, Wales\"]": [
+        {
+            "lat": 52.8226822,
+            "lon": -4.5075491
+        }
+    ],
+    "[\"Gran Canaria\"]": [
+        {
+            "lat": 27.95798955,
+            "lon": -15.6062452589725
+        }
+    ],
+    "[\"Finningley, England\"]": [
+        {
+            "lat": 53.4857826,
+            "lon": -0.9889746
+        }
+    ],
+    "[\"Cape Town, South Africa\"]": [
+        {
+            "lat": -33.9289049,
+            "lon": 18.4172485
+        }
+    ],
     "[\"Thorne, England\"]": [
         {
             "lat": 53.6106824,
             "lon": -0.9641152
         }
     ],
+    "[\"Pearce, Australia\"]": [
+        {
+            "lat": -35.3599301,
+            "lon": 149.084276
+        }
+    ],
+    "[\"Uranquinty, Australia\"]": [
+        {
+            "lat": -35.1918295,
+            "lon": 147.2481215
+        }
+    ],
+    "[\"Perth, Australia\"]": [
+        {
+            "lat": -31.9527121,
+            "lon": 115.8604796
+        }
+    ],
+    "[\"Freemantle, Australia\"]": [
+        {
+            "lat": -33.2733333,
+            "lon": 149.3344444
+        }
+    ],
+    "[\"Singapore\"]": [
+        {
+            "lat": 1.2909305,
+            "lon": 103.8528878
+        }
+    ],
     "[\"Halifax, England\"]": [
         {
             "lat": 53.7209169,
             "lon": -1.8674504
+        }
+    ],
+    "[\"Penang, Malaysia\"]": [
+        {
+            "lat": 5.4065013,
+            "lon": 100.2559077
         }
     ],
     "[\"Gan, Maldive Islands\"]": [
@@ -3338,10 +1673,16 @@
             "lon": -3.42097234057254
         }
     ],
-    "[\"Lynham, England\"]": [
+    "[\"Bubwith, England\"]": [
         {
-            "lat": 53.5830493,
-            "lon": -2.2181706
+            "lat": 53.8184436,
+            "lon": -0.917127
+        }
+    ],
+    "[\"Loch Etchachan, Scotland\"]": [
+        {
+            "lat": 57.08308805,
+            "lon": -3.63984740342987
         }
     ],
     "[\"Newquay, England\"]": [
@@ -3350,10 +1691,10 @@
             "lon": -5.077007
         }
     ],
-    "[\"Bubwith, England\"]": [
+    "[\"Lynham, England\"]": [
         {
-            "lat": 53.8184436,
-            "lon": -0.917127
+            "lat": 53.5830493,
+            "lon": -2.2181706
         }
     ],
     "[\"Torquay, England\"]": [
@@ -3368,16 +1709,22 @@
             "lon": -8.5463795
         }
     ],
-    "[\"Jersey, Channel Islands\"]": [
+    "[\"Tangier, Morocco\"]": [
         {
-            "lat": 49.2291856,
-            "lon": -2.2343313
+            "lat": 35.7651341,
+            "lon": -5.8283237
         }
     ],
     "[\"Lisbon, Portugal\"]": [
         {
             "lat": 38.7128995,
             "lon": -9.1328948
+        }
+    ],
+    "[\"Jersey, Channel Islands\"]": [
+        {
+            "lat": 49.2291856,
+            "lon": -2.2343313
         }
     ],
     "[\"Gibraltar\"]": [
@@ -3392,58 +1739,16 @@
             "lon": -0.4868528
         }
     ],
+    "[\"Scarborough, England\"]": [
+        {
+            "lat": 54.2847601,
+            "lon": -0.4090339
+        }
+    ],
     "[\"Keswick, England\"]": [
         {
             "lat": 54.6043856,
             "lon": -3.1375681
-        }
-    ],
-    "[\"Ambleside, England\"]": [
-        {
-            "lat": 54.431954,
-            "lon": -2.9630528
-        }
-    ],
-    "[\"Windermere, England\"]": [
-        {
-            "lat": 54.3787142,
-            "lon": -2.9044238
-        }
-    ],
-    "[\"Grasmere, England\"]": [
-        {
-            "lat": 54.4593879,
-            "lon": -3.0243657
-        }
-    ],
-    "[\"Oban, Scotland\"]": [
-        {
-            "lat": 56.415695,
-            "lon": -5.4734688
-        }
-    ],
-    "[\"Loch Ness, Scotland\"]": [
-        {
-            "lat": 57.274073,
-            "lon": -4.48494059673573
-        }
-    ],
-    "[\"Kirkwall, Scotland\"]": [
-        {
-            "lat": 58.9818247,
-            "lon": -2.9587261
-        }
-    ],
-    "[\"Minehead, England\"]": [
-        {
-            "lat": 51.2057511,
-            "lon": -3.4783542
-        }
-    ],
-    "[\"Tangier, Morocco\"]": [
-        {
-            "lat": 35.7651341,
-            "lon": -5.8283237
         }
     ],
     "[\"Lamorna Cove, Cornwall\"]": [
@@ -3452,28 +1757,52 @@
             "lon": -5.5678845
         }
     ],
-    "[\"Loch Etchachan, Scotland\"]": [
+    "[\"Grasmere, England\"]": [
         {
-            "lat": 57.08308805,
-            "lon": -3.63984740342987
+            "lat": 54.4593879,
+            "lon": -3.0243657
         }
     ],
-    "[\"Perth, Australia\"]": [
+    "[\"Windermere, England\"]": [
         {
-            "lat": -31.9527121,
-            "lon": 115.8604796
+            "lat": 54.3787142,
+            "lon": -2.9044238
         }
     ],
-    "[\"Finningley, England\"]": [
+    "[\"Ambleside, England\"]": [
         {
-            "lat": 53.4857826,
-            "lon": -0.9889746
+            "lat": 54.431954,
+            "lon": -2.9630528
         }
     ],
     "[\"Kendal, England\"]": [
         {
             "lat": 54.3272096,
             "lon": -2.74843
+        }
+    ],
+    "[\"Loch Ness, Scotland\"]": [
+        {
+            "lat": 57.274073,
+            "lon": -4.48494059673573
+        }
+    ],
+    "[\"Minehead, England\"]": [
+        {
+            "lat": 51.2057511,
+            "lon": -3.4783542
+        }
+    ],
+    "[\"Kirkwall, Scotland\"]": [
+        {
+            "lat": 58.9818247,
+            "lon": -2.9587261
+        }
+    ],
+    "[\"Oban, Scotland\"]": [
+        {
+            "lat": 56.415695,
+            "lon": -5.4734688
         }
     ],
     "[\"Gothenburg, Sweden\"]": [
@@ -3488,36 +1817,6 @@
             "lon": 18.0710935
         }
     ],
-    "[\"Hamburg, Germany\"]": [
-        {
-            "lat": 53.5437641,
-            "lon": 10.0099133
-        }
-    ],
-    "[\"Ibiza, Spain\"]": [
-        {
-            "lat": 38.97430265,
-            "lon": 1.41970251585207
-        }
-    ],
-    "[\"Austria\"]": [
-        {
-            "lat": 47.2000338,
-            "lon": 13.199959
-        }
-    ],
-    "[\"Doncaster, England\"]": [
-        {
-            "lat": 53.5227681,
-            "lon": -1.1335312
-        }
-    ],
-    "[\"Scilly Isles, England\"]": [
-        {
-            "lat": 51.37842055,
-            "lon": -0.348237255213259
-        }
-    ],
     "[\"Plymouth, England\"]": [
         {
             "lat": 50.39254155,
@@ -3530,28 +1829,52 @@
             "lon": -2.483327
         }
     ],
-    "[\"Oxfordshire, England\"]": [
+    "[\"Scilly Isles, England\"]": [
         {
-            "lat": 51.833333,
-            "lon": -1.25
+            "lat": 51.37842055,
+            "lon": -0.348237255213259
         }
     ],
-    "[\"Blue Mountain, Canada\"]": [
+    "[\"Hamburg, Germany\"]": [
         {
-            "lat": 45.9204762,
-            "lon": -60.1849373
+            "lat": 53.5437641,
+            "lon": 10.0099133
         }
     ],
-    "[\"Tenerife, Spain\"]": [
+    "[\"Ibiza, Spain\"]": [
         {
-            "lat": 28.2935724,
-            "lon": -16.6218483519602
+            "lat": 38.97430265,
+            "lon": 1.41970251585207
         }
     ],
-    "[\"Palm Bay, Florida\"]": [
+    "[\"Banff, Alberta\"]": [
         {
-            "lat": 28.0331886,
-            "lon": -80.6429695
+            "lat": 51.1777781,
+            "lon": -115.5682504
+        }
+    ],
+    "[\"Austria\"]": [
+        {
+            "lat": 47.2000338,
+            "lon": 13.199959
+        }
+    ],
+    "[\"Kelowna, British Columbia\"]": [
+        {
+            "lat": 49.8876629,
+            "lon": -119.4961612
+        }
+    ],
+    "[\"Tunnel Mountain, Alberta\"]": [
+        {
+            "lat": 51.1775391,
+            "lon": -115.5537599
+        }
+    ],
+    "[\"Vancouver, British Columbia\"]": [
+        {
+            "lat": 49.2499987,
+            "lon": -123.1333301
         }
     ],
     "[\"Eynsham, England\"]": [
@@ -3560,412 +1883,52 @@
             "lon": -1.3755251
         }
     ],
+    "[\"Oxfordshire, England\"]": [
+        {
+            "lat": 51.833333,
+            "lon": -1.25
+        }
+    ],
+    "[\"Jasper, Alberta\"]": [
+        {
+            "lat": 52.8752077,
+            "lon": -118.0824384
+        }
+    ],
+    "[\"Majorca, Spain\"]": [
+        {
+            "lat": 39.6594496,
+            "lon": 2.986239
+        }
+    ],
     "[\"Woodstock, England\"]": [
         {
             "lat": 51.8474887,
             "lon": -1.3545343
         }
     ],
-    "[\"Lake Windermere, England\"]": [
+    "[\"Tenerife, Spain\"]": [
         {
-            "lat": 54.3646155,
-            "lon": -2.9194365
+            "lat": 28.2935724,
+            "lon": -16.6218483519602
         }
     ],
-    "[\"Ashover, England\"]": [
+    "[\"Georgetown, Ontario\"]": [
         {
-            "lat": 53.1639462,
-            "lon": -1.4794232
+            "lat": 43.6513445,
+            "lon": -79.898947
         }
     ],
-    "[\"Victoria, Canada\"]": [
+    "[\"Barbados\"]": [
         {
-            "lat": 48.4283327,
-            "lon": -123.3649269
+            "lat": 13.1500331,
+            "lon": -59.5250305
         }
     ],
-    "[\"Honolulu, Hawaii\"]": [
+    "[\"Pezenas, France\"]": [
         {
-            "lat": 21.304547,
-            "lon": -157.8556764
-        }
-    ],
-    "[\"Wilcox, Canada\"]": [
-        {
-            "lat": 50.0976816,
-            "lon": -104.720739
-        }
-    ],
-    "[\"Yokohama, Japan\"]": [
-        {
-            "lat": 35.4662499,
-            "lon": 139.6232223
-        }
-    ],
-    "[\"Regina, Canada\"]": [
-        {
-            "lat": 50.4480951,
-            "lon": -104.6158181
-        }
-    ],
-    "[\"Moose Jaw, Canada\"]": [
-        {
-            "lat": 50.4001239,
-            "lon": -105.5409135
-        }
-    ],
-    "[\"Swift Current, Canada\"]": [
-        {
-            "lat": 50.2811704,
-            "lon": -107.7935232
-        }
-    ],
-    "[\"Lethbridge, Canada\"]": [
-        {
-            "lat": 49.6950059,
-            "lon": -112.8421767
-        }
-    ],
-    "[\"Medicine Hat, Canada\"]": [
-        {
-            "lat": 50.0415358,
-            "lon": -110.6775465
-        }
-    ],
-    "[\"Airdrie, Canada\"]": [
-        {
-            "lat": 51.2859257,
-            "lon": -114.0105994
-        }
-    ],
-    "[\"Olds, Canada\"]": [
-        {
-            "lat": 51.7919223,
-            "lon": -114.1132781
-        }
-    ],
-    "[\"Red Deer, Canada\"]": [
-        {
-            "lat": 52.2654983,
-            "lon": -113.8289054
-        }
-    ],
-    "[\"High River, Canada\"]": [
-        {
-            "lat": 50.5797079,
-            "lon": -113.8569213
-        }
-    ],
-    "[\"North Battleford, Canada\"]": [
-        {
-            "lat": 52.7761737,
-            "lon": -108.2977496
-        }
-    ],
-    "[\"Edmonton, Canada\"]": [
-        {
-            "lat": 53.5558285,
-            "lon": -113.557352747797
-        }
-    ],
-    "[\"Carstairs, Canada\"]": [
-        {
-            "lat": 51.563216,
-            "lon": -114.1000016
-        }
-    ],
-    "[\"Didsbury, Canada\"]": [
-        {
-            "lat": 51.6600688,
-            "lon": -114.1349542
-        }
-    ],
-    "[\"Chestermere, Canada\"]": [
-        {
-            "lat": 51.0369794,
-            "lon": -113.8227717
-        }
-    ],
-    "[\"Lacombe, Canada\"]": [
-        {
-            "lat": 52.4756821,
-            "lon": -113.7397706
-        }
-    ],
-    "[\"Ponoka, Canada\"]": [
-        {
-            "lat": 52.6794142,
-            "lon": -113.5871706
-        }
-    ],
-    "[\"Sylvan Lake, Canada\"]": [
-        {
-            "lat": 52.3056132,
-            "lon": -114.0908391
-        }
-    ],
-    "[\"Canmore, Canada\"]": [
-        {
-            "lat": 51.0866897,
-            "lon": -115.3481135
-        }
-    ],
-    "[\"Lake Louise, Canada\"]": [
-        {
-            "lat": 51.4172151,
-            "lon": -116.2117391
-        }
-    ],
-    "[\"Banff, Canada\"]": [
-        {
-            "lat": 51.1777781,
-            "lon": -115.5682504
-        }
-    ],
-    "[\"Jasper, Canada\"]": [
-        {
-            "lat": 52.8752077,
-            "lon": -118.0824384
-        }
-    ],
-    "[\"Golden, Canada\"]": [
-        {
-            "lat": 51.297741,
-            "lon": -116.9670661
-        }
-    ],
-    "[\"Field, Canada\"]": [
-        {
-            "lat": 51.3965941,
-            "lon": -116.4889591
-        }
-    ],
-    "[\"Vernon, Canada\"]": [
-        {
-            "lat": 50.266667,
-            "lon": -119.266667
-        }
-    ],
-    "[\"Sicamous, Canada\"]": [
-        {
-            "lat": 50.82875395,
-            "lon": -118.985525301764
-        }
-    ],
-    "[\"Revelstoke, Canada\"]": [
-        {
-            "lat": 50.9933958,
-            "lon": -118.191765
-        }
-    ],
-    "[\"Kelowna, Canada\"]": [
-        {
-            "lat": 49.8876629,
-            "lon": -119.4961612
-        }
-    ],
-    "[\"Salmon Arm, Canada\"]": [
-        {
-            "lat": 50.7000661,
-            "lon": -119.2849158
-        }
-    ],
-    "[\"Hope, Canada\"]": [
-        {
-            "lat": 49.383333,
-            "lon": -121.433333
-        }
-    ],
-    "[\"Chilliwack, Canada\"]": [
-        {
-            "lat": 49.166667,
-            "lon": -121.95
-        }
-    ],
-    "[\"Great Falls, Virginia\"]": [
-        {
-            "lat": 38.9981653,
-            "lon": -77.2883157
-        }
-    ],
-    "[\"Salt Lake City, Utah\"]": [
-        {
-            "lat": 40.7606467,
-            "lon": -111.89109
-        }
-    ],
-    "[\"Butte, Montana\"]": [
-        {
-            "lat": 45.9838436,
-            "lon": -112.5007277
-        }
-    ],
-    "[\"Portland, Oregon\"]": [
-        {
-            "lat": 45.5202471,
-            "lon": -122.6741949
-        }
-    ],
-    "[\"Eugene, Oregon\"]": [
-        {
-            "lat": 44.121358,
-            "lon": -123.194175488064
-        }
-    ],
-    "[\"Sacramento, California\"]": [
-        {
-            "lat": 38.4732259,
-            "lon": -121.2980707
-        }
-    ],
-    "[\"Reno, Nevada\"]": [
-        {
-            "lat": 39.52927,
-            "lon": -119.8136744
-        }
-    ],
-    "[\"Kamloops, Canada\"]": [
-        {
-            "lat": 50.6765557,
-            "lon": -120.3417342
-        }
-    ],
-    "[\"Redding, California\"]": [
-        {
-            "lat": 40.510368,
-            "lon": -122.362918
-        }
-    ],
-    "[\"Seattle, Washington\"]": [
-        {
-            "lat": 47.6038321,
-            "lon": -122.3300624
-        }
-    ],
-    "[\"Dieppe\"]": [
-        {
-            "lat": 49.9246182,
-            "lon": 1.0791444
-        }
-    ],
-    "[\"Rouen\"]": [
-        {
-            "lat": 49.4404591,
-            "lon": 1.0939658
-        }
-    ],
-    "[\"Kirkcaldy, Scotland\"]": [
-        {
-            "lat": 56.1134536,
-            "lon": -3.1646819
-        }
-    ],
-    "[\"St Andrews, Scotland\"]": [
-        {
-            "lat": 56.3403301,
-            "lon": -2.7954131
-        }
-    ],
-    "[\"Newcastle\"]": [
-        {
-            "lat": 54.9770924,
-            "lon": -1.6142059
-        }
-    ],
-    "[\"Swindon\"]": [
-        {
-            "lat": 51.5613683,
-            "lon": -1.7856853
-        }
-    ],
-    "[\"Braintree\"]": [
-        {
-            "lat": 42.2223218,
-            "lon": -70.999492
-        }
-    ],
-    "[\"Essex\"]": [
-        {
-            "lat": 51.79670635,
-            "lon": 0.579339443278927
-        }
-    ],
-    "[\"Oxford, Canada\"]": [
-        {
-            "lat": 43,
-            "lon": -80.9293005
-        }
-    ],
-    "[\"New York, New york\"]": [
-        {
-            "lat": 40.7305991,
-            "lon": -73.9865812
-        }
-    ],
-    "[\"Carlisle, England\"]": [
-        {
-            "lat": 54.8903694,
-            "lon": -2.9329029
-        }
-    ],
-    "[\"Coventry, England\"]": [
-        {
-            "lat": 52.4081812,
-            "lon": -1.510477
-        }
-    ],
-    "[\"Northampton, England\"]": [
-        {
-            "lat": 52.2385239,
-            "lon": -0.902493
-        }
-    ],
-    "[\"Leeds, England\"]": [
-        {
-            "lat": 53.7974185,
-            "lon": -1.5437941
-        }
-    ],
-    "[\"Leicester, England\"]": [
-        {
-            "lat": 52.6367811,
-            "lon": -1.1312289
-        }
-    ],
-    "[\"Newcastle, England\"]": [
-        {
-            "lat": 54.9770924,
-            "lon": -1.6142059
-        }
-    ],
-    "[\"Glasgow, Scotland\"]": [
-        {
-            "lat": 55.861147,
-            "lon": -4.2499891
-        }
-    ],
-    "[\"Braintree, England\"]": [
-        {
-            "lat": 51.8790108,
-            "lon": 0.5501584
-        }
-    ],
-    "[\"Essex, England\"]": [
-        {
-            "lat": 51.79670635,
-            "lon": 0.579339443278927
-        }
-    ],
-    "[\"Maui, Hawaii\"]": [
-        {
-            "lat": 20.7873849,
-            "lon": -156.38627
-        }
-    ],
-    "[\"Cancun, Mexico\"]": [
-        {
-            "lat": 21.1708906,
-            "lon": -86.8403165
+            "lat": 43.4611777,
+            "lon": 3.4228323
         }
     ],
     "[\"Collioure, France\"]": [
@@ -3974,10 +1937,22 @@
             "lon": 3.0831554
         }
     ],
-    "[\"Phoenix, Arizona\"]": [
+    "[\"Lake Windermere, England\"]": [
         {
-            "lat": 33.361168,
-            "lon": -112.121302167105
+            "lat": 54.3646155,
+            "lon": -2.9194365
+        }
+    ],
+    "[\"Victoria, Canada\"]": [
+        {
+            "lat": 48.4283327,
+            "lon": -123.3649269
+        }
+    ],
+    "[\"Montpellier, France\"]": [
+        {
+            "lat": 43.6112422,
+            "lon": 3.8767337
         }
     ],
     "[\"Carcassone, France\"]": [
@@ -3986,10 +1961,28 @@
             "lon": 2.3065308870202
         }
     ],
+    "[\"Cancun, Mexico\"]": [
+        {
+            "lat": 21.1708906,
+            "lon": -86.8403165
+        }
+    ],
+    "[\"Guilin, China\"]": [
+        {
+            "lat": 25.276006,
+            "lon": 110.2847529
+        }
+    ],
     "[\"Beijing, China\"]": [
         {
             "lat": 40.2505379,
             "lon": 116.625088590652
+        }
+    ],
+    "[\"Phoenix, Arizona\"]": [
+        {
+            "lat": 33.8872355,
+            "lon": -112.071987034466
         }
     ],
     "[\"Madeira, Portugal\"]": [
@@ -4016,12 +2009,6 @@
             "lon": -94.890802
         }
     ],
-    "[\"Marqutte, Michigan\"]": [
-        {
-            "lat": 46.4481521,
-            "lon": -87.6305899
-        }
-    ],
     "[\"Great Falls, Montana\"]": [
         {
             "lat": 47.5048851,
@@ -4034,16 +2021,16 @@
             "lon": -113.978729
         }
     ],
-    "[\"Chutes, Ontario\"]": [
+    "[\"Marqutte, Michigan\"]": [
         {
-            "lat": 43.0783958,
-            "lon": -79.0743218911915
+            "lat": 46.4481521,
+            "lon": -87.6305899
         }
     ],
-    "[\"Windermere, Canada\"]": [
+    "[\"Crowsnest Pass, Canada\"]": [
         {
-            "lat": 50.4637179,
-            "lon": -115.9898321
+            "lat": 49.6322112,
+            "lon": -114.6917664
         }
     ],
     "[\"Nelson, Canada\"]": [
@@ -4058,34 +2045,16 @@
             "lon": -100.7837392
         }
     ],
-    "[\"Saskatoon, Canada\"]": [
+    "[\"Canmore, Canada\"]": [
         {
-            "lat": 52.1303794,
-            "lon": -106.6605124
+            "lat": 51.0866897,
+            "lon": -115.3481135
         }
     ],
-    "[\"Austin, Texas\"]": [
+    "[\"Chutes, Ontario\"]": [
         {
-            "lat": 30.2718065,
-            "lon": -97.8035959224426
-        }
-    ],
-    "[\"Birch Lake, Canada\"]": [
-        {
-            "lat": 44.81104885,
-            "lon": -63.5162065743766
-        }
-    ],
-    "[\"Nanaimo, Canada\"]": [
-        {
-            "lat": 49.1669814,
-            "lon": -123.9364869
-        }
-    ],
-    "[\"Crowsnest Pass, Canada\"]": [
-        {
-            "lat": 49.6322112,
-            "lon": -114.6917664
+            "lat": 43.0783958,
+            "lon": -79.0743218911915
         }
     ],
     "[\"Astoria, Oregon\"]": [
@@ -4094,28 +2063,34 @@
             "lon": -123.8312563
         }
     ],
-    "[\"Guilin, China\"]": [
+    "[\"Saskatoon, Canada\"]": [
         {
-            "lat": 25.276006,
-            "lon": 110.2847529
+            "lat": 52.1303794,
+            "lon": -106.6605124
         }
     ],
-    "[\"Osoyoos, Canada\"]": [
+    "[\"Birch Lake, Canada\"]": [
         {
-            "lat": 49.033333,
-            "lon": -119.466667
+            "lat": 44.81104885,
+            "lon": -63.5162065743766
         }
     ],
-    "[\"Wawa, Canada\"]": [
+    "[\"Austin, Texas\"]": [
         {
-            "lat": 47.9929283,
-            "lon": -84.7740199
+            "lat": 30.2711286,
+            "lon": -97.7436995
         }
     ],
-    "[\"Salt Spring Island, Canada\"]": [
+    "[\"Nanaimo, Canada\"]": [
         {
-            "lat": 48.82970205,
-            "lon": -123.515183171247
+            "lat": 49.1669814,
+            "lon": -123.9364869
+        }
+    ],
+    "[\"Edenthorpe, England\"]": [
+        {
+            "lat": 53.5529148,
+            "lon": -1.0659478
         }
     ],
     "[\"Sault Ste Marie, Ontario\"]": [
@@ -4124,10 +2099,22 @@
             "lon": -84.3161911
         }
     ],
-    "[\"Sudbury, Canada\"]": [
+    "[\"Kewadin, Michigan\"]": [
         {
-            "lat": 46.4910993,
-            "lon": -80.9907389
+            "lat": 44.9286137,
+            "lon": -85.3731257
+        }
+    ],
+    "[\"Osoyoos, Canada\"]": [
+        {
+            "lat": 49.033333,
+            "lon": -119.466667
+        }
+    ],
+    "[\"Kelowna, Canada\"]": [
+        {
+            "lat": 49.8876629,
+            "lon": -119.4961612
         }
     ],
     "[\"Shelby, North Carolina\"]": [
@@ -4136,10 +2123,454 @@
             "lon": -81.5356463
         }
     ],
-    "[\"Kewadin, Michigan\"]": [
+    "[\"Wawa, Canada\"]": [
         {
-            "lat": 44.9286137,
-            "lon": -85.3731257
+            "lat": 47.9929283,
+            "lon": -84.7740199
+        }
+    ],
+    "[\"Kamloops, Canada\"]": [
+        {
+            "lat": 50.6765557,
+            "lon": -120.3417342
+        }
+    ],
+    "[\"Salt Spring Island, Canada\"]": [
+        {
+            "lat": 48.82970205,
+            "lon": -123.515183171247
+        }
+    ],
+    "[\"Toy Shan, China\"]": [
+        {
+            "lat": 22.3103532,
+            "lon": 114.0395625
+        }
+    ],
+    "[\"Macau\"]": [
+        {
+            "lat": 22.1919514,
+            "lon": 113.5381216
+        }
+    ],
+    "[\"Honolulu, Hawaii\"]": [
+        {
+            "lat": 21.304547,
+            "lon": -157.8556764
+        }
+    ],
+    "[\"Sudbury, Canada\"]": [
+        {
+            "lat": 46.4910993,
+            "lon": -80.9907389
+        }
+    ],
+    "[\"White Rock, British Columbia\"]": [
+        {
+            "lat": 49.0246299,
+            "lon": -122.799814
+        }
+    ],
+    "[\"Yokohama, Japan\"]": [
+        {
+            "lat": 35.465419,
+            "lon": 139.620149
+        }
+    ],
+    "[\"Wilcox, Canada\"]": [
+        {
+            "lat": 50.0976816,
+            "lon": -104.720739
+        }
+    ],
+    "[\"Regina, Canada\"]": [
+        {
+            "lat": 50.4480951,
+            "lon": -104.6158181
+        }
+    ],
+    "[\"Swift Current, Canada\"]": [
+        {
+            "lat": 50.2811704,
+            "lon": -107.7935232
+        }
+    ],
+    "[\"Lethbridge, Canada\"]": [
+        {
+            "lat": 49.6950059,
+            "lon": -112.8421767
+        }
+    ],
+    "[\"Moose Jaw, Canada\"]": [
+        {
+            "lat": 50.4001239,
+            "lon": -105.5409135
+        }
+    ],
+    "[\"Medicine Hat, Canada\"]": [
+        {
+            "lat": 50.0415358,
+            "lon": -110.6775465
+        }
+    ],
+    "[\"North Battleford, Canada\"]": [
+        {
+            "lat": 52.7761737,
+            "lon": -108.2977496
+        }
+    ],
+    "[\"Olds, Canada\"]": [
+        {
+            "lat": 51.7919223,
+            "lon": -114.1132781
+        }
+    ],
+    "[\"Airdrie, Canada\"]": [
+        {
+            "lat": 51.2859257,
+            "lon": -114.0105994
+        }
+    ],
+    "[\"Edmonton, Canada\"]": [
+        {
+            "lat": 53.5558285,
+            "lon": -113.557352747797
+        }
+    ],
+    "[\"Red Deer, Canada\"]": [
+        {
+            "lat": 52.2654983,
+            "lon": -113.8289054
+        }
+    ],
+    "[\"High River, Canada\"]": [
+        {
+            "lat": 50.5797079,
+            "lon": -113.8569213
+        }
+    ],
+    "[\"Carstairs, Canada\"]": [
+        {
+            "lat": 51.563216,
+            "lon": -114.1000016
+        }
+    ],
+    "[\"Chestermere, Canada\"]": [
+        {
+            "lat": 51.0369794,
+            "lon": -113.8227717
+        }
+    ],
+    "[\"Didsbury, Canada\"]": [
+        {
+            "lat": 51.6600688,
+            "lon": -114.1349542
+        }
+    ],
+    "[\"Ponoka, Canada\"]": [
+        {
+            "lat": 52.6794142,
+            "lon": -113.5871706
+        }
+    ],
+    "[\"Lacombe, Canada\"]": [
+        {
+            "lat": 52.4756821,
+            "lon": -113.7397706
+        }
+    ],
+    "[\"Sylvan Lake, Canada\"]": [
+        {
+            "lat": 52.3056132,
+            "lon": -114.0908391
+        }
+    ],
+    "[\"Jasper, Canada\"]": [
+        {
+            "lat": 52.8752077,
+            "lon": -118.0824384
+        }
+    ],
+    "[\"Banff, Canada\"]": [
+        {
+            "lat": 51.1777781,
+            "lon": -115.5682504
+        }
+    ],
+    "[\"Golden, Canada\"]": [
+        {
+            "lat": 51.297741,
+            "lon": -116.9670661
+        }
+    ],
+    "[\"Field, Canada\"]": [
+        {
+            "lat": 51.3965941,
+            "lon": -116.4889591
+        }
+    ],
+    "[\"Lake Louise, Canada\"]": [
+        {
+            "lat": 51.4172151,
+            "lon": -116.2117391
+        }
+    ],
+    "[\"Revelstoke, Canada\"]": [
+        {
+            "lat": 50.9933958,
+            "lon": -118.191765
+        }
+    ],
+    "[\"Vernon, Canada\"]": [
+        {
+            "lat": 50.266667,
+            "lon": -119.266667
+        }
+    ],
+    "[\"Sicamous, Canada\"]": [
+        {
+            "lat": 50.82875395,
+            "lon": -118.985525301764
+        }
+    ],
+    "[\"Hope, Canada\"]": [
+        {
+            "lat": 49.383333,
+            "lon": -121.433333
+        }
+    ],
+    "[\"Chilliwack, Canada\"]": [
+        {
+            "lat": 49.166667,
+            "lon": -121.95
+        }
+    ],
+    "[\"Great Falls, Virginia\"]": [
+        {
+            "lat": 38.9981653,
+            "lon": -77.2883157
+        }
+    ],
+    "[\"Salmon Arm, Canada\"]": [
+        {
+            "lat": 50.7000661,
+            "lon": -119.2849158
+        }
+    ],
+    "[\"Butte, Montana\"]": [
+        {
+            "lat": 45.9838436,
+            "lon": -112.5007277
+        }
+    ],
+    "[\"Salt Lake City, Utah\"]": [
+        {
+            "lat": 40.7606467,
+            "lon": -111.89109
+        }
+    ],
+    "[\"Portland, Oregon\"]": [
+        {
+            "lat": 45.5202471,
+            "lon": -122.6741949
+        }
+    ],
+    "[\"Eugene, Oregon\"]": [
+        {
+            "lat": 44.121358,
+            "lon": -123.194175488064
+        }
+    ],
+    "[\"Redding, California\"]": [
+        {
+            "lat": 40.510368,
+            "lon": -122.362918
+        }
+    ],
+    "[\"Sacramento, California\"]": [
+        {
+            "lat": 38.4732259,
+            "lon": -121.2980707
+        }
+    ],
+    "[\"Kirkcaldy, Scotland\"]": [
+        {
+            "lat": 56.1134536,
+            "lon": -3.1646819
+        }
+    ],
+    "[\"Seattle, Washington\"]": [
+        {
+            "lat": 47.6038321,
+            "lon": -122.3300624
+        }
+    ],
+    "[\"Reno, Nevada\"]": [
+        {
+            "lat": 39.52927,
+            "lon": -119.8136744
+        }
+    ],
+    "[\"St Andrews, Scotland\"]": [
+        {
+            "lat": 56.3403301,
+            "lon": -2.7954131
+        }
+    ],
+    "[\"Northampton, England\"]": [
+        {
+            "lat": 52.2385239,
+            "lon": -0.902493
+        }
+    ],
+    "[\"Coventry, England\"]": [
+        {
+            "lat": 52.4081812,
+            "lon": -1.510477
+        }
+    ],
+    "[\"Carlisle, England\"]": [
+        {
+            "lat": 54.8903694,
+            "lon": -2.9329029
+        }
+    ],
+    "[\"Leicester, England\"]": [
+        {
+            "lat": 52.6367811,
+            "lon": -1.1312289
+        }
+    ],
+    "[\"Leeds, England\"]": [
+        {
+            "lat": 53.7974185,
+            "lon": -1.5437941
+        }
+    ],
+    "[\"Toronto\"]": [
+        {
+            "lat": 43.6529206,
+            "lon": -79.3849008
+        }
+    ],
+    "[\"Oxford\"]": [
+        {
+            "lat": 51.7521553,
+            "lon": -1.2582135
+        }
+    ],
+    "[\"Brussels\"]": [
+        {
+            "lat": 50.84340935,
+            "lon": 4.36748762309029
+        }
+    ],
+    "[\"Amsterdam\"]": [
+        {
+            "lat": 52.3710088,
+            "lon": 4.9001115
+        }
+    ],
+    "[\"Dieppe\"]": [
+        {
+            "lat": 49.9246182,
+            "lon": 1.0791444
+        }
+    ],
+    "[\"Glasgow, Scotland\"]": [
+        {
+            "lat": 55.861147,
+            "lon": -4.2499891
+        }
+    ],
+    "[\"Newcastle, England\"]": [
+        {
+            "lat": 54.9770924,
+            "lon": -1.6142059
+        }
+    ],
+    "[\"Rouen\"]": [
+        {
+            "lat": 49.4404591,
+            "lon": 1.0939658
+        }
+    ],
+    "[\"Swindon\"]": [
+        {
+            "lat": 51.5613683,
+            "lon": -1.7856853
+        }
+    ],
+    "[\"Paris\"]": [
+        {
+            "lat": 48.8565056,
+            "lon": 2.3521334
+        }
+    ],
+    "[\"London\"]": [
+        {
+            "lat": 51.5072759,
+            "lon": -0.1276597
+        }
+    ],
+    "[\"Edinburgh\"]": [
+        {
+            "lat": 55.9483399,
+            "lon": -3.1932723
+        }
+    ],
+    "[\"Manchester\"]": [
+        {
+            "lat": 53.4791466,
+            "lon": -2.2447445
+        }
+    ],
+    "[\"Philadelphia\"]": [
+        {
+            "lat": 39.952335,
+            "lon": -75.163789
+        }
+    ],
+    "[\"Southampton\"]": [
+        {
+            "lat": 50.9138201,
+            "lon": -1.39908338865525
+        }
+    ],
+    "[\"Vancouver\"]": [
+        {
+            "lat": 49.2499987,
+            "lon": -123.1333301
+        }
+    ],
+    "[\"New York\"]": [
+        {
+            "lat": 40.7305991,
+            "lon": -73.9865812
+        }
+    ],
+    "[\"Braintree, England\"]": [
+        {
+            "lat": 51.8790108,
+            "lon": 0.5501584
+        }
+    ],
+    "[\"Manila\"]": [
+        {
+            "lat": 14.5906216,
+            "lon": 120.9799696
+        }
+    ],
+    "[\"Kingston, Jamaica\"]": [
+        {
+            "lat": 17.9712148,
+            "lon": -76.7928128
+        }
+    ],
+    "[\"New Delhi\"]": [
+        {
+            "lat": 28.6138967,
+            "lon": 77.2159562
         }
     ],
     "[\"Bridgewater, Nova Scotia\"]": [
@@ -4148,22 +2579,10 @@
             "lon": -64.5202500265686
         }
     ],
-    "[\"Truro, Nova Scotia\"]": [
+    "[\"Essex, England\"]": [
         {
-            "lat": 45.366668,
-            "lon": -63.300006
-        }
-    ],
-    "[\"Ottawa\"]": [
-        {
-            "lat": 45.4210328,
-            "lon": -75.6900219
-        }
-    ],
-    "[\"Moncton, New Brunswick\"]": [
-        {
-            "lat": 46.0915426,
-            "lon": -64.7952367
+            "lat": 51.79670635,
+            "lon": 0.579339443278927
         }
     ],
     "[\"Halifax\"]": [
@@ -4178,16 +2597,28 @@
             "lon": -125.2440905
         }
     ],
-    "[\"Fredericton, New Brunswick\"]": [
+    "[\"Truro, Nova Scotia\"]": [
         {
-            "lat": 45.9646491,
-            "lon": -66.6437529
+            "lat": 45.366668,
+            "lon": -63.300006
+        }
+    ],
+    "[\"Moncton, New Brunswick\"]": [
+        {
+            "lat": 46.0915426,
+            "lon": -64.7952367
         }
     ],
     "[\"Miramichi, New Brunswick\"]": [
         {
             "lat": 47.01466395,
             "lon": -65.5168408667153
+        }
+    ],
+    "[\"Fredericton, New Brunswick\"]": [
+        {
+            "lat": 45.9646491,
+            "lon": -66.6437529
         }
     ],
     "[\"St. Stephen, New Brunswick\"]": [
@@ -4202,52 +2633,10 @@
             "lon": -66.055875
         }
     ],
-    "[\"Mt Rushmore, South Dakota\"]": [
-        {
-            "lat": 43.8787301,
-            "lon": -103.4591934
-        }
-    ],
-    "[\"Waterton, Alberta\"]": [
-        {
-            "lat": 49.0516605,
-            "lon": -113.9095263
-        }
-    ],
-    "[\"Kalamazoo, Michigan\"]": [
-        {
-            "lat": 42.291707,
-            "lon": -85.5872286
-        }
-    ],
-    "[\"Chicago, Illinois\"]": [
-        {
-            "lat": 41.8756208,
-            "lon": -87.6243706
-        }
-    ],
-    "[\"Montpellier, France\"]": [
-        {
-            "lat": 43.6112422,
-            "lon": 3.8767337
-        }
-    ],
-    "[\"Pezenas, France\"]": [
-        {
-            "lat": 43.4611777,
-            "lon": 3.4228323
-        }
-    ],
     "[\"Aylmer, Quebec\"]": [
         {
             "lat": 45.4031502,
             "lon": -75.8170664
-        }
-    ],
-    "[\"Montreal\"]": [
-        {
-            "lat": 45.5224507,
-            "lon": -73.5912827
         }
     ],
     "[\"Wuxi, China\"]": [
@@ -4256,10 +2645,16 @@
             "lon": 109.318140891572
         }
     ],
-    "[\"Richmond, British Columbia\"]": [
+    "[\"Montreal\"]": [
         {
-            "lat": 49.1640019,
-            "lon": -123.1389125
+            "lat": 45.5224507,
+            "lon": -73.5912827
+        }
+    ],
+    "[\"Suzhou, China\"]": [
+        {
+            "lat": 31.2984758,
+            "lon": 120.622239
         }
     ],
     "[\"Burlington, Ontario\"]": [
@@ -4268,22 +2663,16 @@
             "lon": -79.8011553
         }
     ],
+    "[\"Richmond, British Columbia\"]": [
+        {
+            "lat": 49.1640019,
+            "lon": -123.1389125
+        }
+    ],
     "[\"Seoul, South Korea\"]": [
         {
             "lat": 37.5710824,
             "lon": 126.9953036
-        }
-    ],
-    "[\"Sudbury\"]": [
-        {
-            "lat": 52.0386628,
-            "lon": 0.7296722
-        }
-    ],
-    "[\"Shenyang, China\"]": [
-        {
-            "lat": 41.8045293,
-            "lon": 123.4277858
         }
     ],
     "[\"Dalian, China\"]": [
@@ -4304,16 +2693,28 @@
             "lon": 13.7879014
         }
     ],
+    "[\"Sudbury, Ontario\"]": [
+        {
+            "lat": 46.4910993,
+            "lon": -80.9907389
+        }
+    ],
     "[\"Wuhan, China\"]": [
         {
             "lat": 30.5960213,
             "lon": 114.2992796
         }
     ],
-    "[\"Trento, Italy\"]": [
+    "[\"Quebec City, Quebec\"]": [
         {
-            "lat": 46.0664228,
-            "lon": 11.1257601
+            "lat": 45.50973175,
+            "lon": -73.5694547054749
+        }
+    ],
+    "[\"Shenyang, China\"]": [
+        {
+            "lat": 41.8045293,
+            "lon": 123.4277858
         }
     ],
     "[\"Winnipeg\"]": [
@@ -4328,10 +2729,28 @@
             "lon": -75.489126
         }
     ],
-    "[\"Frankfurt, Germany\"]": [
+    "[\"Trento, Italy\"]": [
         {
-            "lat": 50.12134215,
-            "lon": 8.66195118582712
+            "lat": 46.0664228,
+            "lon": 11.1257601
+        }
+    ],
+    "[\"Cuernavaca, Mexico\"]": [
+        {
+            "lat": 18.9332806,
+            "lon": -99.259912442626
+        }
+    ],
+    "[\"Amman, Jordan\"]": [
+        {
+            "lat": 31.6554651,
+            "lon": 36.3242451899544
+        }
+    ],
+    "[\"Petra, Jordan\"]": [
+        {
+            "lat": 30.3273975,
+            "lon": 35.4464006
         }
     ],
     "[\"Sarajevo, Bosnia\"]": [
@@ -4340,10 +2759,10 @@
             "lon": 18.3886134
         }
     ],
-    "[\"Quebec City, Quebec\"]": [
+    "[\"Frankfurt, Germany\"]": [
         {
-            "lat": 45.50973175,
-            "lon": -73.5694547054749
+            "lat": 50.12134215,
+            "lon": 8.66195118582712
         }
     ],
     "[\"Sao Paulo, Brazil\"]": [
@@ -4362,72 +2781,6 @@
         {
             "lat": 21,
             "lon": -101
-        }
-    ],
-    "[\"Barbados\"]": [
-        {
-            "lat": 13.1500331,
-            "lon": -59.5250305
-        }
-    ],
-    "[\"Georgetown, Ontario\"]": [
-        {
-            "lat": 43.6513445,
-            "lon": -79.898947
-        }
-    ],
-    "[\"Suzhou, China\"]": [
-        {
-            "lat": 31.2984758,
-            "lon": 120.622239
-        }
-    ],
-    "[\"Sudbury, Ontario\"]": [
-        {
-            "lat": 46.4910993,
-            "lon": -80.9907389
-        }
-    ],
-    "[\"Banff, Alberta\"]": [
-        {
-            "lat": 51.1777781,
-            "lon": -115.5682504
-        }
-    ],
-    "[\"Tunnel Mountain, Alberta\"]": [
-        {
-            "lat": 51.1775391,
-            "lon": -115.5537599
-        }
-    ],
-    "[\"Vancouver, British Columbia\"]": [
-        {
-            "lat": 49.2499987,
-            "lon": -123.1333301
-        }
-    ],
-    "[\"Kelowna, British Columbia\"]": [
-        {
-            "lat": 49.8876629,
-            "lon": -119.4961612
-        }
-    ],
-    "[\"Jasper, Alberta\"]": [
-        {
-            "lat": 52.8752077,
-            "lon": -118.0824384
-        }
-    ],
-    "[\"Majorca, Spain\"]": [
-        {
-            "lat": 39.6594496,
-            "lon": 2.986239
-        }
-    ],
-    "[\"Scarborough, England\"]": [
-        {
-            "lat": 54.2847601,
-            "lon": -0.4090339
         }
     ]
 }
