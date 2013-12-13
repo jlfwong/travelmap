@@ -24,7 +24,7 @@ var makeMap = function(container, projection, processed, world) {
 module.exports = function() {
   var width = $(window).width() * 0.9;
 
-  var world50mPromise = $.get("world-50m.json").then(_.identity);
+  var world50mPromise = $.getJSON("world-50m.json").then(_.identity);
 
   render.makeToggles(_.keys(data));
 

@@ -12,11 +12,11 @@ if (window.location.href.indexOf("localhost") === -1) {
 module.exports = function(rawData) {
   var data = [];
 
-  var slim2Promise = $.get("slim-2.json");
+  var slim2Promise = $.getJSON("slim-2.json");
 
   return $.when(
-    $.get("geocode_cache.json"),
-    $.get("reverse_geocode_cache.json")
+    $.getJSON("geocode_cache.json"),
+    $.getJSON("reverse_geocode_cache.json")
   )
   .then(function(geocodeCacheData, reverseGeocodeCacheData) {
     cachedGeocode.load(geocodeCacheData[0]);
@@ -149,6 +149,13 @@ module.exports = function(rawData) {
         countriesById: countriesById
       };
     });
+};
+
+module.exports.logCaches = function() {
+  console.log({
+    'cachedGeocode': cachedGeocode.dump(),
+    'cachedReverseGeocode': cachedReverseGeocode.dump()
+  });
 };
 
 // Invoke in browser with: require("aggregate").saveCaches()
