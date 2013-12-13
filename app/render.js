@@ -63,7 +63,7 @@ module.exports = function(opts) {
     .attr("d", path);
 
   // scale factor
-  var sf = Math.sqrt((projection.scale() / 205) * (projection.width / 1400));
+  var sf = Math.pow((projection.scale() / 205) * (projection.width / 1400), 1/3);
 
   _.forOwn(processed.pairsByPerson, function(pairs, name) {
       svg.selectAll(".travelpath." + name)

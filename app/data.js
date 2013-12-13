@@ -307,6 +307,144 @@ var FAMILY_2007__SE___ = [
   "Ottawa, Canada"
 ];
 
+var FAMILY_2007_GS____ = [
+  "Barcelona, Spain",
+  "Doncaster, England",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2009_GS____ = [
+  "Mexico City, Mexico",
+  "Ottawa, Canada",
+  "Paris, France",
+  "Toulouse, France",
+  "Collioure, France",
+  "Carcassone, France",
+  "Ashover, England",
+  "Ottawa, Canada",
+  "New York, New York",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2009_GS_____p2 = [
+  "Phoenix, Arizona",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2010_GS____ = [
+  "Cancun, Mexico",
+  "Ottawa, Canada",
+  "Montreal, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2010_GS_____p2 = [
+  "Vancouver, Canada",
+  "Beijing, China",
+  "Guilin, China",
+  "Shanghai, China",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2010_GS_____p3 = [
+  "New York, New York",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2011_GS____ = [
+  "Madeira, Portugal",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2011_GS_____p2 = [
+  "Toronto, Canada",
+  "Ottawa, Canada",
+  "Toronto, Canada",
+  "Ottawa, Canada",
+  "Chutes, Ontario",
+  "Marqutte, Michigan",
+  "Bemidji, Minnesota",
+  "Medora, North Dakota",
+  "Great Falls, Montana",
+  "West Glacier, Montana",
+  "Windermere, Canada",
+  "Nelson, Canada",
+  "Crowsnest Pass, Canada",
+  "Calgary, Canada",
+  "Canmore, Canada",
+  "Windermere, Canada",
+  "Great Falls, Montana",
+  "Bismarck, North Dakota",
+  "Cloquet, Minnesota",
+  "Sault Ste Marie, Canada",
+  "North Bay, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2011_GS_____p3 = [
+  "Austin, Texas",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2012_GS____ = [
+  "New York, New York",
+  "Ottawa, Canada",
+  "Vancouver, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2012_GS_____p2 = [
+  "Doncaster, England",
+  "Ibiza, Spain",
+  "Doncaster, England",
+  "London, England",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2012_GS_____p3 = [
+  "Winnipeg, Canada",
+  "Ottawa, Canada",
+  "Kauai, Hawaii",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2013_GS____ = [
+  "Los Angeles, California",
+  "San Francisco, California",
+  "Astoria, Oregon",
+  "Victoria, Canada",
+  "Nanaimo, Canada",
+  "Vancouver, Canada",
+  "Sechelt, Canada"
+];
+
+var FAMILY_2013_GS_____p2 = [
+  "Sault Ste Marie, Ontario",
+  "Kewadin, Michigan",
+  "Bemidji, Minnesota",
+  "Shelby, North Carolina",
+  "Calgary, Canada",
+  "Windermere, Canada",
+  "Osoyoos, Canada",
+  "Kelowna, Canada",
+  "Victoria, Canada",
+  "Salt Spring Island, Canada",
+  "Sechelt, Canada",
+  "Kamloops, Canada",
+  "Calgary, Canada",
+  "Saskatoon, Canada",
+  "Winnipeg, Canada",
+  "Thunder Bay, Canada",
+  "Wawa, Canada",
+  "Sudbury, Canada",
+  "Ottawa, Canada"
+];
+
+var FAMILY_2013_GS__TJ = [
+  "Kauai, Hawaii",
+  "Ottawa, Canada"
+];
+
 // TODO(jlfwong): When did I go to New York with Dad? Where were mom and tammy
 // in the meantime?
 
@@ -473,8 +611,7 @@ module.exports = {
     "San Jose, California",
     "San Francisco, California",
     "Ottawa, Canada",
-    "Kauai, Hawaii",
-    "Ottawa, Canada"
+    FAMILY_2013_GS__TJ
   ],
   "Becky": [
     "Ottawa, Canada",
@@ -900,6 +1037,8 @@ module.exports = {
     "Ottawa, Canada",
     // 2011
     "Vancouver, Canada",
+    "Maui, Hawaii",
+    "Vancouver, Canada",
     "Fortaleza, Brazil",
     "Rio de Janeiro, Brazil",
     "Nelson, British Columbia, Canada",
@@ -1020,8 +1159,7 @@ module.exports = {
     "Toronto, Canada",
     "Innisfil, Canada", // Belle Ewart
     "Ottawa, Canada",
-    "Kauai, Hawaii",
-    "Ottawa, Canada"
+    FAMILY_2013_GS__TJ
   ],
   "Susan": [
     // 1951
@@ -1223,6 +1361,63 @@ module.exports = {
     "Houston, Texas, USA",
     "Ottawa, Canada",
     FAMILY_2007__SE___,
+    FAMILY_2007_GS____,
+    "Scunthorpe, England",
+    "Ashover, England",
+    "Ottawa, Canada",
+    FAMILY_2009_GS____,
+    "Vancouver, Canada",
+    "Ottawa, Canada",
+    "Winnipeg, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    FAMILY_2009_GS_____p2,
+    "Vancouver, Canada",
+    "Ottawa, Canada",
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    FAMILY_2010_GS____,
+    "Winnipeg, Canada",
+    "Ottawa, Canada",
+    FAMILY_2010_GS_____p2,
+    "Winnipeg, Canada",
+    "Ottawa, Canada",
+    FAMILY_2010_GS_____p3,
+    // 2011
+    "Toronto, Canada",
+    "Ottawa, Canada",
+    FAMILY_2011_GS____,
+    "Vancouver, Canada",
+    "Maui, Hawaii",
+    "Ottawa, Canada",
+    "Doncaster, England",
+    FAMILY_2011_GS_____p2,
+    "Vancouver, Canada",
+    "Ottawa, Canada",
+    "Edenthorpe, England",
+    "Manchester, England",
+    "Ottawa, Canada",
+    FAMILY_2011_GS_____p3,
+    // 2012
+    "Winnipeg, Canada",
+    "Ottawa, Canada",
+    FAMILY_2012_GS____,
+    "Winnipeg, Canada",
+    "Ottawa, Canada",
+    "Winnipeg, Canada",
+    "Ottawa, Canada",
+    FAMILY_2012_GS_____p2,
+    "Saskatoon, Canada",
+    "Ottawa, Canada",
+    FAMILY_2012_GS_____p3,
+    FAMILY_2013_GS____,
+    "Vancouver, Canada",
+    "Saskatoon, Canada",
+    "Birch Lake, Canada",
+    "Ottawa, Canada",
+    FAMILY_2013_GS_____p2,
+    FAMILY_2013_GS__TJ
   ],
   "Ging": [
     // 1947 - 1952
@@ -1357,12 +1552,53 @@ module.exports = {
     "New York, New York",
     "Calgary",
     "Philadelphia",
-    "New York, New york",
+    "New York, New York",
     "Calgary",
     "Oxford, England",
     "Southampton",
     "New York, New York",
-    "Oxford, Canada",
-    FAMILY_1974_GS____
+    "Oxford, England",
+    FAMILY_1974_GS____,
+    FAMILY_1978_GS____,
+    FAMILY_1981_GSE___,
+    FAMILY_1982_GS_____p2,
+    FAMILY_1985_GSEB__,
+    FAMILY_1988_GS__T_,
+    FAMILY_1990_GSEBT_,
+    FAMILY_1991_GSEBT_,
+    FAMILY_1992_GSEBTJ,
+    FAMILY_1993_GSEBTJ,
+    FAMILY_1994_GS_BTJ,
+    FAMILY_1995_GSEBTJ,
+    FAMILY_1996_GSEBTJ,
+    FAMILY_1997_GSEBTJ,
+    FAMILY_1997_G_E___,
+    FAMILY_1998_G_E___,
+    FAMILY_1999_GS___J,
+    FAMILY_2001_GSEBTJ,
+    FAMILY_2002_GS_BTJ,
+    FAMILY_2002_GSEBTJ_p2,
+    FAMILY_2003_GSEBTJ_pre,
+    FAMILY_2003_GSEB_J,
+    FAMILY_2003_GS____,
+    FAMILY_2003_GS__TJ_p3,
+    FAMILY_2004_GS__TJ,
+    FAMILY_2005_GSEBTJ,
+    FAMILY_2006_GS____,
+    FAMILY_2007_GS____,
+    FAMILY_2009_GS____,
+    FAMILY_2009_GS_____p2,
+    FAMILY_2010_GS____,
+    FAMILY_2010_GS_____p2,
+    FAMILY_2010_GS_____p3,
+    FAMILY_2011_GS____,
+    FAMILY_2011_GS_____p2,
+    FAMILY_2011_GS_____p3,
+    FAMILY_2012_GS____,
+    FAMILY_2012_GS_____p2,
+    FAMILY_2012_GS_____p3,
+    FAMILY_2013_GS____,
+    FAMILY_2013_GS_____p2,
+    FAMILY_2013_GS__TJ
   ]
 };

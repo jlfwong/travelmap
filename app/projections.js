@@ -57,7 +57,7 @@ exports.europe = function(width) {
 
 exports.uk = function(width) {
   return mercatorProj(width, [
-    [-20, 60],
+    [-10, 60],
     [3, 50]
   ]);
 };
