@@ -14,6 +14,8 @@ module.exports = function(rawData) {
 
   var slim2Promise = $.getJSON("slim-2.json");
 
+  var allNames = _.keys(rawData);
+
   return $.when(
     $.getJSON("geocode_cache.json"),
     $.getJSON("reverse_geocode_cache.json")
@@ -133,17 +135,35 @@ module.exports = function(rawData) {
         var key = alpha2ToId[place.countryCode];
         var country;
         if (!(country = result[key])) {
-          result[key] = {
+          country = result[key] = {
             count: 0,
             name: place.country
           };
         }
         // One point per person per city in the country
-        result[key].count++;
+        country.count++;
         return result;
       }, {});
 
+      var visitedByAtLeastN = _.map(_.range(1, allNames.length + 1), function(n) {
+        var ps = _.filter(places, function(place) {
+          return place.names.length <= n;
+        });
+
+        var cs = _.unique(_.pluck(ps, 'country'));
+
+        return {
+          places: ps,
+          countries: cs
+        };
+      });
+
+      var placesVisitedByAll = _.filter(places, function(place) {
+        return place.names.length === allNames.length;
+      });
+
       return {
+        visitedByAtLeastN: visitedByAtLeastN,
         placesPerPerson: placesPerPerson,
         pairsByPerson: pairsByPerson,
         countriesById: countriesById

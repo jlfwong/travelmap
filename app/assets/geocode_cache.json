@@ -2782,5 +2782,113 @@
             "lat": 21,
             "lon": -101
         }
+    ],
+    "[\"Bell's Beach, Australia\"]": [
+        {
+            "lat": -38.37673495,
+            "lon": 144.25178998512
+        }
+    ],
+    "[\"Montanita, Ecuador\"]": [
+        {
+            "lat": -0.19299,
+            "lon": -79.272301
+        }
+    ],
+    "[\"San Cristóbal de las Casas, Mexico\"]": [
+        {
+            "lat": 16.7353772,
+            "lon": -92.63873
+        }
+    ],
+    "[\"Lima, Peru\"]": [
+        {
+            "lat": -12,
+            "lon": -76.833333
+        }
+    ],
+    "[\"Antigua, Guatemala\"]": [
+        {
+            "lat": 14.5635954,
+            "lon": -90.7328438
+        }
+    ],
+    "[\"Tegucigalpa, Honduras\"]": [
+        {
+            "lat": 14.0931919,
+            "lon": -87.2012631
+        }
+    ],
+    "[\"San Salvador, El Salvador\"]": [
+        {
+            "lat": 13.696972,
+            "lon": -89.1928301
+        }
+    ],
+    "[\"Managua, Nicaragua\"]": [
+        {
+            "lat": 12.1351347,
+            "lon": -86.2739249
+        }
+    ],
+    "[\"Granada, Nicaragua\"]": [
+        {
+            "lat": 11.89555,
+            "lon": -85.8979874573452
+        }
+    ],
+    "[\"Ometepe, Nicaragua\"]": [
+        {
+            "lat": 11.49818615,
+            "lon": -85.6251286189272
+        }
+    ],
+    "[\"San Juan del Sur, Nicaragua\"]": [
+        {
+            "lat": 11.2536716,
+            "lon": -85.8709492
+        }
+    ],
+    "[\"Popoyo, Nicaragua\"]": [
+        {
+            "lat": 11.4593541,
+            "lon": -86.1016622
+        }
+    ],
+    "[\"La Libertad, El Salvador\"]": [
+        {
+            "lat": -8.061647,
+            "lon": -79.047477
+        }
+    ],
+    "[\"El Tunco, El Salvador\"]": [
+        {
+            "lat": 13.4948348,
+            "lon": -89.3828612
+        }
+    ],
+    "[\"Pochomil, Nicaragua\"]": [
+        {
+            "lat": 11.7714937,
+            "lon": -86.5069799
+        }
+    ],
+    "[\"Chacahua, Mexico\"]": [
+        {
+            "lat": 15.969444,
+            "lon": -97.679167
+        }
+    ],
+    "[\"Lake Atitlan, Guatemala\"]": [
+        {
+            "lat": 15.4434385,
+            "lon": -91.6337145
+        }
+    ],
+    "[\"Quito, Ecuador\"]": [
+        {
+            "lat": -0.2201687,
+            "lon": -78.5120913
+        }
     ]
 }

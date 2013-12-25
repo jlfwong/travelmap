@@ -81,7 +81,6 @@ var FAMILY_1982_GS_____p2 = [
 
 var FAMILY_1984_GS____ = [
   "Hibaldstow, England",
-  // TODO(jlfwong): Why is there no dot here?!
   "Majorca, Spain",
   "Ottawa"
 ];
@@ -740,7 +739,7 @@ module.exports = {
     "Toronto, Canada",
     "Ottawa, Canada",
     // 2013
-    "Palm Bay, Florida", // TODO(jlfwong): Where in florida?
+    "Palm Bay, Florida",
     "Ottawa, Canada",
     "Palm Bay, Florida",
     "Ottawa, Canada",
@@ -1086,7 +1085,6 @@ module.exports = {
     "Winnipeg, Canada",
     "Ottawa, Canada",
     // 1997
-    // TODO(jlfwong): Pan Am Games?
     "Gananoque, Canada",
     "Ottawa, Canada",
     "North Bay, Canada",
@@ -1105,6 +1103,8 @@ module.exports = {
     "Sydney",
     "Byron Bay",
     "Melbourne",
+    "Bell's Beach, Australia",
+    "Melbourne",
     "Perth",
     "Melbourne",
     "Adelaide",
@@ -1112,6 +1112,7 @@ module.exports = {
     "Sydney",
     "Byron Bay",
     "Cairns",
+    "Ottawa, Canada",
     "Kingston, Ontario",
     // 2003
     "Ottawa, Canada",
@@ -1120,28 +1121,40 @@ module.exports = {
     // 2004
     "Manuel Antonio, Costa Rica",
     "Quepos, Costa Rica",
-    "Peru",
-    "Ecuador",
+    "San Jose, Costa Rica",
+    "Lima, Peru",
+    "Montanita, Ecuador",
+    "Quito, Ecuador",
+    "San Jose, Costa Rica",
     "Quepos, Costa Rica",
     "Ottawa, Canada",
     "Mexico City, Mexico",
+    "Chacahua, Mexico",
     "Puerto Escondido, Mexico",
-    // "Ciudad de las Cuesas, Mexico", TODO(jlfwong): Where is this?
-    "Guatemala",
-    "El Salvador",
-    "Nicaragua",
-    "Costa Rica",
+    "San Cristóbal de las Casas, Mexico",
+    "Antigua, Guatemala",
+    "Lake Atitlan, Guatemala",
+    "San Salvador, El Salvador",
+    "Tegucigalpa, Honduras",
+    "Managua, Nicaragua",
+    "San Jose, Costa Rica",
     "Jaco, Costa Rica",
     "Santa Teresa, Costa Rica",
     "Ottawa, Canada",
     // 2005
+    FAMILY_2005_GSEBTJ,
     "Santa Teresa, Costa Rica",
+    "San Jose, Costa Rica",
     "Panama City, Panama",
     "Santa Teresa, Costa Rica",
     "Ottawa, Canada",
     "Santa Teresa, Costa Rica",
+    "Granada, Nicaragua",
+    "Santa Teresa, Costa Rica",
     "Ottawa, Canada",
     // 2006
+    "Santa Teresa, Costa Rica",
+    "Ometepe, Nicaragua",
     "Santa Teresa, Costa Rica",
     "Bocas del Toro, Panama",
     "Santa Teresa, Costa Rica",
@@ -1177,7 +1190,10 @@ module.exports = {
     "Vancouver, Canada",
     "Fortaleza, Brazil",
     "Rio de Janeiro, Brazil",
+    "Vancouver, Canada",
     "Nelson, British Columbia, Canada",
+    "Vancouver, Canada",
+    "New York, New York",
     "Vancouver, Canada",
     "Ottawa, Canada",
     // 2012
@@ -1193,8 +1209,18 @@ module.exports = {
     "San Mateo, California", // Halfmoon Bay
     "Ottawa, Canada",
     "Sechelt, Canada",
-    "El Salvador",
-    "Nicaragua",
+    "San Salvador, El Salvador",
+    "El Tunco, El Salvador",
+    "La Libertad, El Salvador",
+    "Managua, Nicaragua",
+    "Pochomil, Nicaragua",
+    "San Juan del Sur, Nicaragua",
+    "Popoyo, Nicaragua",
+    "Managua, Nicaragua",
+    "San Salvador, El Salvador",
+    "El Tunco, El Salvador",
+    "San Salvador, El Salvador",
+    "Vancouver, Canada",
     "Sechelt, Canada",
     // 2013
     "Vancouver, Canada",
@@ -1803,7 +1829,6 @@ module.exports = {
     "Sarajevo, Bosnia",
     "Ottawa",
     FAMILY_2007_GS____,
-    // TODO(jlfwong): Were these all the same trip?
     "London, England",
     "Barcelona, Spain",
     "Paris, France",

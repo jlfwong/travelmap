@@ -4515,5 +4515,202 @@
                 "country_code": "br"
             }
         }
+    ],
+    "[{\"lat\":-38.37673495,\"lon\":144.25178998512}]": [
+        {
+            "display_name": "Surf Coast Shire, Victoria, Australia",
+            "address": {
+                "county": "Surf Coast Shire",
+                "state": "Victoria",
+                "country": "Australia",
+                "country_code": "au"
+            }
+        }
+    ],
+    "[{\"lat\":15.969444,\"lon\":-97.679167}]": [
+        {
+            "display_name": "Chacahua, Oaxaca, Mexico",
+            "address": {
+                "hamlet": "Chacahua",
+                "state": "Oaxaca",
+                "country": "Mexico",
+                "country_code": "mx"
+            }
+        }
+    ],
+    "[{\"lat\":16.7353772,\"lon\":-92.63873}]": [
+        {
+            "display_name": "San Cristóbal de Las Casas, Chiapas, 29200, Mexico",
+            "address": {
+                "town": "San Cristóbal de Las Casas",
+                "state": "Chiapas",
+                "postcode": "29200",
+                "country": "Mexico",
+                "country_code": "mx"
+            }
+        }
+    ],
+    "[{\"lat\":-12,\"lon\":-76.833333}]": [
+        {
+            "display_name": "Lima, Department of Lima, Peru",
+            "address": {
+                "county": "Lima",
+                "state": "Department of Lima",
+                "country": "Peru",
+                "country_code": "pe"
+            }
+        }
+    ],
+    "[{\"lat\":-0.19299,\"lon\":-79.272301}]": [
+        {
+            "display_name": "Cantón Santo Domingo de los Colorados, Provincia de Santo Domingo de los Tsáchilas, Ecuador",
+            "address": {
+                "county": "Cantón Santo Domingo de los Colorados",
+                "state": "Provincia de Santo Domingo de los Tsáchilas",
+                "country": "Ecuador",
+                "country_code": "ec"
+            }
+        }
+    ],
+    "[{\"lat\":-0.2201687,\"lon\":-78.5120913}]": [
+        {
+            "display_name": "Cantón Quito, Provincia de Pichincha, Ecuador",
+            "address": {
+                "county": "Cantón Quito",
+                "state": "Provincia de Pichincha",
+                "country": "Ecuador",
+                "country_code": "ec"
+            }
+        }
+    ],
+    "[{\"lat\":14.5635954,\"lon\":-90.7328438}]": [
+        {
+            "display_name": "Santo Domingo Xenacoj, Sacatepéquez, Guatemala",
+            "address": {
+                "county": "Santo Domingo Xenacoj",
+                "state": "Sacatepéquez",
+                "country": "Guatemala",
+                "country_code": "gt"
+            }
+        }
+    ],
+    "[{\"lat\":13.696972,\"lon\":-89.1928301}]": [
+        {
+            "display_name": "San Salvador, El Salvador",
+            "address": {
+                "city": "San Salvador",
+                "country": "El Salvador",
+                "country_code": "sv"
+            }
+        }
+    ],
+    "[{\"lat\":15.4434385,\"lon\":-91.6337145}]": [
+        {
+            "display_name": "San Sebastián Huehuetenango, Huenuetenango, Guatemala",
+            "address": {
+                "county": "San Sebastián Huehuetenango",
+                "state": "Huenuetenango",
+                "country": "Guatemala",
+                "country_code": "gt"
+            }
+        }
+    ],
+    "[{\"lat\":14.0931919,\"lon\":-87.2012631}]": [
+        {
+            "display_name": "Tegucigalpa, Honduras",
+            "address": {
+                "city": "Tegucigalpa",
+                "country": "Honduras",
+                "country_code": "hn"
+            }
+        }
+    ],
+    "[{\"lat\":12.1351347,\"lon\":-86.2739249}]": [
+        {
+            "display_name": "Managua, Nicaragua",
+            "address": {
+                "city": "Managua",
+                "state": "Managua",
+                "country": "Nicaragua",
+                "country_code": "ni"
+            }
+        }
+    ],
+    "[{\"lat\":11.89555,\"lon\":-85.8979874573452}]": [
+        {
+            "display_name": "Granada, Sector Urbano, Granada, Nicaragua",
+            "address": {
+                "city": "Granada",
+                "county": "Sector Urbano",
+                "state": "Granada",
+                "country": "Nicaragua",
+                "country_code": "ni"
+            }
+        }
+    ],
+    "[{\"lat\":11.49818615,\"lon\":-85.6251286189272}]": [
+        {
+            "display_name": "Rivas, Nicaragua",
+            "address": {
+                "city": "Rivas",
+                "state": "Rivas",
+                "country": "Nicaragua",
+                "country_code": "ni"
+            }
+        }
+    ],
+    "[{\"lat\":13.4948348,\"lon\":-89.3828612}]": [
+        {
+            "display_name": "El Tunco, El Salvador",
+            "address": {
+                "village": "El Tunco",
+                "country": "El Salvador",
+                "country_code": "sv"
+            }
+        }
+    ],
+    "[{\"lat\":11.7714937,\"lon\":-86.5069799}]": [
+        {
+            "display_name": "Pochomil, Managua, Nicaragua",
+            "address": {
+                "town": "Pochomil",
+                "state": "Managua",
+                "country": "Nicaragua",
+                "country_code": "ni"
+            }
+        }
+    ],
+    "[{\"lat\":-8.061647,\"lon\":-79.047477}]": [
+        {
+            "display_name": "Trujillo, Department of La Libertad, Peru",
+            "address": {
+                "county": "Trujillo",
+                "state": "Department of La Libertad",
+                "country": "Peru",
+                "country_code": "pe"
+            }
+        }
+    ],
+    "[{\"lat\":11.2536716,\"lon\":-85.8709492}]": [
+        {
+            "display_name": "San Juan Del Sur, Rivas, Nicaragua",
+            "address": {
+                "town": "San Juan Del Sur",
+                "state": "Rivas",
+                "country": "Nicaragua",
+                "country_code": "ni"
+            }
+        }
+    ],
+    "[{\"lat\":11.4593541,\"lon\":-86.1016622}]": [
+        {
+            "display_name": "Rivas, Nicaragua",
+            "address": {
+                "city": "Rivas",
+                "state": "Rivas",
+                "country": "Nicaragua",
+                "country_code": "ni"
+            }
+        }
     ]
 }

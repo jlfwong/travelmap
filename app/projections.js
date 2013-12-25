@@ -36,7 +36,7 @@ var mercatorProj = function(width, lonLatBounds) {
 
 exports.world = function(width) {
   return mercatorProj(width, [
-    [-180, 85],
+    [-180, 83],
     [180, -65]
   ]).rotate([-10, 0, 0]);
 };
@@ -57,7 +57,7 @@ exports.europe = function(width) {
 
 exports.uk = function(width) {
   return mercatorProj(width, [
-    [-10, 60],
+    [-10, 59.1],
     [3, 50]
   ]);
 };

@@ -34,9 +34,13 @@ module.exports = function() {
       .attr("class", "container")
       .style("width", width + "px");
 
-    makeMap(".container", projections.world(width), processed, world);
-    makeMap(".container", projections.northAmerica(width), processed, world);
+    d3.select(".container").append("h2").text("United Kingdom");
+    makeMap(".container", projections.uk(width * 0.5), processed, world);
+    d3.select(".container").append("h2").text("Europe");
     makeMap(".container", projections.europe(width), processed, world);
-    makeMap(".container", projections.uk(width), processed, world);
+    d3.select(".container").append("h2").text("North America");
+    makeMap(".container", projections.northAmerica(width), processed, world);
+    d3.select(".container").append("h2").text("World");
+    makeMap(".container", projections.world(width), processed, world);
   });
 };
