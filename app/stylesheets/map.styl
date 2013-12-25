@@ -1,6 +1,7 @@
 body
   margin: 0
   background: #000
+  font-family: Economica
 
 h1, h2
   clear: both
@@ -27,6 +28,33 @@ svg
     stroke: #000
     stroke-width: 0.5px
 
+table.bars
+  color: #aaa
+  margin: 0 auto 50px auto
+  width: 90%
+
+  th
+    border-bottom: 1px solid #aaa
+    font-weight: bold
+
+  td div
+    display: inline-block
+    background: #aaa
+    color: black
+
+    span
+      padding: 0 5px
+
+  .places
+    width: 50%
+    text-align: right
+  .visited-by
+    min-width: 100px
+    text-align: center
+  .countries
+    width: 50%
+    text-align: left
+
 .toggles
   position: fixed
   top: 0
@@ -38,11 +66,12 @@ svg
     margin-left: 0
     padding-left: 0
 
+  li
+    margin-bottom: 0.5em
+
   a
     color: #666
-
-  span
-    color: #444
+    margin-right: 0.5em
 
 .container
   margin: 0 auto

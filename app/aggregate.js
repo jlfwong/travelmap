@@ -147,14 +147,15 @@ module.exports = function(rawData) {
 
       var visitedByAtLeastN = _.map(_.range(1, allNames.length + 1), function(n) {
         var ps = _.filter(places, function(place) {
-          return place.names.length <= n;
+          return place.names.length >= n;
         });
 
         var cs = _.unique(_.pluck(ps, 'country'));
 
         return {
-          places: ps,
-          countries: cs
+          n: n,
+          placeCount: ps.length,
+          countryCount: cs.length
         };
       });
 

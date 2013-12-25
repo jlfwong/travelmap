@@ -141,6 +141,61 @@ module.exports = function(opts) {
     });
 };
 
+module.exports.makeBars = function(visitedByAtLeastN) {
+  var table = d3.select("body")
+    .append("table")
+    .attr("class", "bars");
+
+  var headerTr = table.append("thead").append("tr");
+
+  headerTr.append("th").text("# places").attr("class", "places");
+  headerTr.append("th").text("visited by...").attr("class", "visited-by");
+  headerTr.append("th").text("# countries").attr("class", "countries");
+
+  var placeCountScale = d3.scale.linear()
+    .domain([0, _.max(_.pluck(visitedByAtLeastN, 'placeCount'))])
+    .range([0, 100]);
+
+  var countryCountScale = d3.scale.linear()
+    .domain([0, _.max(_.pluck(visitedByAtLeastN, 'countryCount'))])
+    .range([0, 100]);
+
+  var trs = table.selectAll(".bars tr.data-row")
+    .data(visitedByAtLeastN)
+    .enter()
+    .append("tr")
+    .attr("class", "data-row");
+
+  trs
+    .append("td")
+    .attr("class", "places")
+    .append("div")
+    .style("width", function(d) { return placeCountScale(d.placeCount) + '%'; })
+    .append("span")
+    .text(function(d) { return d.placeCount; });
+
+  trs
+    .append("td")
+    .attr("class", "visited-by")
+    .html(function(d) {
+      return (
+        ((d.n == visitedByAtLeastN.length) ? "" : "&ge; ") +
+        d.n +
+        " Wong" +
+        ((d.n == 1) ? "" : "s")
+      );
+    });
+
+  trs
+    .append("td")
+    .attr("class", "countries")
+    .append("span")
+    .append("div")
+    .style("width", function(d) { return countryCountScale(d.countryCount) + '%'; })
+    .append("span")
+    .text(function(d) { return d.countryCount; });
+};
+
 module.exports.makeToggles = function(names) {
   var enabled = _.reduce(names, function(result, val) {
     result[val] = true;
@@ -151,7 +206,7 @@ module.exports.makeToggles = function(names) {
     _.each(names, function(name) {
       var show = enabled[name];
       d3.selectAll('.' + name).style('display', show ? 'inline' : 'none');
-      d3.select('.label-' + name).style('text-decoration', show ? 'none' : 'line-through');
+      d3.select('.label-' + name).style('color', show ? nameColor(name) : '#444');
     });
   };
 
@@ -166,8 +221,6 @@ module.exports.makeToggles = function(names) {
     .enter()
     .append("li");
 
-  lis.append("span").text("[");
-
   lis
     .append("a")
     .attr("href", "#")
@@ -177,8 +230,6 @@ module.exports.makeToggles = function(names) {
       update();
       event.preventDefault();
     });
-
-  lis.append("span").text("] [");
 
   lis
     .append("a")
@@ -190,9 +241,6 @@ module.exports.makeToggles = function(names) {
       update();
       event.preventDefault();
     });
-
-
-  lis.append("span").text("] ");
 
   lis
     .append("span")
@@ -206,8 +254,6 @@ module.exports.makeToggles = function(names) {
     })
     .text(_.identity);
 
-  toggles.append("span").text("[")
-
   toggles.append("a")
     .attr("href", "#")
     .text("show all")
@@ -216,6 +262,4 @@ module.exports.makeToggles = function(names) {
       update();
       event.preventDefault();
     });
-
-  toggles.append("span").text("]")
 };

@@ -29,6 +29,8 @@ module.exports = function() {
   render.makeToggles(_.keys(data));
 
   $.when(aggregate(data), world50mPromise).then(function(processed, world) {
+    render.makeBars(processed.visitedByAtLeastN);
+
     d3.select("body")
       .append("div")
       .attr("class", "container")
