@@ -142,7 +142,7 @@ module.exports = function(opts) {
 };
 
 module.exports.makeBars = function(visitedByAtLeastN) {
-  var table = d3.select("body")
+  var table = d3.select(".stats")
     .append("table")
     .attr("class", "bars");
 
@@ -170,7 +170,7 @@ module.exports.makeBars = function(visitedByAtLeastN) {
     .append("td")
     .attr("class", "places")
     .append("div")
-    .style("width", function(d) { return placeCountScale(d.placeCount) + '%'; })
+    .style("width", "10%")
     .append("span")
     .text(function(d) { return d.placeCount; });
 
@@ -191,9 +191,29 @@ module.exports.makeBars = function(visitedByAtLeastN) {
     .attr("class", "countries")
     .append("span")
     .append("div")
-    .style("width", function(d) { return countryCountScale(d.countryCount) + '%'; })
+    .style("width", "10%")
     .append("span")
     .text(function(d) { return d.countryCount; });
+
+  // TODO(jlfwong): Figure out why the bars start at 50% width instead of 0...
+
+  _.defer(function() { _.delay(function() {
+    table.selectAll(".data-row .places div")
+      .data(visitedByAtLeastN)
+      .transition()
+      .duration(1000)
+      .ease("bounce")
+      .delay(function(d, i) { return i * 100; })
+      .style("width", function(d) { return placeCountScale(d.placeCount) + '%'; });
+
+    table.selectAll(".data-row .countries div")
+      .data(visitedByAtLeastN)
+      .transition()
+      .duration(1000)
+      .ease("bounce")
+      .delay(function(d, i) { return i * 100; })
+      .style("width", function(d) { return countryCountScale(d.countryCount) + '%'; });
+  }, 100); });
 };
 
 module.exports.makeToggles = function(names) {
@@ -210,7 +230,7 @@ module.exports.makeToggles = function(names) {
     });
   };
 
-  var toggles = d3.select("body")
+  var toggles = d3.select(".outer-container")
     .append("div")
     .attr("class", "toggles");
 
@@ -262,4 +282,6 @@ module.exports.makeToggles = function(names) {
       update();
       event.preventDefault();
     });
+
+  $(toggles.node()).waypoint("sticky");
 };

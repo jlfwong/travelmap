@@ -22,27 +22,28 @@ var makeMap = function(container, projection, processed, world) {
 };
 
 module.exports = function() {
-  var width = $(window).width() * 0.9;
+  $(function() {
+    var width = $(window).width() * 0.9;
 
-  var world50mPromise = $.getJSON("world-50m.json").then(_.identity);
+    var world50mPromise = $.getJSON("world-50m.json").then(_.identity);
 
-  render.makeToggles(_.keys(data));
+    $.when(aggregate(data), world50mPromise).then(function(processed, world) {
+      render.makeBars(processed.visitedByAtLeastN);
+      render.makeToggles(_.keys(data));
 
-  $.when(aggregate(data), world50mPromise).then(function(processed, world) {
-    render.makeBars(processed.visitedByAtLeastN);
+      d3.select(".outer-container")
+        .append("div")
+        .attr("class", "container")
+        .style("width", width + "px");
 
-    d3.select("body")
-      .append("div")
-      .attr("class", "container")
-      .style("width", width + "px");
-
-    d3.select(".container").append("h2").text("United Kingdom");
-    makeMap(".container", projections.uk(width * 0.5), processed, world);
-    d3.select(".container").append("h2").text("Europe");
-    makeMap(".container", projections.europe(width), processed, world);
-    d3.select(".container").append("h2").text("North America");
-    makeMap(".container", projections.northAmerica(width), processed, world);
-    d3.select(".container").append("h2").text("World");
-    makeMap(".container", projections.world(width), processed, world);
+      d3.select(".container").append("h2").text("United Kingdom");
+      makeMap(".container", projections.uk(width * 0.5), processed, world);
+      d3.select(".container").append("h2").text("Europe");
+      makeMap(".container", projections.europe(width), processed, world);
+      d3.select(".container").append("h2").text("North America");
+      makeMap(".container", projections.northAmerica(width), processed, world);
+      d3.select(".container").append("h2").text("World");
+      makeMap(".container", projections.world(width), processed, world);
+    });
   });
 };

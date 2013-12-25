@@ -9,13 +9,13 @@ h1, h2
   text-align: center
 
 h1
-  color: #bbb
+  color: #ccc
   margin-top: 20px
   font-size: 72pt
   margin-bottom: 5px
 
 h2
-  color: #aaa
+  color: #999
   font-size: 48pt
   margin-top: 0px
   margin-bottom: 10px
@@ -29,17 +29,16 @@ svg
     stroke-width: 0.5px
 
 table.bars
-  color: #aaa
+  color: #777
   margin: 0 auto 50px auto
   width: 90%
+  border-collapse: collapse
 
   th
-    border-bottom: 1px solid #aaa
     font-weight: bold
 
   td div
     display: inline-block
-    background: #aaa
     color: black
 
     span
@@ -48,18 +47,28 @@ table.bars
   .places
     width: 50%
     text-align: right
+    div
+      background: #66c
   .visited-by
     min-width: 100px
     text-align: center
   .countries
     width: 50%
     text-align: left
+    div
+      background: #6b6
+
+.outer-container
+  position: relative
 
 .toggles
-  position: fixed
+  position: absolute
   top: 0
   left: 0
   padding-left: 10px
+
+  &.stuck
+    position: fixed
 
   ul
     list-style: none
