@@ -60,46 +60,90 @@ module.exports = function(opts) {
     .attr("class", "boundary")
     .attr("d", path);
 
+  var placesPerPerson = _(processed.placesPerPerson)
+    .sortBy("lon")
+    .sortBy("totalCount")
+    .filter(function(d) {
+      var proj = projection([d.lon, d.lat]);
+      return (proj && !(
+        proj[0] < 0 || proj[0] >= width ||
+        proj[1] < 0 || proj[1] >= height));
+    })
+    .value();
+
   // scale factor
   var sf = Math.pow((projection.scale() / 205) * (projection.width / 1400), 1/3);
 
+  var totalAnimTime = 5000;
+
+  var filteredPairsByPerson = {};
   _.forOwn(processed.pairsByPerson, function(pairs, name) {
+    filteredPairsByPerson[name] = _.filter(pairs, function(pair) {
+      var c1 = projection([pair[0].lon, pair[0].lat]);
+      var c2 = projection([pair[1].lon, pair[1].lat]);
+
+      if (!c1 || !c2) return false;
+
+      return !((c1[0] < 0 || c1[0] > projection.width ||
+                c1[1] < 0 || c1[1] > projection.height) ||
+                (c2[0] < 0 || c2[0] > projection.width ||
+                c2[1] < 0 || c2[1] > projection.height));
+      });
+  });
+
+  var nDots = placesPerPerson.length;
+  var nPaths = _.flatten(_.values(filteredPairsByPerson)).length;
+
+  var totalAnimLength = 10000;
+  var dotDuration = 500;
+  var dotDelay = (totalAnimLength / 2 - dotDuration) / nDots;
+  var pathStart = totalAnimLength / 2;
+  var pathDelay = (totalAnimLength / 2) / (nPaths + 1);
+
+  var pairsBefore = 0;
+  _.forOwn(filteredPairsByPerson, function(filteredPairs, name) {
+    svg.selectAll(".travelpath." + name)
+      .data(filteredPairs)
+      .enter()
+      .append("path")
+      .attr("class", "travelpath " + name)
+      .attr("stroke-width", (1 * sf) + 'px')
+      .attr("stroke-opacity", 0)
+      .attr("stroke", nameColor(name))
+      .attr("fill-opacity", 0)
+      .attr("d", "M0,0");
+
+    $(svg.node()).waypoint(_.once(function() {
       svg.selectAll(".travelpath." + name)
-        .data(pairs)
-        .enter()
-        .append("path")
-        .attr("class", "travelpath " + name)
-        .attr("stroke-width", (1 * sf) + 'px')
+        .data(filteredPairs)
+        .transition()
+        .duration(pathDelay)
+        .delay(function(d, i) { return pathStart + (pairsBefore + i) * pathDelay; })
         .attr("stroke-opacity", 0.25)
-        .attr("stroke", nameColor(name))
-        .attr("fill-opacity", 0)
-        .attr("d", function(pair) {
+        .attrTween("d", function(pair) {
           var c1 = projection([pair[0].lon, pair[0].lat]);
           var c2 = projection([pair[1].lon, pair[1].lat]);
 
-          if (!c1 || !c2) {
-            return null;
-          }
-
-          if ((c1[0] < 0 || c1[0] > projection.width ||
-               c1[1] < 0 || c1[1] > projection.height) ||
-              (c2[0] < 0 || c2[0] > projection.width ||
-               c2[1] < 0 || c2[1] > projection.height)) return null;
-
           // TODO(jlfwong): Increase jitter for shorter distances
           var radius = (width / 2) * (1 + 0.2 * Math.random());
-          return (
-            "M" + c1[0] + "," + c1[1] +
-            " A" + radius + "," + radius +
-            " 0 0,0 " + c2[0] + "," + c2[1]
-          );
-        });
-  });
 
-  var placesPerPerson = _(processed.placesPerPerson)
-    .sortBy("totalCount")
-    .filter(function(d) { return projection([d.lon, d.lat]); })
-    .value();
+          var dst = d3.interpolate(c1, c2);
+          var rad = d3.interpolate(radius * radius, radius);
+
+          return function(t) {
+            var c2 = dst(t);
+            var r = rad(t);
+            return (
+              "M" + c1[0] + "," + c1[1] +
+              " A" + r + "," + r +
+              " 0 0,0 " + c2[0] + "," + c2[1]
+            );
+          };
+        });
+
+      pairsBefore += filteredPairs.length;
+    }), {offset: '50%'});
+  });
 
   svg.selectAll(".place")
     .data(placesPerPerson)
@@ -112,7 +156,7 @@ module.exports = function(opts) {
       "fill": function(d) {
         return nameColor(d.name);
       },
-      "fill-opacity": 0.75,
+      "fill-opacity": 0,
       "transform": function(d) {
         var proj = projection([d.lon, d.lat]);
         return "translate(" + proj[0] + "," + proj[1] + ")";
@@ -139,6 +183,16 @@ module.exports = function(opts) {
     .on("mouseout", function() {
       tooltip.style("display", "none");
     });
+
+  $(svg.node()).waypoint(_.once(function() {
+    svg.selectAll(".place")
+      .data(placesPerPerson)
+      .transition()
+      .ease("bounce")
+      .duration(dotDuration)
+      .delay(function(d, i) { return i * dotDelay; })
+      .attr("fill-opacity", 0.75);
+  }), {offset: '50%'});
 };
 
 module.exports.makeBars = function(visitedByAtLeastN) {

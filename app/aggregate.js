@@ -97,8 +97,8 @@ module.exports = function(rawData) {
         return result;
       }, {}));
 
-      // Map from person's name to a list of all the places they've been, not
-      // necssarily in order.
+      // List of all places, with each place occuring once per person in the
+      // list.
       var placesPerPerson = _.reduce(places, function(result, place) {
         return result.concat(_.map(place.names, function(name, index) {
           return {
