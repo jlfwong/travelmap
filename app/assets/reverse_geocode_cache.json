@@ -4712,5 +4712,16 @@
                 "country_code": "ni"
             }
         }
+    ],
+    "[{\"lat\":38.92880455,\"lon\":-119.987831498967}]": [
+        {
+            "display_name": "El Dorado County, California, United States of America",
+            "address": {
+                "county": "El Dorado County",
+                "state": "California",
+                "country": "United States of America",
+                "country_code": "us"
+            }
+        }
     ]
 }
