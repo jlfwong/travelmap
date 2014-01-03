@@ -1,6 +1,9 @@
 # Travel Map
 
-You can see a teardown of the technology this uses in [A Map of Everywhere My 
+![travelmap](http://i.imgur.com/El9IToC.png)
+
+You can see the live version at <http://jamie-wong.com/experiments/travelmap/> 
+and read the teardown of the technology this uses in [A Map of Everywhere My 
 Family Has Ever Been][1].
 
 # Running Locally
@@ -13,7 +16,7 @@ npm install
 brunch w -s
 ```
 
-Then point your browser at http://localhost:3333
+Then point your browser at <http://localhost:3333>
 
 # Customizing
 
