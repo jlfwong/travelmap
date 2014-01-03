@@ -1,28 +1,52 @@
-# Brunch with Caffeine
+# Travel Map
 
-A frameworkless [Brunch][0] skeleton all set up with bonus caffeine from 
-[CoffeeScript][1] and [Mocha][2].
+You can see a teardown of the technology this uses in [A Map of Everywhere My 
+Family Has Ever Been][1].
 
-Also includes [auto reload][3], [stylus][5] and [Lo-Dash][4].
+# Running Locally
 
-This isn't going to mean much to you unless you go read about [Brunch][0].
+You can run this locally by cloning the repository then running:
 
-[0]: http://brunch.io/
-[1]: http://coffeescript.org/
-[2]: http://visionmedia.github.io/mocha/
-[3]: https://github.com/brunch/auto-reload-brunch
-[4]: http://lodash.com/
-[5]: http://learnboost.github.io/stylus/
+```
+npm install -g brunch
+npm install
+brunch w -s
+```
 
-# Getting Started
+Then point your browser at http://localhost:3333
 
-    brunch new github:phleet/brunch-with-caffeine <appname>
-    brunch watch --server
+# Customizing
 
-Then point your browser to http://localhost:3333/
+To load this up with your own data, edit `app/data.js`. You'll probably also 
+want to clear out the checked-in geocoding caches:
 
-# Testing
+```
+echo '{}' > app/assets/geocode_cache.json
+echo '{}' > app/assets/reverse_geocode_cache.json
+```
 
-    brunch watch --server
+# Deploying
 
-Then point your browser to http://localhost:3333/test.html
+Once you're happy with the result and want to deploy, you'll need to save your 
+geocoding and reverse geocoding caches as JSON. You can do this by running the 
+following in the console:
+
+
+```
+require("aggregate").saveCaches()
+```
+
+This should download a new `geocode_cache.json` and `reverse_geocode_cache.json` 
+file to disk (Chrome might prompt to ask if you want to allow the site to 
+download multiple files).
+
+Then move the downloaded caches back into the repo:
+
+```
+cp ~/Download/geocode_cache.json ~/Download/reverse_geocode_cache.json app/assets
+```
+
+To build the final static site, run `brunch build`, then upload the contents of 
+the public folder to your favourite static host.
+
+[1]: http://jamie-wong.com/2014/01/03/travelmap/
