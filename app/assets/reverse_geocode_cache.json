@@ -4723,5 +4723,248 @@
                 "country_code": "us"
             }
         }
+    ],
+    "[{\"lat\":35.0185804,\"lon\":135.763835}]": [
+        {
+            "display_name": "Kyoto, Japan",
+            "address": {
+                "city": "Kyoto",
+                "country": "Japan",
+                "country_code": "jp"
+            }
+        }
+    ],
+    "[{\"lat\":35.69004135,\"lon\":139.510395073475}]": [
+        {
+            "display_name": "三浦郡, Kanagawa, Japan",
+            "address": {
+                "county": "三浦郡",
+                "state": "Kanagawa",
+                "country": "Japan",
+                "country_code": "jp"
+            }
+        }
+    ],
+    "[{\"lat\":34.6852955,\"lon\":135.5145684}]": [
+        {
+            "display_name": "Senboku District, Osaka Prefecture, Japan",
+            "address": {
+                "county": "Senboku District",
+                "state": "Osaka Prefecture",
+                "country": "Japan",
+                "country_code": "jp"
+            }
+        }
+    ],
+    "[{\"lat\":25.0375167,\"lon\":121.5637}]": [
+        {
+            "display_name": "Taoyuan County, Taiwan Province, Taiwan",
+            "address": {
+                "county": "Taoyuan County",
+                "state": "Taiwan Province",
+                "country": "Taiwan",
+                "country_code": "tw"
+            }
+        }
+    ],
+    "[{\"lat\":35.6284945,\"lon\":134.8108902}]": [
+        {
+            "display_name": "Mikata County, Hyogo Prefecture, Kinki Region, Japan",
+            "address": {
+                "county": "Mikata County",
+                "region": "Hyogo Prefecture",
+                "state": "Kinki Region",
+                "country": "Japan",
+                "country_code": "jp"
+            }
+        }
+    ],
+    "[{\"lat\":23.1300037,\"lon\":113.259001}]": [
+        {
+            "display_name": "Yuexiu District, Guangzhou City, Guangdong, People's Republic of China",
+            "address": {
+                "county": "Yuexiu District",
+                "state_district": "Guangzhou City",
+                "state": "Guangdong",
+                "country": "People's Republic of China",
+                "country_code": "cn"
+            }
+        }
+    ],
+    "[{\"lat\":22.3699417,\"lon\":112.688154}]": [
+        {
+            "display_name": "Kaiping City, Jiangmen City, Guangdong, People's Republic of China",
+            "address": {
+                "county": "Kaiping City",
+                "state_district": "Jiangmen City",
+                "state": "Guangdong",
+                "country": "People's Republic of China",
+                "country_code": "cn"
+            }
+        }
+    ],
+    "[{\"lat\":25.2683521,\"lon\":55.2961962}]": [
+        {
+            "display_name": "Dubai, United Arab Emirates",
+            "address": {
+                "city": "Dubai",
+                "state": "Dubai",
+                "country": "United Arab Emirates",
+                "country_code": "ae"
+            }
+        }
+    ],
+    "[{\"lat\":-1.2832533,\"lon\":36.8172449}]": [
+        {
+            "display_name": "Nairobi, Kenya",
+            "address": {
+                "city": "Nairobi",
+                "state": "Nairobi",
+                "country": "Kenya",
+                "country_code": "ke"
+            }
+        }
+    ],
+    "[{\"lat\":-2.6433319,\"lon\":37.2590753}]": [
+        {
+            "display_name": "Amboseli, Kajiado, Kenya",
+            "address": {
+                "village": "Amboseli",
+                "state": "Kajiado",
+                "country": "Kenya",
+                "country_code": "ke"
+            }
+        }
+    ],
+    "[{\"lat\":38.646806,\"lon\":34.8491554}]": [
+        {
+            "display_name": "Nevşehir merkez, Nevşehir, Central Anatolia Region, Turkey",
+            "address": {
+                "county": "Nevşehir merkez",
+                "state": "Nevşehir",
+                "country": "Turkey",
+                "country_code": "tr"
+            }
+        }
+    ],
+    "[{\"lat\":-4.0390145,\"lon\":39.648390961857}]": [
+        {
+            "display_name": "Mombasa, 80100, Kenya",
+            "address": {
+                "city": "Mombasa",
+                "state": "Mombasa",
+                "postcode": "80100",
+                "country": "Kenya",
+                "country_code": "ke"
+            }
+        }
+    ],
+    "[{\"lat\":-1.5210257,\"lon\":35.3380147}]": [
+        {
+            "display_name": "Sekenani, Narok, Kenya",
+            "address": {
+                "village": "Sekenani",
+                "state": "Narok",
+                "country": "Kenya",
+                "country_code": "ke"
+            }
+        }
+    ],
+    "[{\"lat\":37.9164906,\"lon\":29.1193081}]": [
+        {
+            "display_name": "Pamukkale, Denizli, Aegean Region, Turkey",
+            "address": {
+                "county": "Pamukkale",
+                "state": "Denizli",
+                "country": "Turkey",
+                "country_code": "tr"
+            }
+        }
+    ],
+    "[{\"lat\":41.0096334,\"lon\":28.9651646}]": [
+        {
+            "display_name": "Fatih, Istanbul, Marmara Region, Turkey",
+            "address": {
+                "county": "Fatih",
+                "state": "Istanbul",
+                "country": "Turkey",
+                "country_code": "tr"
+            }
+        }
+    ],
+    "[{\"lat\":-22.9543269,\"lon\":14.50748}]": [
+        {
+            "display_name": "Walvis Bay, Erongo Region, Namibia",
+            "address": {
+                "city": "Walvis Bay",
+                "state": "Erongo Region",
+                "country": "Namibia",
+                "country_code": "na"
+            }
+        }
+    ],
+    "[{\"lat\":-18.98402685,\"lon\":15.7506485185615}]": [
+        {
+            "display_name": "Oshana Region, Namibia",
+            "address": {
+                "state": "Oshana Region",
+                "country": "Namibia",
+                "country_code": "na"
+            }
+        }
+    ],
+    "[{\"lat\":-22.5530385,\"lon\":17.0543787941499}]": [
+        {
+            "display_name": "Windhoek, Khomas Region, Windhoek, Namibia",
+            "address": {
+                "city": "Windhoek",
+                "state": "Khomas Region",
+                "country": "Namibia",
+                "country_code": "na"
+            }
+        }
+    ],
+    "[{\"lat\":26.0968524,\"lon\":-80.1272606}]": [
+        {
+            "display_name": "Broward County, Florida, United States of America",
+            "address": {
+                "county": "Broward County",
+                "state": "Florida",
+                "country": "United States of America",
+                "country_code": "us"
+            }
+        }
+    ],
+    "[{\"lat\":20.4488829,\"lon\":-86.9121241}]": [
+        {
+            "display_name": "Playa del Carmen, Quintana Roo, Mexico",
+            "address": {
+                "city": "Playa del Carmen",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "country_code": "mx"
+            }
+        }
+    ],
+    "[{\"lat\":18.408525,\"lon\":-77.1038786}]": [
+        {
+            "display_name": "Saint Ann, Middlesex County, Jamaica",
+            "address": {
+                "county": "Saint Ann",
+                "state_district": "Middlesex County",
+                "country": "Jamaica",
+                "country_code": "jm"
+            }
+        }
+    ],
+    "[{\"lat\":19.3298082,\"lon\":-81.1712187650791}]": [
+        {
+            "display_name": "George Town, Cayman Islands",
+            "address": {
+                "city": "George Town",
+                "country": "Cayman Islands",
+                "country_code": "ky"
+            }
+        }
     ]
 }

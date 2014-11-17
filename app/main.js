@@ -28,7 +28,6 @@ module.exports = function() {
     var world50mPromise = $.getJSON("world-50m.json").then(_.identity);
 
     $.when(aggregate(data), world50mPromise).then(function(processed, world) {
-      render.makeBars(processed.visitedByAtLeastN);
       render.makeToggles(_.keys(data));
 
       d3.select(".outer-container")

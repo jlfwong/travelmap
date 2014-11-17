@@ -230,18 +230,6 @@ module.exports.makeBars = function(visitedByAtLeastN) {
 
   trs
     .append("td")
-    .attr("class", "visited-by")
-    .html(function(d) {
-      return (
-        ((d.n == visitedByAtLeastN.length) ? "" : "&ge; ") +
-        d.n +
-        " Wong" +
-        ((d.n == 1) ? "" : "s")
-      );
-    });
-
-  trs
-    .append("td")
     .attr("class", "countries")
     .append("span")
     .append("div")
